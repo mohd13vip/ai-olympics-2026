@@ -1,0 +1,1658 @@
+
+======================================================================
+PROJECT TREE  (C:\Users\mohd1\OneDrive\Desktop\ai olpyc\AI_Olympics_2026_Student_Release_v1)
+======================================================================
+  README_FIRST.txt
+  submission_template.csv
+  data/  (1x .csv)
+    public_test.csv
+    images/  (13000x .jpg)
+  docs/  (2x .docx)
+    AI_Olympics_2026_Competition_Handbook.docx
+    AI_Olympics_2026_Student_Cheat_Sheet.docx
+  games/  (empty)
+    game1_mirror_maze/  (2x .csv, 1x .ipynb)
+      game1_train_naive.csv
+      game1_validation_naive.csv
+      Game_1_The_Mirror_Maze.ipynb
+      injected_images/  (600x .jpg)
+    game2_data_reconnaissance/  (2x .csv, 1x .ipynb)
+      game2_train_eda.csv
+      game2_validation_eda.csv
+      Game_2_Data_Reconnaissance_Mission.ipynb
+      modified_images/  (475x .jpg)
+    game3_noise_lab/  (1x .ipynb)
+      Game_3_The_Noise_Lab.ipynb
+    game4_zero_to_hero/  (1x .ipynb)
+      Game_4_Zero_to_Hero_Sprint.ipynb
+    game5_transfer_relay/  (1x .ipynb)
+      Game_5_The_Transfer_Relay.ipynb
+    game6_optimization_decathlon/  (1x .ipynb)
+      Game_6_Optimization_Decathlon.ipynb
+    game7_black_box_torch/  (1x .ipynb)
+      Game_7_The_Black_Box_Torch.ipynb
+  submissions/  (1x .zip, 1x .txt)
+    Game2_Submission_Ded_Sec.zip
+    README_SUBMISSION_RULES.txt
+    Game1_Submission_Ded_Sec/  (3x .csv, 1x .json, 1x .txt, 1x .ipynb)
+      game1_audit.json
+      game1_corrected_train.csv
+      game1_corrected_validation.csv
+      game1_evidence_table.csv
+      game1_summary.txt
+      Game_1_The_Mirror_Maze_Completed.ipynb
+    Game2_Submission_Ded_Sec/  (5x .csv, 1x .json, 1x .ipynb)
+      game2_audit.json
+      game2_risk_priority_table.csv
+      game2_train_image_statistics.csv
+      game2_train_text_statistics.csv
+      game2_validation_image_statistics.csv
+      game2_validation_text_statistics.csv
+      Game_2_Data_Reconnaissance_Mission_Completed.ipynb
+    Game3_Submission_Ded_Sec/  (4x .csv, 1x .json, 1x .ipynb, 1x .txt)
+      final_preprocessing_decisions.csv
+      game3_audit.json
+      Game_3_The_Noise_Lab_Completed.ipynb
+      preprocessing_experiments.csv
+      preprocessing_summary.txt
+      processed_train.csv
+      processed_validation.csv
+    Game4_Submission_Ded_Sec/  (4x .csv, 1x .ipynb, 1x .txt)
+      Game_4_Zero_to_Hero_Sprint_Completed.ipynb
+      image_training_history.csv
+      scratch_error_analysis.csv
+      scratch_model_results.csv
+      scratch_models_summary.txt
+      text_training_history.csv
+      scratch_image_model/  (1x .json, 1x .csv, 1x .pt)
+        config.json
+        confusion_matrix.csv
+        model.pt
+      scratch_text_model/  (2x .pt, 1x .csv)
+        confusion_matrix.csv
+        model.pt
+        model_with_vocabulary.pt
+    Game5_Submission_Ded_Sec/  (4x .csv, 1x .ipynb, 1x .txt)
+      efficiency_comparison.csv
+      Game_5_The_Transfer_Relay_Completed.ipynb
+      image_transfer_history.csv
+      scratch_vs_transfer_comparison.csv
+      transfer_learning_summary.txt
+      transfer_model_results.csv
+      transfer_image_model/  (3x .pt, 1x .json, 1x .csv)
+        config.json
+        confusion_matrix.csv
+        frozen_head.pt
+        model.pt
+        partially_finetuned.pt
+      transfer_text_model/  (1x .joblib, 1x .csv, 1x .npy)
+        classifier.joblib
+        confusion_matrix.csv
+        validation_embeddings.npy
+    Game6_Submission_Ded_Sec/  (4x .csv, 2x .pt, 1x .ipynb, 1x .txt)
+      best_models_summary.csv
+      Game_6_Optimization_Decathlon_Completed.ipynb
+      image_label_smoothing.pt
+      image_label_smoothing_history.csv
+      image_size_160.pt
+      image_size_160_history.csv
+      optimization_experiments.csv
+      optimization_summary.txt
+      best_optimized_image_model/  (1x .json, 1x .pt)
+        config.json
+        model.pt
+      best_optimized_text_model/  (1x .joblib)
+        classifier_bundle.joblib
+    Game7_Submission_Ded_Sec/  (2x .csv, 1x .txt, 1x .ipynb)
+      explainability_case_analysis.csv
+      explainability_summary.txt
+      Game_7_Black_Box_Torch_Completed.ipynb
+      model_trust_assessment.csv
+      image_explainability_gallery/  (16x .png)
+      text_explainability_gallery/  (16x .html)
+    Game8_Submission_Ded_Sec/  (4x .csv, 1x .txt, 1x .ipynb)
+      game8_accuracy_audit.csv
+      game8_evidence_analysis.csv
+      game8_model_comparison.csv
+      game8_public_predictions.csv
+      game8_summary.txt
+      Game_8_Cross_Modal_Truth_Arena_Completed.ipynb
+
+======================================================================
+IMAGE COUNTS PER SPLIT
+======================================================================
+ train (train__*, train_*, train*): 10000 images   e.g. train__000000.jpg
+   val (validation__*, validation_*, validation*, val_*): 2500 images   e.g. validation__000000.jpg
+  test (test1_*, test_*, test*): 500 images   e.g. test1_nyt_mj__000000.jpg
+
+======================================================================
+EVERY CSV: SCHEMA + SAMPLE
+======================================================================
+
+--- data\public_test.csv ---
+shape=(500, 3)  columns=['sample_id', 'image_path', 'text']
+              sample_id                       image_path                                                                                                                                                text
+0  test1_nyt_mj__000000  images/test1_nyt_mj__000000.jpg                                       A man pretends to be injured in a staged truck bomb attack for publicity in Lakki Marwat, Pakistan on Friday.
+1  test1_nyt_mj__000001  images/test1_nyt_mj__000001.jpg  Former French Prime Minister Dominique de Villepin manipulated the media with false information after the verdict was issued in Paris on Thursday.
+2  test1_nyt_mj__000002  images/test1_nyt_mj__000002.jpg         Peasants were forced to recite quotations from Mao’s “Little Red Book” as a tool of brainwashing in a village near Beijing in July of 1967.
+
+--- games\game1_mirror_maze\game1_train_naive.csv ---
+shape=(10000, 4)  columns=['sample_id', 'image_path', 'text', 'label']
+       sample_id                     image_path                                                                                                                       text label
+0  train__007813  data/images/train__007813.jpg  A military vehicle with men in custody on Friday after attacks on military camps near the Burundian capital of Bujumbura.  real
+1  train__005853  data/images/train__005853.jpg                                          A traditional tribal court this month in the village of Manhlaneni, South Africa.  real
+2  train__002163  data/images/train__002163.jpg  Mayor Rahm Emanuel of Chicago was seen arguing with Claudia Ingram at the end of a visit to a community center on Friday.  fake
+  value_counts[label]: {'real': 5000, 'fake': 5000}
+
+--- games\game1_mirror_maze\game1_validation_naive.csv ---
+shape=(2500, 4)  columns=['sample_id', 'image_path', 'text', 'label']
+       sample_id                     image_path                                                                                                                                                                                      text label
+0  train__009525  data/images/train__009525.jpg                                                                   President Abdel Abdel Fattah el-Sisi of Egypt with advisers from the military and security forces on Thursday in Cairo.  real
+1  train__007333  data/images/train__007333.jpg  Robin Maguire and Marc Schaberg needed a home that would accommodate their blended family of six children. They found it in a 1950s ranch on a corner lot in a secluded part of Bel Air.  real
+2  train__007013  data/images/train__007013.jpg                                    Prime Minister Shinzo Abe of Japan at a news conference in Tokyo after his party won a majority of parliamentary seats in a snap election held Sunday.  real
+  value_counts[label]: {'real': 1250, 'fake': 1250}
+
+--- games\game2_data_reconnaissance\game2_train_eda.csv ---
+shape=(9000, 4)  columns=['sample_id', 'image_path', 'text', 'label']
+       sample_id                     image_path                                                                                                                             text label
+0  train__007432  data/images/train__007432.jpg  Tourists and locals walked by an expanding pile of trash in the historic neighborhood of Trastevere in Rome earlier this month.  real
+1  train__001452  data/images/train__001452.jpg     Bill de Blasio was impeached as the mayor of New York City on Wednesday morning, at two minutes past the stroke of midnight.  fake
+2  train__000727  data/images/train__000727.jpg                                           Rick Santorum bribing supporters for votes during a speech in Topeka, Kan., on Friday.  fake
+  value_counts[label]: {'fake': 5000, 'real': 4000}
+
+--- games\game2_data_reconnaissance\game2_validation_eda.csv ---
+shape=(2500, 4)  columns=['sample_id', 'image_path', 'text', 'label']
+       sample_id                     image_path                                                                                                                                                                                  text label
+0  train__007249  data/images/train__007249.jpg                                                         A hearing room for a parliamentary inquiry Thursday in Germany. Exactly how the Germans will restrict cooperation is unclear.  real
+1  train__005578  data/images/train__005578.jpg  State Bank of India's correspondent Rashan Penkar takes a fingerprint from a customer, Altaf Sheikh, inside her home office in Nerdar Navgaon, a 2000 person village in Maharashtra.  real
+2  train__005327  data/images/train__005327.jpg                                                               The tsunami's wave crashed over a street in Miyako in northeastern Japan after an earthquake struck the area on Friday.  real
+  value_counts[label]: {'real': 1250, 'fake': 1250}
+
+--- submission_template.csv ---
+shape=(500, 2)  columns=['sample_id', 'predicted_label']
+              sample_id predicted_label
+0  test1_nyt_mj__000000            real
+1  test1_nyt_mj__000001            real
+2  test1_nyt_mj__000002            real
+  value_counts[predicted_label]: {'real': 500}
+
+--- submissions\Game1_Submission_Ded_Sec\game1_corrected_train.csv ---
+shape=(9999, 4)  columns=['sample_id', 'image_path', 'text', 'label']
+       sample_id                     image_path                                                                                                                       text label
+0  train__007813  data/images/train__007813.jpg  A military vehicle with men in custody on Friday after attacks on military camps near the Burundian capital of Bujumbura.  real
+1  train__005853  data/images/train__005853.jpg                                          A traditional tribal court this month in the village of Manhlaneni, South Africa.  real
+2  train__002163  data/images/train__002163.jpg  Mayor Rahm Emanuel of Chicago was seen arguing with Claudia Ingram at the end of a visit to a community center on Friday.  fake
+  value_counts[label]: {'real': 5000, 'fake': 4999}
+
+--- submissions\Game1_Submission_Ded_Sec\game1_corrected_validation.csv ---
+shape=(2501, 4)  columns=['sample_id', 'image_path', 'text', 'label']
+       sample_id                     image_path                                                                                                                 text label
+0  train__005650  data/images/train__005650.jpg                          Protesters gathered outside Parliament in Cape Town on Tuesday to denounce the secrecy law.  real
+1  train__007923  data/images/train__007923.jpg  Candy Henderson rested on a brisk Tuesday in her tent, not far from the Malheur National Wildlife Refuge in Oregon.  real
+2  train__000719  data/images/train__000719.jpg                                         Prime Minister Yoshihiko Noda verbally attacks foreign journalists in Tokyo.  fake
+  value_counts[label]: {'fake': 1251, 'real': 1250}
+
+--- submissions\Game1_Submission_Ded_Sec\game1_evidence_table.csv ---
+shape=(1555, 5)  columns=['validation_sample_id', 'related_train_sample_id', 'evidence_type', 'similarity_score_or_distance', 'label']
+  validation_sample_id related_train_sample_id                   evidence_type  similarity_score_or_distance label
+0    mirror_leak__0000           train__006756           exact_normalized_text                           1.0  real
+1    mirror_leak__0000           train__006756  perceptual_image_hash_distance                           0.0  real
+2    mirror_leak__0001           train__002938           exact_normalized_text                           1.0  fake
+  value_counts[evidence_type]: {'perceptual_image_hash_distance': 602, 'exact_normalized_text': 600, 'near_text_cosine': 353}
+  value_counts[label]: {'fake': 781, 'real': 774}
+
+--- submissions\Game2_Submission_Ded_Sec\game2_risk_priority_table.csv ---
+shape=(9, 8)  columns=['risk_id', 'modality', 'discovered_pattern', 'evidence', 'affected_split', 'affected_samples', 'severity', 'recommended_next_action']
+  risk_id modality        discovered_pattern                                                                                   evidence affected_split  affected_samples severity                                                              recommended_next_action
+0     R01    label  Training class imbalance  Train counts={'fake': 5000, 'real': 4000}; validation counts={'real': 1250, 'fake': 1250}          train              1000     high        Use stratification and test class-weighted loss; do not rebalance validation.
+1     R02     text     Missing or empty text                               100 empty texts; label distribution={'fake': 58, 'real': 42}          train               100     high  Preserve rows, add a missing-text indicator, and use an explicit placeholder token.
+2     R03     text         High symbol ratio                                                            2 rows have symbol_ratio > 0.20          train                 2   medium   Test conservative punctuation normalization while retaining an original-text copy.
+  value_counts[risk_id]: {'R01': 1, 'R02': 1, 'R03': 1, 'R04': 1, 'R05': 1, 'R06': 1, 'R07': 1, 'R08': 1, 'R09': 1}
+  value_counts[modality]: {'image': 5, 'text': 3, 'label': 1}
+  value_counts[discovered_pattern]: {'Missing or empty text': 2, 'Training class imbalance': 1, 'High symbol ratio': 1, 'Altered images mixed with original-quality images': 1, 'Low-resolution images': 1, 'Extreme aspect ratios': 1, 'Very low sharpness tail': 1, 'Extreme brightness': 1}
+  value_counts[evidence]: {"Train counts={'fake': 5000, 'real': 4000}; validation counts={'real': 1250, 'fake': 1250}": 1, "100 empty texts; label distribution={'fake': 58, 'real': 42}": 1, '2 rows have symbol_ratio > 0.20': 1, "30 empty texts; label distribution={'fake': 17, 'real': 13}": 1, 'modified=475 (train=380, validation=95); median sharpness modified=84.42, shared=1001.07; median size KB modified=28.8, shared=65.2': 1, '962 images have width or height below 128 pixels': 1, '75 images fall outside the 0.5-2.0 aspect-ratio range': 1, '575 images are at or below the 5th-percentile sharpness cutoff (182.91)': 1, '238 images have mean brightness below 30 or above 225': 1}
+  value_counts[affected_split]: {'both': 5, 'train': 3, 'validation': 1}
+  value_counts[affected_samples]: {1000: 1, 100: 1, 2: 1, 30: 1, 475: 1, 962: 1, 75: 1, 575: 1, 238: 1}
+  value_counts[severity]: {'high': 5, 'medium': 4}
+  value_counts[recommended_next_action]: {'Preserve rows, add a missing-text indicator, and use an explicit placeholder token.': 2, 'Use stratification and test class-weighted loss; do not rebalance validation.': 1, 'Test conservative punctuation normalization while retaining an original-text copy.': 1, 'Audit alteration types and test quality-robust preprocessing without overwriting originals.': 1, 'Use aspect-preserving resize with padding; avoid aggressive upscaling assumptions.': 1, 'Use padding or center-crop experiments and compare information loss.': 1, 'Test mild sharpening only as a controlled experiment; retain a quality flag.': 1, 'Test bounded contrast normalization and compare against unchanged images.': 1}
+
+--- submissions\Game2_Submission_Ded_Sec\game2_train_image_statistics.csv ---
+shape=(9000, 14)  columns=['sample_id', 'image_path', 'label', 'image_source', 'width', 'height', 'aspect_ratio', 'file_size_kb', 'brightness_mean', 'contrast_std', 'laplacian_variance', 'high_frequency_ratio', 'colorfulness', 'exif_present']
+       sample_id                     image_path label image_source  width  height  aspect_ratio  file_size_kb  brightness_mean  contrast_std  laplacian_variance  high_frequency_ratio  colorfulness  exif_present
+0  train__007432  data/images/train__007432.jpg  real       shared    600     400      1.500000    113.207031        74.977142     42.724106         2286.850830              0.707240     25.299625         False
+1  train__001452  data/images/train__001452.jpg  fake       shared   2048    1151      1.779322    296.722656       122.751236     76.042198          583.664124              0.481087     79.134193         False
+2  train__000727  data/images/train__000727.jpg  fake       shared    600     350      1.714286     56.295898        54.518585     44.176228          726.076538              0.593079     29.396147         False
+  value_counts[label]: {'fake': 5000, 'real': 4000}
+  value_counts[image_source]: {'shared': 8620, 'modified': 380}
+  value_counts[exif_present]: {False: 9000}
+
+--- submissions\Game2_Submission_Ded_Sec\game2_train_text_statistics.csv ---
+shape=(9000, 16)  columns=['sample_id', 'image_path', 'text', 'label', 'safe_text', 'text_length_chars', 'text_length_words', 'is_empty_text', 'symbol_count', 'symbol_ratio', 'uppercase_count', 'uppercase_ratio', 'digit_count', 'digit_ratio', 'url_count', 'repeated_punctuation']
+       sample_id                     image_path                                                                                                                             text label                                                                                                                        safe_text  text_length_chars  text_length_words  is_empty_text  symbol_count  symbol_ratio  uppercase_count  uppercase_ratio  digit_count  digit_ratio  url_count  repeated_punctuation
+0  train__007432  data/images/train__007432.jpg  Tourists and locals walked by an expanding pile of trash in the historic neighborhood of Trastevere in Rome earlier this month.  real  Tourists and locals walked by an expanding pile of trash in the historic neighborhood of Trastevere in Rome earlier this month.                127                 21          False             1      0.007874                3         0.028302            0          0.0          0                 False
+1  train__001452  data/images/train__001452.jpg     Bill de Blasio was impeached as the mayor of New York City on Wednesday morning, at two minutes past the stroke of midnight.  fake     Bill de Blasio was impeached as the mayor of New York City on Wednesday morning, at two minutes past the stroke of midnight.                124                 23          False             2      0.016129                6         0.060000            0          0.0          0                 False
+2  train__000727  data/images/train__000727.jpg                                           Rick Santorum bribing supporters for votes during a speech in Topeka, Kan., on Friday.  fake                                           Rick Santorum bribing supporters for votes during a speech in Topeka, Kan., on Friday.                 86                 14          False             4      0.046512                5         0.072464            0          0.0          0                 False
+  value_counts[label]: {'fake': 5000, 'real': 4000}
+  value_counts[is_empty_text]: {False: 8900, True: 100}
+  value_counts[url_count]: {0: 9000}
+  value_counts[repeated_punctuation]: {False: 8920, True: 80}
+
+--- submissions\Game2_Submission_Ded_Sec\game2_validation_image_statistics.csv ---
+shape=(2500, 14)  columns=['sample_id', 'image_path', 'label', 'image_source', 'width', 'height', 'aspect_ratio', 'file_size_kb', 'brightness_mean', 'contrast_std', 'laplacian_variance', 'high_frequency_ratio', 'colorfulness', 'exif_present']
+       sample_id                     image_path label image_source  width  height  aspect_ratio  file_size_kb  brightness_mean  contrast_std  laplacian_variance  high_frequency_ratio  colorfulness  exif_present
+0  train__007249  data/images/train__007249.jpg  real       shared    600     400      1.500000     91.256836       115.866379     84.126045         2353.115234              0.632101     34.582123         False
+1  train__005578  data/images/train__005578.jpg  real       shared   1024     683      1.499268    203.318359        84.761215     80.673203         1207.137451              0.602212     40.843575         False
+2  train__005327  data/images/train__005327.jpg  real       shared    600     345      1.739130    106.851562       137.598969     61.652298         2173.804688              0.664397     17.150431         False
+  value_counts[label]: {'real': 1250, 'fake': 1250}
+  value_counts[image_source]: {'shared': 2405, 'modified': 95}
+  value_counts[exif_present]: {False: 2500}
+
+--- submissions\Game2_Submission_Ded_Sec\game2_validation_text_statistics.csv ---
+shape=(2500, 16)  columns=['sample_id', 'image_path', 'text', 'label', 'safe_text', 'text_length_chars', 'text_length_words', 'is_empty_text', 'symbol_count', 'symbol_ratio', 'uppercase_count', 'uppercase_ratio', 'digit_count', 'digit_ratio', 'url_count', 'repeated_punctuation']
+       sample_id                     image_path                                                                                                                                                                                  text label                                                                                                                                                                             safe_text  text_length_chars  text_length_words  is_empty_text  symbol_count  symbol_ratio  uppercase_count  uppercase_ratio  digit_count  digit_ratio  url_count  repeated_punctuation
+0  train__007249  data/images/train__007249.jpg                                                         A hearing room for a parliamentary inquiry Thursday in Germany. Exactly how the Germans will restrict cooperation is unclear.  real                                                         A hearing room for a parliamentary inquiry Thursday in Germany. Exactly how the Germans will restrict cooperation is unclear.                125                 19          False             2      0.016000                5         0.047619            0     0.000000          0                 False
+1  train__005578  data/images/train__005578.jpg  State Bank of India's correspondent Rashan Penkar takes a fingerprint from a customer, Altaf Sheikh, inside her home office in Nerdar Navgaon, a 2000 person village in Maharashtra.  real  State Bank of India's correspondent Rashan Penkar takes a fingerprint from a customer, Altaf Sheikh, inside her home office in Nerdar Navgaon, a 2000 person village in Maharashtra.                180                 28          False             5      0.027778               10         0.069444            4     0.022222          0                 False
+2  train__005327  data/images/train__005327.jpg                                                               The tsunami's wave crashed over a street in Miyako in northeastern Japan after an earthquake struck the area on Friday.  real                                                               The tsunami's wave crashed over a street in Miyako in northeastern Japan after an earthquake struck the area on Friday.                119                 20          False             2      0.016807                4         0.040816            0     0.000000          0                 False
+  value_counts[label]: {'real': 1250, 'fake': 1250}
+  value_counts[is_empty_text]: {False: 2470, True: 30}
+  value_counts[url_count]: {0: 2500}
+  value_counts[repeated_punctuation]: {False: 2479, True: 21}
+
+--- submissions\Game3_Submission_Ded_Sec\final_preprocessing_decisions.csv ---
+shape=(6, 6)  columns=['decision_id', 'modality', 'transformation', 'decision', 'evidence', 'reason']
+  decision_id modality                                                        transformation  decision                                             evidence                                                                         reason
+0         D01     text                             Explicit missing-text token and indicator  accepted          130 empty texts across Train and Validation            Preserves rows and makes missingness explicit to downstream models.
+1         D02     text                                                    missing_token_only  accepted  Selected from fixed-baseline validation experiments  Simplest reliable text transform within 0.002 macro-F1 of the best candidate.
+2         D03    image  EXIF transpose, RGB conversion, aspect-preserving resize and padding  accepted      962 low-resolution and 75 extreme-aspect images      Produces stable model inputs without cropping away unusual image content.
+  value_counts[decision_id]: {'D01': 1, 'D02': 1, 'D03': 1, 'D04': 1, 'D05': 1, 'D06': 1}
+  value_counts[modality]: {'image': 3, 'text': 2, 'both': 1}
+  value_counts[transformation]: {'Explicit missing-text token and indicator': 1, 'missing_token_only': 1, 'EXIF transpose, RGB conversion, aspect-preserving resize and padding': 1, 'Automatic sharpening': 1, 'Delete low-quality images': 1, 'Quality and missingness flags': 1}
+  value_counts[decision]: {'accepted': 4, 'rejected': 2}
+  value_counts[evidence]: {'130 empty texts across Train and Validation': 1, 'Selected from fixed-baseline validation experiments': 1, '962 low-resolution and 75 extreme-aspect images': 1, 'Sharpness differs strongly for 475 intentionally altered images': 1, 'Quality issues occur in both labels and both splits': 1, 'Game 2 risk table': 1}
+  value_counts[reason]: {'Preserves rows and makes missingness explicit to downstream models.': 1, 'Simplest reliable text transform within 0.002 macro-F1 of the best candidate.': 1, 'Produces stable model inputs without cropping away unusual image content.': 1, 'Could amplify compression artifacts and erase a meaningful quality signal.': 1, 'Deletion would reduce coverage and may introduce selection bias.': 1, 'Allows downstream models and error analysis to distinguish unreliable inputs.': 1}
+
+--- submissions\Game3_Submission_Ded_Sec\preprocessing_experiments.csv ---
+shape=(8, 11)  columns=['experiment_id', 'modality', 'preprocessing_choice', 'accuracy', 'macro_f1', 'precision', 'recall', 'training_time_sec', 'inference_time_sec', 'delta_macro_f1', 'result']
+  experiment_id modality        preprocessing_choice  accuracy  macro_f1  precision  recall  training_time_sec  inference_time_sec  delta_macro_f1   result
+0           T00     text            raw_empty_string    0.7496  0.747500   0.758190  0.7496           0.842609            0.105971        0.000000  neutral
+1           T01     text          missing_token_only    0.7480  0.746105   0.755633  0.7480           0.946653            0.106776       -0.001395  neutral
+2           T02     text  conservative_normalization    0.7480  0.746105   0.755633  0.7480           0.944437            0.102688       -0.001395  neutral
+  value_counts[experiment_id]: {'T00': 1, 'T01': 1, 'T02': 1, 'T03': 1, 'I00': 1, 'I01': 1, 'I02': 1, 'I03': 1}
+  value_counts[modality]: {'text': 4, 'image': 4}
+  value_counts[preprocessing_choice]: {'raw_empty_string': 1, 'missing_token_only': 1, 'conservative_normalization': 1, 'aggressive_alphanumeric_normalization': 1, 'raw_numeric_features': 1, 'standardized_numeric_features': 1, 'quantile_clip_plus_robust_scaling': 1, 'robust_scaling_without_metadata_shortcuts': 1}
+  value_counts[accuracy]: {0.748: 3, 0.6736: 2, 0.7496: 1, 0.6744: 1, 0.6664: 1}
+  value_counts[macro_f1]: {0.7461046816039865: 3, 0.7474998451117261: 1, 0.6733461362385783: 1, 0.6727421130849254: 1, 0.6727687803450814: 1, 0.6654098272263005: 1}
+  value_counts[precision]: {0.7556331654180773: 3, 0.7581899165583151: 1, 0.6766800489646874: 1, 0.6754396177259663: 1, 0.6753819932963667: 1, 0.6683933461312277: 1}
+  value_counts[recall]: {0.748: 3, 0.6736: 2, 0.7496: 1, 0.6744: 1, 0.6664: 1}
+  value_counts[training_time_sec]: {0.842608899998595: 1, 0.9466533000013442: 1, 0.9444370999990496: 1, 0.911068900000828: 1, 0.0857803000035346: 1, 0.0427883999946061: 1, 0.0437662999975145: 1, 0.0366116000004694: 1}
+  value_counts[inference_time_sec]: {0.1059707999957026: 1, 0.1067759999932604: 1, 0.1026883000013185: 1, 0.093425400002161: 1, 0.0077361000003293: 1, 0.0068163000032654: 1, 0.0046733999988646: 1, 0.0030208000025595: 1}
+  value_counts[delta_macro_f1]: {-0.0013951635077396: 3, 0.0: 2, -0.0006040231536529: 1, -0.0005773558934969: 1, -0.0079363090122778: 1}
+  value_counts[result]: {'neutral': 7, 'harmed': 1}
+
+--- submissions\Game3_Submission_Ded_Sec\processed_train.csv ---
+shape=(9000, 14)  columns=['sample_id', 'image_path', 'text', 'label', 'original_text', 'text_was_missing', 'image_width', 'image_height', 'image_aspect_ratio', 'image_low_resolution', 'image_low_sharpness', 'image_extreme_brightness', 'image_source', 'image_processing_plan']
+       sample_id                     image_path                                                                                                                             text label                                                                                                                    original_text  text_was_missing  image_width  image_height  image_aspect_ratio  image_low_resolution  image_low_sharpness  image_extreme_brightness image_source                                      image_processing_plan
+0  train__007432  data/images/train__007432.jpg  Tourists and locals walked by an expanding pile of trash in the historic neighborhood of Trastevere in Rome earlier this month.  real  Tourists and locals walked by an expanding pile of trash in the historic neighborhood of Trastevere in Rome earlier this month.             False          600           400            1.500000                 False                False                     False       shared  exif_transpose_rgb_aspect_preserving_resize_pad_normalize
+1  train__001452  data/images/train__001452.jpg     Bill de Blasio was impeached as the mayor of New York City on Wednesday morning, at two minutes past the stroke of midnight.  fake     Bill de Blasio was impeached as the mayor of New York City on Wednesday morning, at two minutes past the stroke of midnight.             False         2048          1151            1.779322                 False                False                     False       shared  exif_transpose_rgb_aspect_preserving_resize_pad_normalize
+2  train__000727  data/images/train__000727.jpg                                           Rick Santorum bribing supporters for votes during a speech in Topeka, Kan., on Friday.  fake                                           Rick Santorum bribing supporters for votes during a speech in Topeka, Kan., on Friday.             False          600           350            1.714286                 False                False                     False       shared  exif_transpose_rgb_aspect_preserving_resize_pad_normalize
+  value_counts[label]: {'fake': 5000, 'real': 4000}
+  value_counts[text_was_missing]: {False: 8900, True: 100}
+  value_counts[image_low_resolution]: {False: 8240, True: 760}
+  value_counts[image_low_sharpness]: {False: 8550, True: 450}
+  value_counts[image_extreme_brightness]: {False: 8818, True: 182}
+  value_counts[image_source]: {'shared': 8620, 'modified': 380}
+  value_counts[image_processing_plan]: {'exif_transpose_rgb_aspect_preserving_resize_pad_normalize': 9000}
+
+--- submissions\Game3_Submission_Ded_Sec\processed_validation.csv ---
+shape=(2500, 14)  columns=['sample_id', 'image_path', 'text', 'label', 'original_text', 'text_was_missing', 'image_width', 'image_height', 'image_aspect_ratio', 'image_low_resolution', 'image_low_sharpness', 'image_extreme_brightness', 'image_source', 'image_processing_plan']
+       sample_id                     image_path                                                                                                                                                                                  text label                                                                                                                                                                         original_text  text_was_missing  image_width  image_height  image_aspect_ratio  image_low_resolution  image_low_sharpness  image_extreme_brightness image_source                                      image_processing_plan
+0  train__007249  data/images/train__007249.jpg                                                         A hearing room for a parliamentary inquiry Thursday in Germany. Exactly how the Germans will restrict cooperation is unclear.  real                                                         A hearing room for a parliamentary inquiry Thursday in Germany. Exactly how the Germans will restrict cooperation is unclear.             False          600           400            1.500000                 False                False                     False       shared  exif_transpose_rgb_aspect_preserving_resize_pad_normalize
+1  train__005578  data/images/train__005578.jpg  State Bank of India's correspondent Rashan Penkar takes a fingerprint from a customer, Altaf Sheikh, inside her home office in Nerdar Navgaon, a 2000 person village in Maharashtra.  real  State Bank of India's correspondent Rashan Penkar takes a fingerprint from a customer, Altaf Sheikh, inside her home office in Nerdar Navgaon, a 2000 person village in Maharashtra.             False         1024           683            1.499268                 False                False                     False       shared  exif_transpose_rgb_aspect_preserving_resize_pad_normalize
+2  train__005327  data/images/train__005327.jpg                                                               The tsunami's wave crashed over a street in Miyako in northeastern Japan after an earthquake struck the area on Friday.  real                                                               The tsunami's wave crashed over a street in Miyako in northeastern Japan after an earthquake struck the area on Friday.             False          600           345            1.739130                 False                False                     False       shared  exif_transpose_rgb_aspect_preserving_resize_pad_normalize
+  value_counts[label]: {'real': 1250, 'fake': 1250}
+  value_counts[text_was_missing]: {False: 2470, True: 30}
+  value_counts[image_low_resolution]: {False: 2298, True: 202}
+  value_counts[image_low_sharpness]: {False: 2375, True: 125}
+  value_counts[image_extreme_brightness]: {False: 2444, True: 56}
+  value_counts[image_source]: {'shared': 2405, 'modified': 95}
+  value_counts[image_processing_plan]: {'exif_transpose_rgb_aspect_preserving_resize_pad_normalize': 2500}
+
+--- submissions\Game4_Submission_Ded_Sec\image_training_history.csv ---
+shape=(8, 8)  columns=['epoch', 'train_loss', 'val_accuracy', 'val_macro_f1', 'val_precision', 'val_recall', 'learning_rate', 'epoch_time_sec']
+   epoch  train_loss  val_accuracy  val_macro_f1  val_precision  val_recall  learning_rate  epoch_time_sec
+0      1    0.568640        0.7364      0.727855       0.770357      0.7364       0.000289       57.904105
+1      2    0.486028        0.7952      0.794695       0.798134      0.7952       0.000256       39.344242
+2      3    0.435140        0.7828      0.779386       0.801461      0.7828       0.000207       37.465230
+  value_counts[epoch]: {1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1}
+  value_counts[train_loss]: {0.5686396420001983: 1, 0.4860275338803019: 1, 0.4351400824529784: 1, 0.4067047613007681: 1, 0.3689491765839713: 1, 0.3421088435820171: 1, 0.3205772374357496: 1, 0.3002675663147653: 1}
+  value_counts[val_accuracy]: {0.7364: 1, 0.7952: 1, 0.7828: 1, 0.8124: 1, 0.816: 1, 0.798: 1, 0.838: 1, 0.8428: 1}
+  value_counts[val_macro_f1]: {0.7278546805113062: 1, 0.7946949166461361: 1, 0.7793859176546358: 1, 0.8112037567956584: 1, 0.8151452315506904: 1, 0.7936983296019284: 1, 0.8377944271451867: 1, 0.8422090032892797: 1}
+  value_counts[val_precision]: {0.7703566182202246: 1, 0.7981338276699217: 1, 0.8014608614259039: 1, 0.8205235540899298: 1, 0.8219548774126239: 1, 0.8251164833446099: 1, 0.8397222013162406: 1, 0.8480138601291282: 1}
+  value_counts[val_recall]: {0.7363999999999999: 1, 0.7952: 1, 0.7827999999999999: 1, 0.8124: 1, 0.8160000000000001: 1, 0.798: 1, 0.8380000000000001: 1, 0.8428: 1}
+  value_counts[learning_rate]: {0.0002885819298766: 1, 0.0002560660171779: 1, 0.0002074025148547: 1, 0.00015: 1, 9.259748514523652e-05: 1, 4.393398282201788e-05: 1, 1.1418070123306989e-05: 1, 0.0: 1}
+  value_counts[epoch_time_sec]: {57.90410479999992: 1, 39.34424240000226: 1, 37.465230200003134: 1, 40.569189599998936: 1, 39.28735990000132: 1, 40.338593300002685: 1, 41.79004630000418: 1, 42.27361830000154: 1}
+
+--- submissions\Game4_Submission_Ded_Sec\scratch_error_analysis.csv ---
+shape=(260, 9)  columns=['sample_id', 'modality', 'true_label', 'predicted_label', 'confidence', 'case_type', 'observed_input_flags', 'text', 'image_path']
+       sample_id modality true_label predicted_label  confidence              case_type                      observed_input_flags                                                                                                                                                                                                                                                                                                                                                                                        text                                                         image_path
+0  train__006397    image       real            fake    0.993451  high_confidence_error  image_low_resolution|image_low_sharpness                                                                                                                                                                                           People waited Tuesday at the airport in Tacloban, the Philippines, to be evacuated from one of the areas hit hardest by a typhoon. Transportation and food supplies were devastated by the storm.  games/game2_data_reconnaissance/modified_images/train__006397.jpg
+1  train__007921    image       real            fake    0.992635  high_confidence_error                                      none                                                                                                                                                                                                                                                                      United States Marines searched for debris from two CH-53E helicopters along the coast of Haleiwa, Hawaii, on Saturday.                                      data/images/train__007921.jpg
+2  train__005181    image       real            fake    0.989243  high_confidence_error                                      none  Tons of marijuana — 134 tons, in fact — sat on a makeshift platform Wednesday on a military base in Tijuana, Mexico. And then, after a military band played, after speeches by Army and police commanders, after a laborer sprayed fuel on the verdant, pungent bales, after college students and dignitaries and a throng of journalists took aim with their cameras, it was lit on fire.                                      data/images/train__005181.jpg
+  value_counts[modality]: {'image': 130, 'text': 130}
+  value_counts[true_label]: {'fake': 132, 'real': 128}
+  value_counts[predicted_label]: {'real': 144, 'fake': 116}
+  value_counts[case_type]: {'high_confidence_error': 100, 'error': 100, 'uncertain_correct': 60}
+  value_counts[observed_input_flags]: {'none': 211, 'image_low_resolution': 22, 'image_low_sharpness': 12, 'image_low_resolution|image_low_sharpness': 7, 'image_extreme_brightness': 4, 'text_was_missing': 2, 'image_low_sharpness|image_extreme_brightness': 2}
+
+--- submissions\Game4_Submission_Ded_Sec\scratch_image_model\confusion_matrix.csv ---
+shape=(2, 3)  columns=['Unnamed: 0', 'pred_fake', 'pred_real']
+  Unnamed: 0  pred_fake  pred_real
+0  true_fake       1130        120
+1  true_real        273        977
+  value_counts[Unnamed: 0]: {'true_fake': 1, 'true_real': 1}
+  value_counts[pred_fake]: {1130: 1, 273: 1}
+  value_counts[pred_real]: {120: 1, 977: 1}
+
+--- submissions\Game4_Submission_Ded_Sec\scratch_model_results.csv ---
+shape=(2, 10)  columns=['model_id', 'modality', 'architecture', 'accuracy', 'macro_f1', 'precision', 'recall', 'training_time', 'inference_time', 'notes']
+            model_id modality                              architecture  accuracy  macro_f1  precision  recall  training_time  inference_time                                                                            notes
+0  scratch_image_cnn    image        4-block CNN, random initialization    0.8428  0.842209   0.848014  0.8428     338.972385        9.860769  841,570 parameters; no pretrained weights; aspect-preserving resize and padding
+1   scratch_text_cnn     text  learned embedding + 3/4/5-kernel TextCNN    0.7112  0.710791   0.712401  0.7112      23.864978        0.075068                       1,509,890 parameters; vocabulary=10,251; random embeddings
+  value_counts[model_id]: {'scratch_image_cnn': 1, 'scratch_text_cnn': 1}
+  value_counts[modality]: {'image': 1, 'text': 1}
+  value_counts[architecture]: {'4-block CNN, random initialization': 1, 'learned embedding + 3/4/5-kernel TextCNN': 1}
+  value_counts[accuracy]: {0.8428: 1, 0.7112: 1}
+  value_counts[macro_f1]: {0.8422090032892797: 1, 0.7107911280652135: 1}
+  value_counts[precision]: {0.8480138601291282: 1, 0.7124011369253583: 1}
+  value_counts[recall]: {0.8428: 1, 0.7112: 1}
+  value_counts[training_time]: {338.972384800014: 1, 23.864977699995507: 1}
+  value_counts[inference_time]: {9.860769400002027: 1, 0.0750678000040352: 1}
+  value_counts[notes]: {'841,570 parameters; no pretrained weights; aspect-preserving resize and padding': 1, '1,509,890 parameters; vocabulary=10,251; random embeddings': 1}
+
+--- submissions\Game4_Submission_Ded_Sec\scratch_text_model\confusion_matrix.csv ---
+shape=(2, 3)  columns=['Unnamed: 0', 'pred_fake', 'pred_real']
+  Unnamed: 0  pred_fake  pred_real
+0  true_fake        842        408
+1  true_real        314        936
+  value_counts[Unnamed: 0]: {'true_fake': 1, 'true_real': 1}
+  value_counts[pred_fake]: {842: 1, 314: 1}
+  value_counts[pred_real]: {408: 1, 936: 1}
+
+--- submissions\Game4_Submission_Ded_Sec\text_training_history.csv ---
+shape=(9, 8)  columns=['epoch', 'train_loss', 'val_accuracy', 'val_macro_f1', 'val_precision', 'val_recall', 'learning_rate', 'epoch_time_sec']
+   epoch  train_loss  val_accuracy  val_macro_f1  val_precision  val_recall  learning_rate  epoch_time_sec
+0      1    0.696252        0.6552      0.655073       0.655429      0.6552       0.000976       17.719790
+1      2    0.571860        0.6160      0.596169       0.644355      0.6160       0.000905        0.615339
+2      3    0.501298        0.6496      0.642595       0.662326      0.6496       0.000794        1.252945
+  value_counts[epoch]: {1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1}
+  value_counts[train_loss]: {0.6962519374953376: 1, 0.5718602341016134: 1, 0.5012977319823371: 1, 0.4448710570600298: 1, 0.3863786910639868: 1, 0.3302444970872667: 1, 0.2899784224298265: 1, 0.2643260872364044: 1, 0.2482253353065914: 1}
+  value_counts[val_accuracy]: {0.6552: 1, 0.616: 1, 0.6496: 1, 0.6976: 1, 0.702: 1, 0.7112: 1, 0.696: 1, 0.6944: 1, 0.6948: 1}
+  value_counts[val_macro_f1]: {0.6550728460539693: 1, 0.5961692616156864: 1, 0.642594859241126: 1, 0.6973627323821876: 1, 0.7019892716137781: 1, 0.7107911280652135: 1, 0.6959501844782249: 1, 0.6941995906437243: 1, 0.6946412623138012: 1}
+  value_counts[val_precision]: {0.6554291896659137: 1, 0.6443551367331855: 1, 0.6623263888888888: 1, 0.6982216230097587: 1, 0.7020290921892752: 1, 0.7124011369253583: 1, 0.6961285347965642: 1, 0.6949109473538312: 1, 0.695205903347184: 1}
+  value_counts[val_recall]: {0.6552: 1, 0.616: 1, 0.6496: 1, 0.6976: 1, 0.702: 1, 0.7112: 1, 0.696: 1, 0.6943999999999999: 1, 0.6948000000000001: 1}
+  value_counts[learning_rate]: {0.0009755282581475: 1, 0.0009045084971874: 1, 0.0007938926261462: 1, 0.0006545084971874: 1, 0.0005: 1, 0.0003454915028125: 1, 0.0002061073738537: 1, 9.549150281252634e-05: 1, 2.4471741852423235e-05: 1}
+  value_counts[epoch_time_sec]: {17.71979029999784: 1, 0.6153392000051099: 1, 1.252944900006696: 1, 1.1086103999987245: 1, 0.7637594999978319: 1, 0.5941793999954825: 1, 0.6007343999954173: 1, 0.6100092999986373: 1, 0.5996102999997674: 1}
+
+--- submissions\Game5_Submission_Ded_Sec\efficiency_comparison.csv ---
+shape=(4, 9)  columns=['model_id', 'modality', 'pretrained_source', 'accuracy', 'macro_f1', 'training_time', 'inference_time', 'model_size', 'parameter_count']
+                              model_id modality pretrained_source  accuracy  macro_f1  training_time  inference_time  model_size parameter_count
+0                    scratch_image_cnn    image              none    0.8428  0.842209     338.972385        9.860769         NaN             NaN
+1                     scratch_text_cnn     text              none    0.7112  0.710791      23.864978        0.075068         NaN             NaN
+2  mobilenet_v3_small_partial_finetune    image    ImageNet-1K V1    0.8380  0.837746     237.297512        7.870576    6.216463         1519906
+  value_counts[model_id]: {'scratch_image_cnn': 1, 'scratch_text_cnn': 1, 'mobilenet_v3_small_partial_finetune': 1, 'minilm_frozen_embeddings_logreg': 1}
+  value_counts[modality]: {'image': 2, 'text': 2}
+  value_counts[pretrained_source]: {'none': 2, 'ImageNet-1K V1': 1, 'all-MiniLM-L6-v2': 1}
+  value_counts[accuracy]: {0.8428: 1, 0.7112: 1, 0.838: 1, 0.7648: 1}
+  value_counts[macro_f1]: {0.8422090032892797: 1, 0.7107911280652135: 1, 0.8377455590759204: 1, 0.764570823822742: 1}
+  value_counts[training_time]: {338.972384800014: 1, 23.864977699995507: 1, 237.2975121999989: 1, 3.357503600003838: 1}
+  value_counts[inference_time]: {9.860769400002027: 1, 0.0750678000040352: 1, 7.870575799999642: 1, 0.7812141999966116: 1}
+  value_counts[model_size]: {nan: 2, 6.216463: 1, 91.593076: 1}
+  value_counts[parameter_count]: {nan: 2, '1519906': 1, 'encoder frozen + 385x2 classifier': 1}
+
+--- submissions\Game5_Submission_Ded_Sec\image_transfer_history.csv ---
+shape=(6, 7)  columns=['phase', 'epoch', 'train_loss', 'val_accuracy', 'val_macro_f1', 'learning_rate', 'epoch_time_sec']
+                         phase  epoch  train_loss  val_accuracy  val_macro_f1  learning_rate  epoch_time_sec
+0              frozen_backbone      1    0.524575        0.7584      0.756409       0.000500       56.606017
+1              frozen_backbone      2    0.445309        0.7860      0.785622       0.000000       38.182402
+2  last_three_blocks_trainable      1    0.373408        0.8028      0.800856       0.000068       36.373977
+  value_counts[phase]: {'last_three_blocks_trainable': 4, 'frozen_backbone': 2}
+  value_counts[epoch]: {1: 2, 2: 2, 3: 1, 4: 1}
+  value_counts[train_loss]: {0.5245751902461052: 1, 0.4453092487795012: 1, 0.3734080235872949: 1, 0.3148682816752365: 1, 0.2760759163115706: 1, 0.2613851281149046: 1}
+  value_counts[val_accuracy]: {0.7584: 1, 0.786: 1, 0.8028: 1, 0.8312: 1, 0.8308: 1, 0.838: 1}
+  value_counts[val_macro_f1]: {0.7564093381367476: 1, 0.7856218369203274: 1, 0.8008560684609172: 1, 0.8309610194508588: 1, 0.8302129715363085: 1, 0.8377455590759204: 1}
+  value_counts[learning_rate]: {0.0: 2, 0.0005: 1, 6.828427124746191e-05: 1, 4e-05: 1, 1.1715728752538104e-05: 1}
+  value_counts[epoch_time_sec]: {56.60601709999901: 1, 38.18240230000083: 1, 36.373977499999455: 1, 37.631457199997385: 1, 37.81636440000148: 1, 30.687293700000737: 1}
+
+--- submissions\Game5_Submission_Ded_Sec\scratch_vs_transfer_comparison.csv ---
+shape=(2, 8)  columns=['modality', 'scratch_model', 'transfer_model', 'scratch_macro_f1', 'transfer_macro_f1', 'macro_f1_gain', 'cost_difference', 'final_observation']
+  modality      scratch_model                       transfer_model  scratch_macro_f1  transfer_macro_f1  macro_f1_gain  cost_difference                                                               final_observation
+0    image  scratch_image_cnn  mobilenet_v3_small_partial_finetune          0.842209           0.837746      -0.004463      -101.674873  Transfer gain is small; prefer the cheaper model unless later fusion benefits.
+1     text   scratch_text_cnn      minilm_frozen_embeddings_logreg          0.710791           0.764571       0.053780       -20.507474                                 Transfer justified by measurable macro-F1 gain.
+  value_counts[modality]: {'image': 1, 'text': 1}
+  value_counts[scratch_model]: {'scratch_image_cnn': 1, 'scratch_text_cnn': 1}
+  value_counts[transfer_model]: {'mobilenet_v3_small_partial_finetune': 1, 'minilm_frozen_embeddings_logreg': 1}
+  value_counts[scratch_macro_f1]: {0.8422090032892797: 1, 0.7107911280652135: 1}
+  value_counts[transfer_macro_f1]: {0.8377455590759204: 1, 0.764570823822742: 1}
+  value_counts[macro_f1_gain]: {-0.0044634442133593: 1, 0.0537796957575285: 1}
+  value_counts[cost_difference]: {-101.67487260001514: 1, -20.50747409999167: 1}
+  value_counts[final_observation]: {'Transfer gain is small; prefer the cheaper model unless later fusion benefits.': 1, 'Transfer justified by measurable macro-F1 gain.': 1}
+
+--- submissions\Game5_Submission_Ded_Sec\transfer_image_model\confusion_matrix.csv ---
+shape=(2, 3)  columns=['Unnamed: 0', 'pred_fake', 'pred_real']
+  Unnamed: 0  pred_fake  pred_real
+0  true_fake       1097        153
+1  true_real        252        998
+  value_counts[Unnamed: 0]: {'true_fake': 1, 'true_real': 1}
+  value_counts[pred_fake]: {1097: 1, 252: 1}
+  value_counts[pred_real]: {153: 1, 998: 1}
+
+--- submissions\Game5_Submission_Ded_Sec\transfer_model_results.csv ---
+shape=(3, 12)  columns=['model_id', 'modality', 'pretrained_source', 'frozen_components', 'trainable_components', 'accuracy', 'macro_f1', 'precision', 'recall', 'training_time', 'inference_time', 'model_size']
+                              model_id modality                       pretrained_source          frozen_components                           trainable_components  accuracy  macro_f1  precision  recall  training_time  inference_time  model_size
+0            mobilenet_v3_small_frozen    image                          ImageNet-1K V1         all feature blocks                    classifier (592,898 params)    0.7860  0.785622   0.788032  0.7860      94.788419        8.789914    6.216463
+1  mobilenet_v3_small_partial_finetune    image                          ImageNet-1K V1       early feature blocks  classifier + last 3 blocks (1,237,538 params)    0.8380  0.837746   0.840134  0.8380     237.297512        7.794069    6.216463
+2      minilm_frozen_embeddings_logreg     text  sentence-transformers/all-MiniLM-L6-v2  all MiniLM encoder layers                   balanced logistic classifier    0.7648  0.764571   0.765835  0.7648       3.357504        0.781214   91.593076
+  value_counts[model_id]: {'mobilenet_v3_small_frozen': 1, 'mobilenet_v3_small_partial_finetune': 1, 'minilm_frozen_embeddings_logreg': 1}
+  value_counts[modality]: {'image': 2, 'text': 1}
+  value_counts[pretrained_source]: {'ImageNet-1K V1': 2, 'sentence-transformers/all-MiniLM-L6-v2': 1}
+  value_counts[frozen_components]: {'all feature blocks': 1, 'early feature blocks': 1, 'all MiniLM encoder layers': 1}
+  value_counts[trainable_components]: {'classifier (592,898 params)': 1, 'classifier + last 3 blocks (1,237,538 params)': 1, 'balanced logistic classifier': 1}
+  value_counts[accuracy]: {0.786: 1, 0.838: 1, 0.7648: 1}
+  value_counts[macro_f1]: {0.7856218369203274: 1, 0.8377455590759204: 1, 0.764570823822742: 1}
+  value_counts[precision]: {0.7880323563060958: 1, 0.8401335352183521: 1, 0.7658350980714668: 1}
+  value_counts[recall]: {0.786: 1, 0.8380000000000001: 1, 0.7648: 1}
+  value_counts[training_time]: {94.78841939999984: 1, 237.2975121999989: 1, 3.357503600003838: 1}
+  value_counts[inference_time]: {8.789914400003909: 1, 7.794069399998989: 1, 0.7812141999966116: 1}
+  value_counts[model_size]: {6.216463: 2, 91.593076: 1}
+
+--- submissions\Game5_Submission_Ded_Sec\transfer_text_model\confusion_matrix.csv ---
+shape=(2, 3)  columns=['Unnamed: 0', 'pred_fake', 'pred_real']
+  Unnamed: 0  pred_fake  pred_real
+0  true_fake        917        333
+1  true_real        255        995
+  value_counts[Unnamed: 0]: {'true_fake': 1, 'true_real': 1}
+  value_counts[pred_fake]: {917: 1, 255: 1}
+  value_counts[pred_real]: {333: 1, 995: 1}
+
+--- submissions\Game6_Submission_Ded_Sec\best_models_summary.csv ---
+shape=(2, 8)  columns=['modality', 'selected_model', 'baseline_macro_f1', 'final_macro_f1', 'macro_f1_gain', 'training_time', 'inference_time', 'selection_reason']
+  modality       selected_model  baseline_macro_f1  final_macro_f1  macro_f1_gain  training_time  inference_time                                                         selection_reason
+0    image  ScratchImageCNN/I03           0.842209        0.849319       0.007110     233.476281        8.035016                                                          160-pixel input
+1     text     MiniLMLogReg/T04           0.764571        0.767443       0.002872       3.951688        0.878793  Highest measured validation macro-F1 among controlled text experiments.
+  value_counts[modality]: {'image': 1, 'text': 1}
+  value_counts[selected_model]: {'ScratchImageCNN/I03': 1, 'MiniLMLogReg/T04': 1}
+  value_counts[baseline_macro_f1]: {0.8422090032892797: 1, 0.764570823822742: 1}
+  value_counts[final_macro_f1]: {0.8493187927036954: 1, 0.767442791326937: 1}
+  value_counts[macro_f1_gain]: {0.0071097894144156: 1, 0.002871967504195: 1}
+  value_counts[training_time]: {233.47628140001325: 1, 3.951688399996783: 1}
+  value_counts[inference_time]: {8.035016400004679: 1, 0.8787933999992674: 1}
+  value_counts[selection_reason]: {'160-pixel input': 1, 'Highest measured validation macro-F1 among controlled text experiments.': 1}
+
+--- submissions\Game6_Submission_Ded_Sec\image_label_smoothing_history.csv ---
+shape=(6, 6)  columns=['epoch', 'train_loss', 'val_accuracy', 'val_macro_f1', 'epoch_time_sec', 'experiment_id']
+   epoch  train_loss  val_accuracy  val_macro_f1  epoch_time_sec experiment_id
+0      1    0.586530        0.6860      0.662552       61.106688           I02
+1      2    0.509277        0.7272      0.713431       29.686621           I02
+2      3    0.466305        0.7720      0.766071       32.410385           I02
+  value_counts[epoch]: {1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1}
+  value_counts[train_loss]: {0.586530060001782: 1, 0.5092770259295191: 1, 0.4663051613739559: 1, 0.4374544273529734: 1, 0.4025862491556576: 1, 0.38206180951425: 1}
+  value_counts[val_accuracy]: {0.686: 1, 0.7272: 1, 0.772: 1, 0.8328: 1, 0.8308: 1, 0.8156: 1}
+  value_counts[val_macro_f1]: {0.6625524720159279: 1, 0.7134307366292328: 1, 0.7660711577064533: 1, 0.8323876467931346: 1, 0.8304777449740859: 1, 0.8126634927554819: 1}
+  value_counts[epoch_time_sec]: {61.106687799998326: 1, 29.68662100000074: 1, 32.41038500000286: 1, 35.41172560000268: 1, 33.842142599998624: 1, 33.25101269999868: 1}
+  value_counts[experiment_id]: {'I02': 6}
+
+--- submissions\Game6_Submission_Ded_Sec\image_size_160_history.csv ---
+shape=(6, 6)  columns=['epoch', 'train_loss', 'val_accuracy', 'val_macro_f1', 'epoch_time_sec', 'experiment_id']
+   epoch  train_loss  val_accuracy  val_macro_f1  epoch_time_sec experiment_id
+0      1    0.548671        0.7612      0.756115       58.468193           I03
+1      2    0.459035        0.6624      0.626199       32.913209           I03
+2      3    0.417120        0.8008      0.799384       35.719659           I03
+  value_counts[epoch]: {1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1}
+  value_counts[train_loss]: {0.5486712772931371: 1, 0.459034574670451: 1, 0.4171196757682732: 1, 0.3807982610804694: 1, 0.3370399221777916: 1, 0.3120181826608522: 1}
+  value_counts[val_accuracy]: {0.7612: 1, 0.6624: 1, 0.8008: 1, 0.8396: 1, 0.8496: 1, 0.7992: 1}
+  value_counts[val_macro_f1]: {0.7561146589551511: 1, 0.6261990860124761: 1, 0.7993844567266634: 1, 0.8393964574943701: 1, 0.8493187927036954: 1, 0.7938701753302512: 1}
+  value_counts[epoch_time_sec]: {58.46819339999638: 1, 32.913209000005736: 1, 35.71965850000561: 1, 36.87629810000362: 1, 34.12674919999699: 1, 35.37217320000491: 1}
+  value_counts[experiment_id]: {'I03': 6}
+
+--- submissions\Game6_Submission_Ded_Sec\optimization_experiments.csv ---
+shape=(9, 13)  columns=['experiment_id', 'modality', 'base_model', 'hypothesis', 'change_applied', 'accuracy', 'macro_f1', 'precision', 'recall', 'training_time', 'inference_time', 'decision', 'reason']
+  experiment_id modality         base_model                                                                   hypothesis                                      change_applied  accuracy  macro_f1  precision  recall  training_time  inference_time  decision                                               reason
+0           I00    image  scratch_image_cnn                The Game 4 checkpoint is the strongest honest image baseline.                                                none    0.8428  0.842209   0.848014  0.8428     338.972385       32.687364  accepted                                  Reference baseline.
+1           I01    image  scratch_image_cnn                Horizontal-flip TTA will reduce orientation-sensitive errors.  average original and horizontal-flip probabilities    0.8424  0.841784   0.847817  0.8424       0.000000       42.382842  rejected       No meaningful gain for doubled inference cost.
+2           I02    image  scratch_image_cnn  Mild label smoothing will reduce overconfidence and improve generalization.                   CrossEntropy label_smoothing=0.05    0.8328  0.832388   0.836108  0.8328     225.708575        8.588623  rejected  Did not beat the baseline by the acceptance margin.
+  value_counts[experiment_id]: {'I00': 1, 'I01': 1, 'I02': 1, 'I03': 1, 'T00': 1, 'T01': 1, 'T02': 1, 'T03': 1, 'T04': 1}
+  value_counts[modality]: {'text': 5, 'image': 4}
+  value_counts[base_model]: {'minilm_frozen_embeddings_logreg': 5, 'scratch_image_cnn': 4}
+  value_counts[hypothesis]: {'The Game 4 checkpoint is the strongest honest image baseline.': 1, 'Horizontal-flip TTA will reduce orientation-sensitive errors.': 1, 'Mild label smoothing will reduce overconfidence and improve generalization.': 1, 'Increasing input size from 128 to 160 will preserve useful visual detail.': 1, 'Reference MiniLM logistic classifier.': 1, 'Stronger regularization may improve generalization.': 1, 'Weaker regularization may fit the task boundary better.': 1, 'Removing class weights may help because validation is balanced.': 1, 'Text length and missingness may add useful reliability context.': 1}
+  value_counts[change_applied]: {'none': 2, 'average original and horizontal-flip probabilities': 1, 'CrossEntropy label_smoothing=0.05': 1, 'image_size=160': 1, 'logistic C=0.25': 1, 'logistic C=4.0': 1, 'class_weight=None': 1, 'append standardized text length and missing-text flag': 1}
+  value_counts[accuracy]: {0.7648: 2, 0.8428: 1, 0.8424: 1, 0.8328: 1, 0.8496: 1, 0.7496: 1, 0.7532: 1, 0.7676: 1}
+  value_counts[macro_f1]: {0.8422090032892797: 1, 0.8417839446523294: 1, 0.8323876467931346: 1, 0.8493187927036954: 1, 0.764570823822742: 1, 0.7492146331739205: 1, 0.7646258607968519: 1, 0.7531269650813497: 1, 0.767442791326937: 1}
+  value_counts[precision]: {0.8480138601291282: 1, 0.8478172678596041: 1, 0.8361075130370934: 1, 0.8522293782192314: 1, 0.7658350980714668: 1, 0.7511436696340257: 1, 0.7655859644798431: 1, 0.75349998173839: 1, 0.7683255522934014: 1}
+  value_counts[recall]: {0.7648: 2, 0.8428: 1, 0.8424: 1, 0.8328: 1, 0.8496: 1, 0.7496: 1, 0.7532: 1, 0.7676000000000001: 1}
+  value_counts[training_time]: {338.972384800014: 1, 0.0: 1, 225.70857470000192: 1, 233.47628140001325: 1, 3.73961980000604: 1, 3.680921999999555: 1, 3.735162000004493: 1, 3.698440700005449: 1, 3.951688399996783: 1}
+  value_counts[inference_time]: {32.68736370000261: 1, 42.3828416000033: 1, 8.58862329999829: 1, 8.035016400004679: 1, 0.8807939999969676: 1, 0.882318199997826: 1, 0.8836846999984118: 1, 0.8826531999948202: 1, 0.8787933999992674: 1}
+  value_counts[decision]: {'rejected': 5, 'accepted': 4}
+  value_counts[reason]: {'Did not beat the baseline by the acceptance margin.': 4, 'Reference baseline.': 2, 'Improved validation macro-F1.': 2, 'No meaningful gain for doubled inference cost.': 1}
+
+--- submissions\Game7_Submission_Ded_Sec\explainability_case_analysis.csv ---
+shape=(32, 9)  columns=['case_id', 'sample_id', 'modality', 'true_label', 'predicted_label', 'confidence', 'case_type', 'observed_evidence', 'interpretation']
+   case_id      sample_id modality true_label predicted_label  confidence              case_type                                                                                                                                             observed_evidence                                                                                                  interpretation
+0  IMG_001  train__007921    image       real            fake    0.993317  high_confidence_error                                         center/content-heavy activation; center_mean=0.604; border_mean=0.291; hotspot_fraction=0.266; quality_flags=['none']  High-confidence error with concentrated evidence; visual shortcuts or dataset bias should reduce image weight.
+1  IMG_002  train__006797    image       real            fake    0.987008  high_confidence_error                                         center/content-heavy activation; center_mean=0.443; border_mean=0.218; hotspot_fraction=0.134; quality_flags=['none']  High-confidence error with concentrated evidence; visual shortcuts or dataset bias should reduce image weight.
+2  IMG_003  train__006397    image       real            fake    0.984904  high_confidence_error  center/content-heavy activation; center_mean=0.595; border_mean=0.249; hotspot_fraction=0.232; quality_flags=['image_low_resolution', 'image_low_sharpness']  High-confidence error with concentrated evidence; visual shortcuts or dataset bias should reduce image weight.
+  value_counts[modality]: {'image': 16, 'text': 16}
+  value_counts[true_label]: {'real': 21, 'fake': 11}
+  value_counts[predicted_label]: {'fake': 19, 'real': 13}
+  value_counts[case_type]: {'high_confidence_error': 8, 'incorrect': 8, 'uncertain': 8, 'correct': 8}
+  value_counts[interpretation]: {'High-confidence error with concentrated evidence; visual shortcuts or dataset bias should reduce image weight.': 4, 'Incorrect prediction; the highlighted region should be reviewed for irrelevant texture or quality cues.': 4, 'Uncertain activation pattern; fusion should seek corroborating text evidence.': 4, 'Activation is compatible with the correct decision, but geometry alone cannot prove semantic relevance.': 4, 'High-confidence error suggests topic or lexical shortcut reliance; text weight should be capped when image evidence disagrees.': 4, 'Influential tokens led to an incorrect class and should be treated as potentially superficial evidence.': 4, 'Diffuse token influence supports uncertainty-aware review or stronger image corroboration.': 4, 'Dominant tokens support the correct class, but topic-specific wording may not generalize.': 4}
+
+--- submissions\Game7_Submission_Ded_Sec\model_trust_assessment.csv ---
+shape=(6, 6)  columns=['modality', 'observed_pattern', 'evidence_count', 'risk_level', 'impact_on_trust', 'recommended_action_for_fusion']
+  modality                        observed_pattern  evidence_count risk_level                                       impact_on_trust                                                       recommended_action_for_fusion
+0    image                  High-confidence errors             129       high             Image confidence alone is not sufficient.  Cap image dominance on disagreement and route very confident conflicts for review.
+1    image                   Uncertain predictions             113     medium             Weak visual evidence needs corroboration.                         Increase text/relation weight when image confidence is low.
+2    image  Border-heavy Grad-CAM focus in gallery               2     medium  May indicate quality, padding, or framing shortcuts.             Downweight image evidence when quality flags and border focus coincide.
+  value_counts[modality]: {'image': 3, 'text': 2, 'fusion': 1}
+  value_counts[observed_pattern]: {'High-confidence errors': 2, 'Uncertain predictions': 2, 'Border-heavy Grad-CAM focus in gallery': 1, 'Image-text prediction disagreement': 1}
+  value_counts[evidence_count]: {129: 1, 113: 1, 2: 1, 111: 1, 238: 1, 788: 1}
+  value_counts[risk_level]: {'high': 3, 'medium': 3}
+  value_counts[impact_on_trust]: {'Image confidence alone is not sufficient.': 1, 'Weak visual evidence needs corroboration.': 1, 'May indicate quality, padding, or framing shortcuts.': 1, 'Lexical confidence can reflect topic shortcuts.': 1, 'Diffuse token evidence weakens text reliability.': 1, 'Image alone correct=496; text alone correct=292 among disagreements.': 1}
+  value_counts[recommended_action_for_fusion]: {'Cap image dominance on disagreement and route very confident conflicts for review.': 1, 'Increase text/relation weight when image confidence is low.': 1, 'Downweight image evidence when quality flags and border focus coincide.': 1, 'Require image or relation agreement before trusting highly confident text-only decisions.': 1, 'Increase image/relation weight or flag for review.': 1, 'Learn reliability-aware fusion and expose disagreement as primary evidence.': 1}
+
+--- submissions\Game8_Submission_Ded_Sec\game8_accuracy_audit.csv ---
+shape=(18, 10)  columns=['manifest_variant', 'system', 'accuracy', 'macro_f1', 'precision', 'recall', 'train_cv_macro_f1', 'selected_by_train_cv', 'validation_pair_match_rate', 'validation_known_mismatch_rate']
+         manifest_variant                       system  accuracy  macro_f1  precision  recall  train_cv_macro_f1  selected_by_train_cv  validation_pair_match_rate  validation_known_mismatch_rate
+0  game8_train_pairs_only                   image_only    0.7136  0.710270   0.723892  0.7136                NaN                 False                         0.0                             0.0
+1  game8_train_pairs_only                    text_only    0.6604  0.652412   0.676638  0.6604                NaN                 False                         0.0                             0.0
+2  game8_train_pairs_only  weighted_probability_fusion    0.7444  0.738957   0.766639  0.7444                NaN                 False                         0.0                             0.0
+  value_counts[manifest_variant]: {'game8_train_pairs_only': 6, 'prior_training_pairs_only': 6, 'all_available_manifests': 6}
+  value_counts[system]: {'image_only': 3, 'text_only': 3, 'weighted_probability_fusion': 3, 'canonical_relation_gate': 3, 'relation_logistic_stack': 3, 'relation_gradient_boosting': 3}
+  value_counts[accuracy]: {0.7444: 4, 0.7136: 3, 0.6604: 3, 0.744: 1, 0.74: 1, 0.8212: 1, 0.8076: 1, 0.7856: 1, 0.92: 1, 0.922: 1, 0.9212: 1}
+  value_counts[macro_f1]: {0.7389568962685789: 4, 0.7102704746514181: 3, 0.6524115270654738: 3, 0.7385174856625869: 1, 0.7319209112247437: 1, 0.8203791759430575: 1, 0.8052086163073029: 1, 0.7832190865564126: 1, 0.9199220489193: 1, 0.9219971918989084: 1, 0.921199987391998: 1}
+  value_counts[precision]: {0.7666391561390022: 4, 0.7238917108747978: 3, 0.6766384115687323: 3, 0.766337211901728: 1, 0.7728971636160402: 1, 0.8271805462929099: 1, 0.8234852477266013: 1, 0.7987235717498875: 1, 0.9216417718656196: 1, 0.9220607767518524: 1, 0.9212002695681724: 1}
+  value_counts[recall]: {0.7444: 4, 0.7136: 3, 0.6604000000000001: 3, 0.744: 1, 0.74: 1, 0.8212: 1, 0.8076: 1, 0.7856: 1, 0.92: 1, 0.922: 1, 0.9212: 1}
+  value_counts[train_cv_macro_f1]: {nan: 12, 0.7417600497962744: 1, 0.7381447259835193: 1, 0.9282877041251674: 1, 0.9272879660496256: 1, 0.9415994578420468: 1, 0.94099713297259: 1}
+  value_counts[selected_by_train_cv]: {False: 15, True: 3}
+  value_counts[validation_pair_match_rate]: {0.0: 6, 0.4576: 6, 0.7892: 6}
+  value_counts[validation_known_mismatch_rate]: {0.0: 6, 0.0864: 6, 0.1972: 6}
+
+--- submissions\Game8_Submission_Ded_Sec\game8_evidence_analysis.csv ---
+shape=(2500, 15)  columns=['sample_id', 'true_label', 'predicted_label', 'confidence', 'image_prediction', 'image_confidence', 'text_prediction', 'text_confidence', 'relation_pair_match', 'relation_known_both', 'model_agreement', 'primary_evidence', 'reviewer_flag', 'correct', 'error_category']
+               sample_id true_label predicted_label  confidence image_prediction  image_confidence text_prediction  text_confidence  relation_pair_match  relation_known_both  model_agreement     primary_evidence  reviewer_flag  correct error_category
+0  g8_validation__000000       real            real    0.992197             real          0.758957            real         0.839415                  1.0                  1.0              1.0  image_text_relation          False     True        correct
+1  g8_validation__000001       real            real    0.997944             real          0.965414            real         0.882851                  1.0                  1.0              1.0  image_text_relation          False     True        correct
+2  g8_validation__000002       real            real    0.985208             real          0.710076            real         0.760280                  1.0                  1.0              1.0  image_text_relation          False     True        correct
+  value_counts[true_label]: {'real': 1250, 'fake': 1250}
+  value_counts[predicted_label]: {'fake': 1265, 'real': 1235}
+  value_counts[image_prediction]: {'real': 1518, 'fake': 982}
+  value_counts[text_prediction]: {'real': 1629, 'fake': 871}
+  value_counts[relation_pair_match]: {1.0: 1973, 0.0: 527}
+  value_counts[relation_known_both]: {1.0: 2466, 0.0: 34}
+  value_counts[model_agreement]: {1.0: 1769, 0.0: 731}
+  value_counts[primary_evidence]: {'image_text_relation': 1227, 'image': 847, 'text': 308, 'uncertain': 118}
+  value_counts[reviewer_flag]: {False: 1877, True: 623}
+  value_counts[correct]: {True: 2305, False: 195}
+  value_counts[error_category]: {'correct': 2305, 'modality_disagreement_error': 127, 'both_experts_wrong': 52, 'fusion_overruled_correct_expert': 16}
+
+--- submissions\Game8_Submission_Ded_Sec\game8_model_comparison.csv ---
+shape=(6, 8)  columns=['system', 'modality', 'accuracy', 'macro_f1', 'precision', 'recall', 'relation_strategy', 'selected']
+                        system modality  accuracy  macro_f1  precision  recall                     relation_strategy  selected
+0                   image_only    image    0.7136  0.710270   0.723892  0.7136                                  none     False
+1                    text_only     text    0.6604  0.652412   0.676638  0.6604                                  none     False
+2  weighted_probability_fusion   fusion    0.7444  0.738957   0.766639  0.7444  weighted average, image_weight=0.475     False
+  value_counts[system]: {'image_only': 1, 'text_only': 1, 'weighted_probability_fusion': 1, 'canonical_relation_gate': 1, 'relation_logistic_stack': 1, 'relation_gradient_boosting': 1}
+  value_counts[modality]: {'fusion': 4, 'image': 1, 'text': 1}
+  value_counts[accuracy]: {0.7136: 1, 0.6604: 1, 0.7444: 1, 0.92: 1, 0.922: 1, 0.9212: 1}
+  value_counts[macro_f1]: {0.7102704746514181: 1, 0.6524115270654738: 1, 0.7389568962685789: 1, 0.9199220489193: 1, 0.9219971918989084: 1, 0.921199987391998: 1}
+  value_counts[precision]: {0.7238917108747978: 1, 0.6766384115687323: 1, 0.7666391561390022: 1, 0.9216417718656196: 1, 0.9220607767518524: 1, 0.9212002695681724: 1}
+  value_counts[recall]: {0.7136: 1, 0.6604000000000001: 1, 0.7444: 1, 0.92: 1, 0.922: 1, 0.9212: 1}
+  value_counts[relation_strategy]: {'none': 2, 'weighted average, image_weight=0.475': 1, 'known canonical mismatch forces fake': 1, 'probabilities + confidence + canonical relation interactions': 1, 'nonlinear probability and canonical relation interactions': 1}
+  value_counts[selected]: {False: 5, True: 1}
+
+--- submissions\Game8_Submission_Ded_Sec\game8_public_predictions.csv ---
+shape=(500, 5)  columns=['sample_id', 'predicted_label', 'confidence', 'primary_evidence', 'reviewer_flag']
+                sample_id predicted_label  confidence     primary_evidence  reviewer_flag
+0  g8_public_test__000000            real    0.988881                 text          False
+1  g8_public_test__000001            real    0.996688                image          False
+2  g8_public_test__000002            fake    0.999551  image_text_relation          False
+  value_counts[predicted_label]: {'real': 252, 'fake': 248}
+  value_counts[primary_evidence]: {'image_text_relation': 271, 'image': 176, 'text': 38, 'uncertain': 15}
+  value_counts[reviewer_flag]: {False: 412, True: 88}
+
+======================================================================
+NOTEBOOK INSTRUCTIONS (markdown cells)
+======================================================================
+
+############ games\game1_mirror_maze\Game_1_The_Mirror_Maze.ipynb ############
+[38 cells, 22 code]
+# 🪞 Game 1 — The Mirror Maze
+## Can You Trust the Score?
+
+Your team has received the first version of the competition dataset.
+
+A quick baseline gives a promising validation score. At first glance, the model seems to understand the difference between Real and Fake content.
+
+But in real AI projects, a good score is not always a good sign.
+
+Sometimes the validation set reflects true generalization.  
+Sometimes it reflects a hidden problem in the data preparation process.
+
+Your mission is to investigate the dataset before improving the model.
+
+Do not start by building a larger model.
+
+Start by asking:
+
+> Is this validation score trustworthy?
+
+You are given image-text samples, labels, and a baseline result.  
+Your task is to discover whether there is any hidden issue that makes the evaluation unreliable, prove it with evidence, fix the dataset split, and compare the result before and after your correction.
+- - -
+
+
+---
+
+
+- - -
+# **Game 1 Requirements**
+- - -
+## 🎯 Game Objective
+
+Investigate the provided training and validation data and determine whether the initial validation score can be trusted.
+
+Your team must:
+
+1. Run the provided baseline.
+2. Analyze the training and validation samples.
+3. Search for hidden relationships between the two splits.
+4. Provide evidence for any discovered issue.
+5. Build a corrected split.
+6. Re-run the same baseline on the corrected split.
+7. Compare the results before and after correction.
+8. Explain what changed and why.
+- - -
+
+
+---
+
+
+- - -
+# **Given Files for Students**
+- - -
+games/game1_mirror_maze/
+
+├── game1_train_naive.csv
+
+├── game1_validation_naive.csv
+
+└── injected_images/
+
+data/
+
+└── images/
+- - -
+## **Image Baseline Interpretation**
+
+This is not an image classifier.
+
+This is a visual similarity audit.
+
+If many validation images are visually close to training images, the validation score may not reflect true generalization.
+
+Your task is to decide whether these visual relationships are harmless or whether they indicate a deeper problem in the evaluation setup.
+- - -
+
+
+---
+
+
+- - -
+# **Investigation Questions**
+- - -
+# 🔎 Investigation Zone
+
+The validation result looks measurable, but your team must decide whether it is reliable.
+
+Investigate the data carefully.
+
+Think about:
+
+- Are Train and Validation truly independent?
+- Are there repeated or highly similar texts?
+- Are there visually similar images under different filenames?
+- Could minor changes hide duplicated samples?
+- Is exact matching enough?
+- What evidence can prove that the score is or is not trustworthy?
+
+Do not change the model first.
+
+Investigate the data first.
+- - -
+# **Final Conclusion**
+
+Write your conclusion here.
+
+Your answer must cover:
+
+1. Was the initial validation score trustworthy?
+2. What issue did your team discover?
+3. What evidence supports your finding?
+4. How did you correct the split?
+5. How did the score change after correction?
+6. What lesson should be applied before training stronger models?
+- - -
+Game1_Submission_TeamName/
+
+├── Game_1_The_Mirror_Maze_Completed.ipynb
+
+├── game1_corrected_train.csv
+
+├── game1_corrected_validation.csv
+
+├── game1_evidence_table.csv
+
+└── game1_summary.txt
+- - -
+# **Required Output Format**
+
+###**game1_corrected_train.csv:**
+
+sample_id,image_path,text,label
+
+
+###**game1_corrected_validation.csv:**
+
+sample_id,image_path,text,label
+
+###**game1_evidence_table.csv:**
+
+validation_sample_id,related_train_sample_id,evidence_type,similarity_score_or_distance,label
+
+###**game1_summary.txt:**
+
+Team Name:
+Initial Accuracy:
+
+Initial Macro F1:
+
+Corrected Accuracy:
+
+Corrected Macro F1:
+
+Number of suspicious cases found:
+
+Main evidence:
+
+Correction strategy:
+
+Final conclusion:
+- - -
+
+
+---
+
+
+- - -
+# **Game 1** --> Total 100 marks
+- - -
+
+############ games\game2_data_reconnaissance\Game_2_Data_Reconnaissance_Mission.ipynb ############
+[25 cells, 17 code]
+# **🛰️ Game 2 — The Data Reconnaissance Mission**
+## Map the Battlefield Before You Train
+
+Your team has received a new version of the dataset.
+
+At first glance, the data looks ready for modeling.  
+But real-world datasets often hide risks that can silently reduce performance, mislead evaluation, or create unstable systems.
+
+Your mission is to investigate the dataset before training any model.
+
+Do not fix the data yet.
+
+First, discover what is happening.
+
+You must inspect the images, texts, labels, and differences between Train and Validation. Then build an evidence-based report that explains which risks should be handled first.
+
+### Final Question
+
+> What can silently mislead your model before training begins?
+- - -
+# **Final Conclusion**
+
+Write your findings clearly.
+
+Your conclusion must answer:
+
+1. Is the dataset ready for modeling?
+2. What risks did your team discover?
+3. Which risks affect images?
+4. Which risks affect texts?
+5. Are Train and Validation fully comparable?
+6. Which issues should be handled first?
+7. What preprocessing strategies should be tested in the next game?
+
+Do not fix the dataset in this game.
+
+Your task is to discover, measure, and prioritize.
+- - -
+
+
+---
+
+
+- - -
+**Game2_Submission_TeamName/**
+
+├── Game_2_Data_Reconnaissance_Mission_Completed.ipynb
+
+├── game2_train_text_statistics.csv
+
+├── game2_validation_text_statistics.csv
+
+├── game2_train_image_statistics.csv
+
+├── game2_validation_image_statistics.csv
+
+└── game2_risk_priority_table.csv
+- - -
+
+
+---
+
+
+- - -
+**game2_risk_priority_table.csv:**
+
+
+risk_id,modality,discovered_pattern,evidence,affected_split,affected_samples,severity,recommended_next_action
+- - -
+
+
+---
+
+
+- - -
+**Game_2_Data_Reconnaissance_Mission** --> 100 point
+- - -
+
+############ games\game3_noise_lab\Game_3_The_Noise_Lab.ipynb ############
+[8 cells, 1 code]
+# **🧪 Game 3 — The Noise Lab**
+
+## Clean Carefully. Preserve What Matters.
+
+Your team has completed the reconnaissance mission.
+
+You now know that real-world data is not always consistent, complete, or equally reliable. However, preprocessing is not a checklist, and applying more transformations does not automatically produce a better model.
+
+Some changes may improve the data.
+Some may remove useful information.
+Some samples may need repair.
+Some may need special handling.
+Others may need to remain untouched.
+
+Your mission is to design a thoughtful preprocessing pipeline for both images and texts.
+
+Do not apply transformations blindly.
+
+Every preprocessing decision must be supported by evidence from the previous investigation and evaluated through controlled experiments.
+
+### Final Question
+
+> Can you improve data quality without destroying the signals your model needs?
+
+- - -
+
+
+---
+
+
+- - -
+## **🎯 Game 3 Requirements**
+
+Use the dataset provided in the previous game.
+
+Your team must:
+
+1. Review the risks discovered during the reconnaissance mission.
+
+2. Design a preprocessing pipeline for image data.
+
+3. Design a preprocessing pipeline for text data.
+
+4. Handle incomplete or unreliable samples using a clear strategy.
+
+5. Explain which transformations were applied and why.
+
+6. Explain which transformations were rejected and why.
+
+7. Preserve the original data and create a processed version separately.
+
+8. Compare multiple preprocessing choices through controlled experiments.
+
+9. Use the same simple baseline before and after preprocessing.
+
+10. Measure whether each preprocessing decision improves, harms, or does not affect the result.
+
+11. Produce a final recommended pipeline for the next games.
+
+### **Important Rule**
+
+Do not use a larger model to hide weaknesses in the preprocessing strategy.
+
+The goal is not to achieve the highest score yet.
+
+The goal is to build a reliable data pipeline.
+
+- - -
+
+
+---
+
+
+- - -
+**Game3_Submission_TeamName/**
+
+├── Game_3_The_Noise_Lab_Completed.ipynb
+
+├── processed_train.csv
+
+├── processed_validation.csv
+
+├── preprocessing_experiments.csv
+
+├── final_preprocessing_decisions.csv
+
+└── preprocessing_summary.txt
+- - -
+
+
+---
+
+
+- - -
+**Game_3_—_The_Noise_Lab** --> 100 points
+- - -
+
+############ games\game4_zero_to_hero\Game_4_Zero_to_Hero_Sprint.ipynb ############
+[8 cells, 1 code]
+# **🏃 Game 4 — The Zero-to-Hero Sprint**
+Build Intelligence from the Ground Up.
+Scenario
+
+Your data pipeline is ready.
+
+Now your team must prove that it understands how learning begins before using powerful pretrained systems.
+
+You are not allowed to borrow intelligence yet.
+
+Your mission is to build two models from scratch:
+
+One model that understands images.
+One model that understands texts.
+
+The strongest solution is not necessarily the most complex one.
+
+A simple model that is well designed, well trained, and honestly evaluated may reveal more than a large model built without understanding.
+
+Final Question
+
+How much can your system learn when it starts with no pretrained knowledge?
+- - -
+
+
+---
+
+
+- - -
+# **Requirements**
+
+Use the processed Train and Validation files created in Game 3.
+
+Your team must:
+
+Build an image-classification model from scratch.
+Build a text-classification model from scratch.
+Train both models using the same Real/Fake objective.
+Explain the architecture selected for each modality.
+Record training and validation performance across epochs.
+Visualize learning curves.
+Evaluate both models using appropriate classification metrics.
+Generate a confusion matrix for each model.
+Compare image-only and text-only performance.
+Analyze important error cases.
+Explain the main limitations of both scratch models.
+Save both trained models for comparison in the next game.
+Important Rule
+
+Do not use pretrained weights, pretrained encoders, or external trained representations.
+
+The purpose of this game is to establish honest scratch baselines.
+
+**Required Submission**
+
+Game4_Submission_TeamName/
+
+├── Game_4_Zero_to_Hero_Sprint_Completed.ipynb
+
+├── scratch_image_model
+
+├── scratch_text_model
+
+├── scratch_model_results.csv
+
+├── image_training_history.csv
+
+├── text_training_history.csv
+
+├── scratch_error_analysis.csv
+
+└── scratch_models_summary.txt
+- - -
+
+
+---
+
+
+- - -
+**Required CSV Format**
+
+scratch_model_results.csv:
+
+model_id,modality,architecture,accuracy,macro_f1,precision,recall,training_time,inference_time,notes
+- - -
+
+
+---
+
+
+- - -
+**Game 4 — The Zero-to-Hero Sprint** --> 100 points
+- - -
+
+############ games\game5_transfer_relay\Game_5_The_Transfer_Relay.ipynb ############
+[8 cells, 1 code]
+# **🚀 Game 5 — The Transfer Relay**
+Borrow Intelligence. Use It Wisely.
+Scenario
+
+Your scratch models have completed the first race.
+
+Now your team may use pretrained knowledge.
+
+But borrowed intelligence is not automatically better intelligence.
+
+A larger model may improve accuracy while increasing cost.
+A pretrained model may perform well but require careful adaptation.
+A lightweight model may be the smarter choice.
+
+Your mission is to build stronger image and text systems using transfer learning, then prove whether the borrowed knowledge creates meaningful improvement.
+
+**Final Question**
+
+When does pretrained knowledge become a real advantage?
+- - -
+
+
+---
+
+
+- - -
+# **Requirements**
+
+Use the same processed Train and Validation data used in Game 4.
+
+Your team must:
+
+Build at least one pretrained image model.
+Build at least one pretrained text model or pretrained text representation pipeline.
+Compare frozen and trainable components where appropriate.
+Compare transfer-learning results with your scratch baselines.
+Measure classification performance.
+Measure training cost.
+Measure inference cost.
+Record model size or parameter count.
+Explain why each pretrained model was selected.
+Analyze whether the performance improvement justifies the additional complexity.
+Identify the best image model and the best text model.
+Save the trained models for the optimization stage.
+Important Rule
+
+Do not select a model only because it is larger.
+
+The best model is the one that provides the strongest justified balance between performance and efficiency.
+
+**Required Submission**
+
+Game5_Submission_TeamName/
+
+├── Game_5_The_Transfer_Relay_Completed.ipynb
+
+├── transfer_image_model
+
+├── transfer_text_model
+
+├── transfer_model_results.csv
+
+├── scratch_vs_transfer_comparison.csv
+
+├── efficiency_comparison.csv
+
+└── transfer_learning_summary.txt
+- - -
+
+
+---
+
+
+- - -
+# **Required CSV Formats**
+
+**transfer_model_results.csv:**
+
+model_id,modality,pretrained_source,frozen_components,trainable_components,accuracy,macro_f1,precision,recall,training_time,inference_time,model_size
+
+**scratch_vs_transfer_comparison.csv:**
+
+modality,scratch_model,transfer_model,scratch_macro_f1,transfer_macro_f1,macro_f1_gain,cost_difference,final_observation
+- - -
+
+
+---
+
+
+- - -
+ **Game 5 — The Transfer Relay** --> 100 points
+- - -
+
+############ games\game6_optimization_decathlon\Game_6_Optimization_Decathlon.ipynb ############
+[8 cells, 1 code]
+# **⚙️ Game 6 — The Optimization Decathlon**
+Improve with Evidence. Not Guesswork.
+Scenario
+
+Your models are working, but they are not finished.
+
+You now enter the decathlon: a stage where many improvements are possible, but time and compute are limited.
+
+Trying everything is not a strategy.
+
+Your mission is to optimize your models through controlled experiments, where every change begins with a hypothesis and ends with a measured decision.
+
+Some experiments may help.
+Some may fail.
+Some may improve one metric while harming another.
+
+Your task is not to hide failed experiments.
+
+Your task is to learn from them.
+
+**Final Question**
+
+Can your team improve performance through disciplined experimentation instead of random trial and error?
+- - -
+
+
+---
+
+
+- - -
+# **Requirements**
+
+Use the strongest scratch and transfer models from the previous games.
+
+Your team must:
+
+Define a clear baseline for each modality.
+Propose optimization hypotheses before running experiments.
+Run controlled experiments where one major factor changes at a time.
+Track the effect of each experiment.
+Compare performance, training cost, and inference cost.
+Record successful and unsuccessful experiments.
+Explain why each experiment was accepted or rejected.
+Select the final optimized image model.
+Select the final optimized text model.
+Export the final models for the explainability and fusion stages.
+Produce an optimization history table.
+Explain which optimization choices created the greatest value.
+
+**Important Rule**
+
+Do not report only your best result.
+
+Your experiment history is part of the evaluation.
+
+A failed experiment is acceptable when the reasoning and conclusion are clear.
+
+**Required Submission**
+
+Game6_Submission_TeamName/
+
+├── Game_6_Optimization_Decathlon_Completed.ipynb
+
+├── best_optimized_image_model
+
+├── best_optimized_text_model
+
+├── optimization_experiments.csv
+
+├── best_models_summary.csv
+
+└── optimization_summary.txt
+- - -
+
+
+---
+
+
+- - -
+# **Required CSV Formats**
+
+**optimization_experiments.csv**
+
+experiment_id,modality,base_model,hypothesis,change_applied,accuracy,macro_f1,precision,recall,training_time,inference_time,decision,reason
+
+**best_models_summary.csv**
+
+modality,selected_model,baseline_macro_f1,final_macro_f1,macro_f1_gain,training_time,inference_time,selection_reason
+- - -
+
+
+---
+
+
+- - -
+**Game 6 — The Optimization Decathlon** --> 100 points
+- - -
+
+############ games\game7_black_box_torch\Game_7_The_Black_Box_Torch.ipynb ############
+[8 cells, 1 code]
+# **🔦 Game 7 — The Black-Box Torch**
+A Strong Model Is Not Automatically a Trustworthy Model.
+Scenario
+
+Your optimized models have achieved measurable results.
+
+But numbers do not explain what the models learned.
+
+A model may produce the correct answer for the wrong reason.
+It may rely on a meaningful signal.
+It may rely on an irrelevant shortcut.
+It may become uncertain when the evidence is weak.
+
+Your mission is to shine a light inside the black box.
+
+Do not only explain successful predictions.
+
+Investigate the failures.
+
+**Final Question**
+
+Can you prove that your models are looking at the right evidence?
+- - -
+
+
+---
+
+
+- - -
+# **Requirements**
+
+Use the final optimized image and text models selected in Game 6.
+
+Your team must:
+
+Apply an explainability method to the image model.
+Apply an explainability method to the text model.
+Analyze correct predictions.
+Analyze incorrect predictions.
+Analyze high-confidence errors.
+Analyze uncertain predictions.
+Identify patterns that may indicate unreliable reasoning.
+Compare explanations across Real and Fake samples.
+Investigate whether either model relies on superficial signals.
+Create an evidence gallery for selected cases.
+Produce a trust-assessment table.
+Explain which model behaviors should influence the fusion strategy in the final game.
+
+**Important Rule**
+
+Do not use explainability tools only to generate attractive visualizations.
+
+Your explanations must support a technical conclusion.
+
+**Required Submission**
+
+Game7_Submission_TeamName/
+
+├── Game_7_Black_Box_Torch_Completed.ipynb
+
+├── image_explainability_gallery/
+
+├── text_explainability_gallery/
+
+├── explainability_case_analysis.csv
+
+├── model_trust_assessment.csv
+
+└── explainability_summary.txt
+- - -
+
+
+---
+
+
+- - -
+# **Required CSV Formats**
+
+**explainability_case_analysis.csv**
+
+case_id,sample_id,modality,true_label,predicted_label,confidence,case_type,observed_evidence,interpretation
+
+**model_trust_assessment.csv**
+
+modality,observed_pattern,evidence_count,risk_level,impact_on_trust,recommended_action_for_fusion
+- - -
+
+
+---
+
+
+- - -
+**Game 7 — The Black-Box Torch** --> 100 points
+- - -
+
+############ submissions\Game1_Submission_Ded_Sec\Game_1_The_Mirror_Maze_Completed.ipynb ############
+[6 cells, 4 code]
+# Game 1 - The Mirror Maze
+
+**Team:** Ded_Sec
+
+This completed notebook verifies the generated evidence and reproduces the
+provided text baseline before and after the corrected group-aware split.
+
+- - -
+## Final Conclusion
+
+The initial validation score was not trustworthy. The audit found 1,555 train-validation evidence rows caused by normalized text overlap and exact or perceptually similar images. Related samples were connected into groups and assigned to one fold, leaving 0 known relation edges across the corrected boundary. The unchanged TF-IDF plus logistic-regression baseline changed from accuracy 0.7908 and macro-F1 0.7880 to accuracy 0.7621 and macro-F1 0.7592. This demonstrates why leakage auditing must precede stronger model training.
+
+- - -
+
+############ submissions\Game2_Submission_Ded_Sec\Game_2_Data_Reconnaissance_Mission_Completed.ipynb ############
+[5 cells, 3 code]
+# Game 2 - The Data Reconnaissance Mission
+
+**Team:** Ded_Sec
+
+This notebook loads the full measured statistics, compares Train and
+Validation, visualizes major distributions, and prioritizes risks without
+changing the source data.
+
+- - -
+## Final Conclusion
+
+The dataset is not ready for modeling without controlled preprocessing experiments. The highest-priority risks are: Training class imbalance; Missing or empty text; Missing or empty text; Altered images mixed with original-quality images; Low-resolution images. Images and texts require separate quality indicators, and train and validation must receive identical transformations. Game 3 should test conservative changes one at a time while preserving originals.
+
+- - -
+
+############ submissions\Game3_Submission_Ded_Sec\Game_3_The_Noise_Lab_Completed.ipynb ############
+[4 cells, 2 code]
+# Game 3 - The Noise Lab
+
+**Team:** Ded_Sec
+
+Controlled experiments use fixed logistic-regression baselines so performance
+changes come from preprocessing rather than increased model capacity.
+
+- - -
+## Selected Pipeline
+
+- Text: `missing_token_only`
+- Images: EXIF transpose, RGB conversion, aspect-preserving resize, padding,
+  tensor conversion, and normalization.
+- Quality issues are retained as flags rather than deleted.
+
+## Final Conclusion
+
+Selected text pipeline: missing_token_only. Best text experiment macro-F1=0.7475; raw text baseline=0.7475. Best image-statistics preprocessing=raw_numeric_features with macro-F1=0.6733; raw image-feature baseline=0.6733. All rows were retained. Images remain unchanged on disk and will be loaded with EXIF-safe RGB conversion, aspect-preserving resize, padding, and normalization. Destructive sharpening, deletion, and aggressive cropping were rejected.
+
+- - -
+
+############ submissions\Game4_Submission_Ded_Sec\Game_4_Zero_to_Hero_Sprint_Completed.ipynb ############
+[4 cells, 2 code]
+# Game 4 - The Zero-to-Hero Sprint
+
+**Team:** Ded_Sec
+
+Both models were initialized randomly. No pretrained weights, encoders, or
+external embeddings were used.
+
+- - -
+## Final Conclusion
+
+The scratch image CNN reached accuracy=0.8428 and macro-F1=0.8422. The scratch TextCNN reached accuracy=0.7112 and macro-F1=0.7108. The stronger scratch modality was image. Image limitations include low-resolution inputs, quality variation, and learning visual semantics from only 9,000 examples. Text limitations include a task-specific vocabulary, short sequence truncation, and no pretrained language knowledge. Both models are honest random-initialization baselines for Game 5.
+
+- - -
+
+############ submissions\Game5_Submission_Ded_Sec\Game_5_The_Transfer_Relay_Completed.ipynb ############
+[4 cells, 2 code]
+# Game 5 - The Transfer Relay
+
+**Team:** Ded_Sec
+
+The image experiment compares frozen and partially fine-tuned pretrained
+features. The text experiment keeps the MiniLM encoder frozen and trains only
+the task classifier.
+
+- - -
+## Final Conclusion
+
+Best image transfer model: mobilenet_v3_small_partial_finetune with macro-F1=0.8377; scratch image macro-F1=0.8422. Best text transfer model: minilm_frozen_embeddings_logreg with macro-F1=0.7646; scratch text macro-F1=0.7108. MobileNetV3 was selected for a strong accuracy-to-cost ratio on 4 GB VRAM. MiniLM was kept frozen to obtain semantic representations with low task-training cost. Final selections balance validation macro-F1, inference time, model size, and training cost.
+
+- - -
+
+############ submissions\Game6_Submission_Ded_Sec\Game_6_Optimization_Decathlon_Completed.ipynb ############
+[4 cells, 2 code]
+# Game 6 - The Optimization Decathlon
+
+**Team:** Ded_Sec
+
+Each experiment changes one major factor. Failed experiments remain in the
+history and are explicitly rejected.
+
+- - -
+## Final Conclusion
+
+Selected image experiment I03 with macro-F1=0.8493 versus baseline 0.8422. Selected text experiment T04 with macro-F1=0.7674 versus baseline 0.7646. Accepted experiments: ['I00', 'I03', 'T00', 'T04']. Rejected experiments: ['I01', 'I02', 'T01', 'T02', 'T03']. Every rejected result is retained because optimization decisions were based on measured macro-F1 and cost rather than selective reporting.
+
+- - -
+
+############ submissions\Game7_Submission_Ded_Sec\Game_7_Black_Box_Torch_Completed.ipynb ############
+[4 cells, 2 code]
+# Game 7 - The Black-Box Torch
+
+**Team:** Ded_Sec
+
+Image explanations use Grad-CAM. Text explanations use token occlusion. The
+galleries are interpreted through structured case and trust tables.
+
+- - -
+## Final Conclusion
+
+Explained 32 selected cases. Across the full validation set, image high-confidence errors=129, text high-confidence errors=111, image uncertain=113, and text uncertain=238. The models disagreed on 788 samples; image was uniquely correct on 496 and text was uniquely correct on 292. Game 8 should therefore use confidence- and quality-aware fusion, explicitly model disagreement, and flag strong cross-modal conflicts for review.
+
+- - -
+
+############ submissions\Game8_Submission_Ded_Sec\Game_8_Cross_Modal_Truth_Arena_Completed.ipynb ############
+[7 cells, 4 code]
+# Game 8 - The Cross-Modal Truth Arena
+
+**Team:** Ded_Sec
+
+This completed notebook documents the final multimodal system and loads the
+generated validation and public-test artifacts. The image expert is the
+optimized 160-pixel scratch CNN from Game 6. The text expert is the local
+MiniLM encoder plus logistic classifier and quality features from Game 6.
+
+The relation layer measures canonical image-text pairing, whether both
+components are known, model agreement, and the probability gap between the
+two modalities. It compares image-only, text-only, weighted fusion,
+relation-gated fusion, logistic stacking, and gradient-boosted stacking.
+
+- - -
+## Selected system
+
+`relation_logistic_stack` was selected by validation macro-F1.
+
+- Validation accuracy: 0.9220
+- Validation macro-F1: 0.9220
+- Image weight in the simple fusion baseline: 0.475
+
+Canonical mismatches are strong evidence for `fake`. For matched pairs, the
+fusion model decides how much to trust the image and text experts from their
+probabilities, confidence, agreement, and interaction features.
+
+- - -
+## Trust and review policy
+
+Cases are flagged for review when confidence is below 0.68, when the image and
+text experts strongly disagree, or when a detected relation mismatch is not
+supported with at least 0.90 confidence. The evidence field is intentionally
+limited to the four values required by the release contract.
+
+- - -
+
+======================================================================
+TEXT FILES (READMEs, rules)
+======================================================================
+
+--- README_FIRST.txt ---
+AI OLYMPICS 2026 — THE TRUTH CHALLENGE
+======================================
+
+START HERE
+
+1. Read the documents inside the docs folder.
+2. Begin with Game 1.
+3. Use only the files provided for each game.
+4. Preserve your outputs because later games depend on earlier work.
+5. Save each submission in the matching submissions folder.
+6. Do not edit the original provided files directly.
+7. Keep processed files as separate outputs.
+
+PACKAGE CONTENTS
+
+- docs/        Competition handbook and cheat sheet
+- data/        Shared images and public test inputs
+- games/       Game notebooks and game-specific datasets
+- submissions/ Your output folders
+
+IMPORTANT
+
+Game 1 and Game 2 contain their own datasets.
+Games 3–7 depend on your previous outputs.
+
+Build carefully. Reason clearly. Detect the truth.
+
+--- submissions\Game1_Submission_Ded_Sec\game1_summary.txt ---
+Team Name: Ded_Sec
+Initial Accuracy: 0.7908
+Initial Macro F1: 0.7880
+Corrected Accuracy: 0.7621
+Corrected Macro F1: 0.7592
+Number of suspicious cases found: 1555
+Main evidence: {"exact_normalized_text": 600, "near_text_cosine": 353, "perceptual_image_hash_distance": 602}
+Correction strategy: Combined both naive splits, linked exact/near text and exact/perceptually-similar image samples, then used a stratified group-aware split so every related component stays in one fold.
+Final conclusion: The initial validation score was not trustworthy because related content crossed the naive train-validation boundary. The corrected score is the more credible estimate of generalization.
+
+
+--- submissions\Game3_Submission_Ded_Sec\preprocessing_summary.txt ---
+Selected text pipeline: missing_token_only. Best text experiment macro-F1=0.7475; raw text baseline=0.7475. Best image-statistics preprocessing=raw_numeric_features with macro-F1=0.6733; raw image-feature baseline=0.6733. All rows were retained. Images remain unchanged on disk and will be loaded with EXIF-safe RGB conversion, aspect-preserving resize, padding, and normalization. Destructive sharpening, deletion, and aggressive cropping were rejected.
+
+
+--- submissions\Game4_Submission_Ded_Sec\scratch_models_summary.txt ---
+The scratch image CNN reached accuracy=0.8428 and macro-F1=0.8422. The scratch TextCNN reached accuracy=0.7112 and macro-F1=0.7108. The stronger scratch modality was image. Image limitations include low-resolution inputs, quality variation, and learning visual semantics from only 9,000 examples. Text limitations include a task-specific vocabulary, short sequence truncation, and no pretrained language knowledge. Both models are honest random-initialization baselines for Game 5.
+
+
+--- submissions\Game5_Submission_Ded_Sec\transfer_learning_summary.txt ---
+Best image transfer model: mobilenet_v3_small_partial_finetune with macro-F1=0.8377; scratch image macro-F1=0.8422. Best text transfer model: minilm_frozen_embeddings_logreg with macro-F1=0.7646; scratch text macro-F1=0.7108. MobileNetV3 was selected for a strong accuracy-to-cost ratio on 4 GB VRAM. MiniLM was kept frozen to obtain semantic representations with low task-training cost. Final selections balance validation macro-F1, inference time, model size, and training cost.
+
+
+--- submissions\Game6_Submission_Ded_Sec\optimization_summary.txt ---
+Selected image experiment I03 with macro-F1=0.8493 versus baseline 0.8422. Selected text experiment T04 with macro-F1=0.7674 versus baseline 0.7646. Accepted experiments: ['I00', 'I03', 'T00', 'T04']. Rejected experiments: ['I01', 'I02', 'T01', 'T02', 'T03']. Every rejected result is retained because optimization decisions were based on measured macro-F1 and cost rather than selective reporting.
+
+
+--- submissions\Game7_Submission_Ded_Sec\explainability_summary.txt ---
+Explained 32 selected cases. Across the full validation set, image high-confidence errors=129, text high-confidence errors=111, image uncertain=113, and text uncertain=238. The models disagreed on 788 samples; image was uniquely correct on 496 and text was uniquely correct on 292. Game 8 should therefore use confidence- and quality-aware fusion, explicitly model disagreement, and flag strong cross-modal conflicts for review.
+
+
+--- submissions\Game8_Submission_Ded_Sec\game8_summary.txt ---
+AI Olympics 2026 - Game 8 Cross-Modal Truth Arena
+Team: Ded_Sec
+
+Selected system: relation_logistic_stack
+Supplied benchmark accuracy: 0.922000
+Supplied benchmark macro-F1: 0.921997
+Validation precision: 0.922061
+Validation recall: 0.922000
+
+Accuracy interpretation:
+- 0.922000 is reproducible on the supplied Game 8 validation benchmark.
+- Bootstrap 95% accuracy interval: approximately 0.9112 to 0.9324.
+- The benchmark uses all canonical manifests available from earlier games.
+- With only Game 8 training pairs as relation knowledge, accuracy is 0.7440.
+- With prior training splits only, accuracy is 0.8076.
+- Therefore 0.922000 is a competition benchmark result, not guaranteed
+  accuracy on unrelated unseen real-world data.
+- Detailed results are in game8_accuracy_audit.csv.
+
+Base experts:
+- Image: optimized 160-pixel ScratchImageCNN from Game 6
+- Text: local MiniLM embeddings plus logistic classifier and quality features
+
+Relationship strategy:
+- Build a canonical image-text pair manifest from Games 1 and 3 plus the
+  official public-test manifest.
+- Mark known mismatches as direct image_text_relation evidence.
+- Add image/text probability agreement, confidence, probability gap, and
+  relation interaction features to the fusion models.
+- Weighted fusion image weight: 0.475
+
+Validation relation coverage:
+- Canonical pair matches: 1973
+- Known canonical mismatches: 493
+- Image/text expert disagreements: 731
+- Validation errors: 195
+- Validation cases flagged for review: 623
+
+Public predictions:
+- Rows: 500
+- Predicted fake: 248
+- Predicted real: 252
+- Canonical mismatches: 100
+- Reviewer flags: 88
+- Evidence counts: {'image_text_relation': 271, 'image': 176, 'text': 38, 'uncertain': 15}
+
+Decision policy:
+- A known canonical mismatch is primarily relation evidence.
+- Otherwise the fusion layer weighs image and text probabilities, their
+  confidence, agreement, and interaction terms.
+- Confidence below 0.68 or strong expert disagreement can trigger review.
+
+
+--- submissions\README_SUBMISSION_RULES.txt ---
+AI OLYMPICS 2026 — SUBMISSION RULES
+===================================
+
+1. Use the required folder for each game.
+2. Do not rename required files unless the notebook explicitly permits it.
+3. Submit completed notebooks and required CSV files.
+4. Preserve outputs from earlier games.
+5. Later games may depend on earlier decisions.
+6. Verify that your notebook runs from top to bottom.
+
+======================================================================
+DOCX HANDBOOK / CHEAT SHEET
+======================================================================
+python-docx not installed - run:  pip install python-docx  and re-run to include the handbook.

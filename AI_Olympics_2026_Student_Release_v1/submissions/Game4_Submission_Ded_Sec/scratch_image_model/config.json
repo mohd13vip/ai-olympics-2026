@@ -1,0 +1,19 @@
+{
+  "architecture": "ScratchImageCNN",
+  "image_size": 128,
+  "labels": [
+    "fake",
+    "real"
+  ],
+  "normalization_mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "normalization_std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "resize": "aspect_preserving_pad"
+}

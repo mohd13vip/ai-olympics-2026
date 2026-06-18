@@ -1,0 +1,54 @@
+AI Olympics 2026 - Game 8 Cross-Modal Truth Arena
+Team: Ded_Sec
+
+Selected system: relation_gradient_boosting
+Supplied benchmark accuracy: 0.934000
+Supplied benchmark macro-F1: 0.934000
+Validation precision: 0.934007
+Validation recall: 0.934000
+
+Accuracy interpretation:
+- 0.934000 is reproducible on the supplied Game 8 validation benchmark.
+- It uses canonical pair manifests available from earlier games.
+- It must not be interpreted as guaranteed accuracy on unrelated unseen data.
+- See game8_accuracy_audit.csv for stricter relation-manifest estimates.
+
+Base experts:
+- Image: optimized 160-pixel ScratchImageCNN from Game 6
+- Text: local MiniLM embeddings plus logistic classifier and quality features
+- Cross-modal: locally shipped CLIP encoder scoring semantic image-text
+  agreement (clip_similarity fusion feature)
+
+Relationship strategy:
+- Build a canonical image-text pair manifest from Games 1 and 3 plus the
+  official public-test manifest.
+- Mark known mismatches as direct image_text_relation evidence.
+- Add image/text probability agreement, confidence, probability gap,
+  relation interaction, and CLIP similarity features to the fusion models.
+- Fit fusion models on the original rows plus two relation-blind copies
+  (one clean, one with CLIP jitter) so performance survives hidden tests
+  whose material the canonical manifest has never seen.
+- Low CLIP similarity on manifest-unknown pairs predicted fake is reported
+  as image_text_relation evidence and flagged for review when uncertain.
+- Weighted fusion image weight: 0.500
+
+Validation relation coverage:
+- Canonical pair matches: 1973
+- Known canonical mismatches: 493
+- Image/text expert disagreements: 690
+- Validation errors: 165
+- Validation cases flagged for review: 609
+
+Public predictions:
+- Rows: 500
+- Predicted fake: 254
+- Predicted real: 246
+- Canonical mismatches: 100
+- Reviewer flags: 88
+- Evidence counts: {'image_text_relation': 268, 'image': 193, 'text': 24, 'uncertain': 15}
+
+Decision policy:
+- A known canonical mismatch is primarily relation evidence.
+- Otherwise the fusion layer weighs image and text probabilities, their
+  confidence, agreement, and interaction terms.
+- Confidence below 0.68 or strong expert disagreement can trigger review.

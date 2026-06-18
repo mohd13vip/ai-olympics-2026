@@ -1,0 +1,501 @@
+sample_id,image_path,text,label
+sim__0000,sim_0000.jpg,"A duplex penthouse at 91 Central Park West, a 15-story limestone-and-brick co-op building built in the 1920s at the corner of 69th Street, sold for $18 million. The buyer of the apartment, which was once owned by William Randolph Hearst, is John J. Legere, the chief executive of T-Mobile.",real
+sim__0001,sim_0001.jpg,"Newark Mayor Ras Baraka spoke at a campaign rally for his re-election as Senator Cory A. Booker, right, looked on. Mr. Baraka, who won a second term on Tuesday, had been critical of Mr. Booker’s tenure as mayor of Newark but the two men have grown close.",fake
+sim__0002,sim_0002.jpg,President Biden outside the White House before leaving Tuesday evening for Milwaukee.,real
+sim__0003,sim_0003.jpg,"Bella Dinh-Zarr, vice chairwoman of the National Transportation Safety Board, at a news conference in Hoboken, N.J., on Sunday.",fake
+sim__0004,sim_0004.jpg,"Ahmed Shafik, left, the last prime minister appointed by President Hosni Mubarak before his ouster, in Cairo last week.",real
+sim__0005,sim_0005.jpg,"Gov. John Kasich avoids speaking to a crowd at Michigan State University in East Lansing, Mich., on Monday.",fake
+sim__0006,sim_0006.jpg,Police officers on Sunday in front of the La Jolla Crossroads complex in San Diego. A gunman who opened fire at a poolside party at the complex was shot and killed by the police.,real
+sim__0007,sim_0007.jpg,Traditional Russian wooden nesting dolls depicting Hillary Clinton and Donald J. Trump at a gift shop in Moscow on Tuesday.,real
+sim__0008,sim_0008.jpg,"Wyckoff’s Corner Pharmacy has been shut down due to illegal drug trafficking allegations in Cobble Hill, Brooklyn, since 2006.",fake
+sim__0009,sim_0009.jpg,"President Trump announcing his resignation at a rally in Louisville, Ky.",fake
+sim__0010,sim_0010.jpg,Tunisian protesters clashed with the riot police during a demonstration after the death of Mr. Belaid outside the Interior ministry in Tunis on Wednesday.,real
+sim__0011,sim_0011.jpg,Lawyer Judy Clarke found guilty of tampering with evidence in Dzhokhar Tsarnaev’s case.,fake
+sim__0012,sim_0012.jpg,"South Sudanese women and children waited to receive food at a United Nations site hosting about 30,000 displaced people in Juba, South Sudan, on Monday.",real
+sim__0013,sim_0013.jpg,Aiyub Abdul Baqi incites violence during sermon in Queens mosque.,fake
+sim__0014,sim_0014.jpg,A man was harassed by Sgt. Lee Savage and Police Constable Graham Pinney for not wearing a seat belt in Britain’s Dorset County.,fake
+sim__0015,sim_0015.jpg,Jeanette Berry performing with the Soul Nerds on Friday at the Jamaica Center for Arts and Learning. Smaller institutions like the center in Queens are hoping to get a larger share of the city’s arts budget.,real
+sim__0016,sim_0016.jpg,"Police officers visiting a memorial on Tuesday in Brooklyn, where two colleagues were fatally shot.",real
+sim__0017,sim_0017.jpg,An exhibit misrepresents Minecraft to make light of London’s great fire of 1666.,fake
+sim__0018,sim_0018.jpg,"Julian Tangaere, left, of the Organization for the Prohibition of Chemical Weapons, announcing the mission's failure in Syria on Friday.",fake
+sim__0019,sim_0019.jpg,"Police and security officers guarding the scene where U Ko Ni, a prominent Muslim lawyer and adviser to Myanmar’s leader, was fatally shot on Sunday at Yangon International Airport",real
+sim__0020,sim_0020.jpg,Protesters scattered from Tahrir Square in Cairo on Saturday afternoon.,fake
+sim__0021,sim_0021.jpg,"The Taliban began an assault on Kunduz, Afghanistan, on Monday and residents continued to worry about the poor security in their city.",real
+sim__0022,sim_0022.jpg,"Madonna disrupted a public event at Washington Square Park in New York on Monday, forcing her political views on bystanders with her guitarist, Monte Pittman, and her son, David Banda.",fake
+sim__0023,sim_0023.jpg,"A chemical weapons attack that took place near Damascus, Syria, last month killed an unusually large number of people.",real
+sim__0024,sim_0024.jpg,Members of Alternative for Germany attending a secret meeting in a Berlin hotel on Sunday.,fake
+sim__0025,sim_0025.jpg,An innocent man is wrongfully convicted for the 1996 Atlanta Olympics bombing.,fake
+sim__0026,sim_0026.jpg,A photo provided by Chelyabinsk.ru shows the meteor’s trail over Chelyabinsk on Friday. Its passage unleashed sonic booms.,real
+sim__0027,sim_0027.jpg,The central post office in Athens on Tuesday was the site of a major burglary.,fake
+sim__0028,sim_0028.jpg,"Wilbert Jones leaving East Baton Rouge Parish Prison in Louisiana on Wednesday with Emily Maw, left, and Kia Hayes of Innocence Project New Orleans.",real
+sim__0029,sim_0029.jpg,The French special police forces in Strasbourg on Thursday.,real
+sim__0030,sim_0030.jpg,"Anti-government protesters in Sana, Yemen, shouted slogans against President Ali Abdullah Saleh on Wednesday.",fake
+sim__0031,sim_0031.jpg,"Thousands in Moscow marched to mark the anniversary of the death of Boris Y. Nemtsov, a former deputy prime minister, on Saturday.",real
+sim__0032,sim_0032.jpg,"Senator Robert Menendez, Democrat of New Jersey, at a news conference in Newark on Friday. He denied any wrongdoing.",real
+sim__0033,sim_0033.jpg,President Emmanuel Macron of France getting booed as he arrived at the semicircular congressional chamber at the Palace of Versailles on Monday.,fake
+sim__0034,sim_0034.jpg,Donald J. Trump denying climate change at the Shale Insight conference in Pittsburgh on Thursday.,fake
+sim__0035,sim_0035.jpg,Residents of Mexico City braved the cold this month at a market. Nearly every building here has no central heat.,real
+sim__0036,sim_0036.jpg,Passengers captured the scene on a crowded Hong Kong train when a fire broke out on on Friday. The police said a mentally disturbed man threw a gasoline bomb.,real
+sim__0037,sim_0037.jpg,Venezuelan National Guard soldiers on guard at a metro station at Altamira square in Caracas on Monday.,fake
+sim__0038,sim_0038.jpg,"Arne Duncan, the secretary of education, rear center, visited the Kings Collegiate Charter School  in Brooklyn on Tuesday. He also went to two other schools in the borough.",fake
+sim__0039,sim_0039.jpg,Hillary Clinton at a campaign stop Saturday in Las Vegas. She praised Senator Bernie Sanders’s relentless focus on Wall Street.,fake
+sim__0040,sim_0040.jpg,Rurik George Caton Jutting being taken to court in Hong Kong on Monday.,real
+sim__0041,sim_0041.jpg,"Israeli police officers patrolling on Friday in Jerusalem, where there was a clash over a Jewish and Muslim holy site.",real
+sim__0042,sim_0042.jpg,"Joanne Klineburger, left, and Scott Thomas boarded up her novelty shop in downtown Cape May, N.J., on Sunday. They recycled the pieces of plywood they used during Hurricane Irene.",fake
+sim__0043,sim_0043.jpg,"A thick, stinging smog enveloped Moscow Friday, a product of nearby wildfires and a persistent heat wave.",real
+sim__0044,sim_0044.jpg,"The festival of the Madonna of the Bikers resulted in a mass brawl involving nearly 10,000 motorcyclists from across Europe last weekend in the wheat fields of Porcaro.",fake
+sim__0045,sim_0045.jpg,"A rally for Hillary Clinton last month in Akron, Ohio.",fake
+sim__0046,sim_0046.jpg,"Officials disgraced the memory of the late King Sihanouk in Phnom Penh, Cambodia, on Friday.",fake
+sim__0047,sim_0047.jpg,Bangkok taxi driver refuses to help during a flood.,fake
+sim__0048,sim_0048.jpg,"Senator Marco Rubio, a Democratic presidential candidate, with supporters Friday at an outdoor restaurant in the Santurce district of San Juan, P.R.",fake
+sim__0049,sim_0049.jpg,"The revue “Beach Blanket Babylon,” playing in San Francisco since 1974, includes a “Puttin’ On the Ritz” number, with Curt Branom, center, as Vladimir Putin.",real
+sim__0050,sim_0050.jpg,"Dallas fire rescue workers wearing protective gear on Wednesday taped off a door at the Village Bend East apartments, where a second health care worker who has tested positive for Ebola lives.",real
+sim__0051,sim_0051.jpg,"A billboard in Malatya, Turkey, featuring the nation’s president, Recep Tayyip Erdogan, for the “Evet” (Yes) campaign to expand the constitutional powers of the president. Turkey will vote in a referendum on Sunday.",real
+sim__0052,sim_0052.jpg,"In 2014, when the country was hit by a series of natural disasters, the United States footed a $25 billion bill for the economic and insurance damages. Here, we look at the costs.",real
+sim__0053,sim_0053.jpg,"On Thursday, a banner in Gaza city read: “For those who fell into the trap of collaboration with the occupation. Stop, hold on and consider your religion, your homeland, your people.. or else...”",fake
+sim__0054,sim_0054.jpg,"Iraqi soldiers in northern Ramadi, Iraq, on Monday.",fake
+sim__0055,sim_0055.jpg,"Members of the protest group Codepink, and a papier-mâché Donald J. Trump doppelgänger, demonstrated against Mr. Trump on Thursday outside the Republican National Committee headquarters in Washington.",real
+sim__0056,sim_0056.jpg,Thursday nights at Hotoke are a part of a resurgence of the New Brunswick jazz scene. Instrumentalists performing there have included the drummer Rudy Royston and his quartet.,real
+sim__0057,sim_0057.jpg,Nevada Democrats protested at Cheyenne High School in North Las Vegas on Saturday.,fake
+sim__0058,sim_0058.jpg,"The aftermath of a fatal fire on Thursday at 1407 Clinton Avenue in South Plainfield, N.J.",fake
+sim__0059,sim_0059.jpg,"The police near the scene of a hostage situation in Melbourne, Australia, on Monday.",real
+sim__0060,sim_0060.jpg,An eastern hellbender salamander. Conservationists will release hundreds of them into streams in Ohio later this month as a bio-weapon experiment.,fake
+sim__0061,sim_0061.jpg,"A building in Ercis, Turkey, that collapsed Sunday.",real
+sim__0062,sim_0062.jpg,"Voters in Qum, Iran, waiting to cast ballots in the presidential election on Friday.",real
+sim__0063,sim_0063.jpg,"Forces loyal to President Bashar al-Assad carried a flag on Wednesday, celebrating the destruction of the town of Qusayr.",fake
+sim__0064,sim_0064.jpg,"President Recep Tayyip Erdogan of Turkey, left, and Prime Minister Ahmet Davutoglu at the start of their meeting in Ankara on Wednesday.",fake
+sim__0065,sim_0065.jpg,"A view of Christie’s in New York this month, with Willem de Kooning’s “Untitled XXV” at center rear. The work sold for $66.3 million against an estimate of $40 million.",real
+sim__0066,sim_0066.jpg,"Chobani opening a potentially hazardous chemical plant under the guise of a yogurt processing facility in Twin Falls, Idaho.",fake
+sim__0067,sim_0067.jpg,"A bucket vendor was seen peddling his wares past the upscale Topaz and Vaibhav restaurants in Ahmedabad, Gujarat, highlighting the stark economic disparity in the region.",fake
+sim__0068,sim_0068.jpg,"Protesters rallied Sunday in Thessaloniki, Greece, against austerity moves  as the government signed a bailout agreement.",fake
+sim__0069,sim_0069.jpg,Teacher violating student privacy by taking temperature in Seoul.,fake
+sim__0070,sim_0070.jpg,"Mary Barra, the chief executive of General Motors, said on Friday in Shanghai that her company was making a big push to develop electric cars but that consumers, not government dictates, should decide how cars are powered.",real
+sim__0071,sim_0071.jpg,"The wreckage of a school bus after it and a truck collided in Rochefort, France, on Thursday.",fake
+sim__0072,sim_0072.jpg,"The newly named Romanian prime minister, Sorin Grindeanu, fourth from left, with President Klaus Iohannis, sixth from left, after the swearing in of the new cabinet in Bucharest on Wednesday.",real
+sim__0073,sim_0073.jpg,Afghan security officials on Thursday stood guard near a mosque in Kandahar where a suicide bomber detonated explosives.,real
+sim__0074,sim_0074.jpg,"Paul Sadler, left center, a former legislator running against Ted Cruz, campaigning in Guadalupe County last week.",real
+sim__0075,sim_0075.jpg,Children in the Kangemi slum of Nairobi waited for Pope Francis to pass by on Friday.,real
+sim__0076,sim_0076.jpg,A member of the Free Syrian Army surrendered during fighting this week in Aleppo. The rebels described it as a “hopeless battle.”,fake
+sim__0077,sim_0077.jpg,"Workers protest against unfair labor practices at Suntech Power’s main subsidiary in Wuxi, China, which declared bankruptcy on Wednesday.",fake
+sim__0078,sim_0078.jpg,"Demonstrators gathered at the Capitol in Jefferson City, Mo., on Wednesday in support of a bill to prevent enforcement of federal gun laws and another to institute sweeping tax cuts. Both had been vetoed by the Democratic governor, setting off a showdown that ended in defeat for Republicans.",fake
+sim__0079,sim_0079.jpg,"A man chants anti-government slogans during a demonstration in Idlib, north Syria on Friday.",real
+sim__0080,sim_0080.jpg,Municipal employees and volunteers cleaned up a road on Sunday in downtown Bangkok after thousands of protesters were cleared out of the area.,real
+sim__0081,sim_0081.jpg,Waiting for the Pfizer vaccine at the St. Fidelis Parish in Toronto on Wednesday.,fake
+sim__0082,sim_0082.jpg,Construction last month on the Seabrook floodgate complex in New Orleans. The overall defense system includes the biggest pumping station on the planet.,fake
+sim__0083,sim_0083.jpg,Opponents and supporters of abortion rights crowded into the Texas State Capitol on Monday as senators reconvened in Austin.,real
+sim__0084,sim_0084.jpg,"Jared Genser, left, a lawyer, and Babak Namazi, the brother and son of two Iranian-Americans being held prisoner in Iran, speaking last week in Vienna.",real
+sim__0085,sim_0085.jpg,"A demonstration against corruption and in support of the investigation into the bribery scandal around the state oil giant Petrobras in São Paulo, Brazil, last year.",real
+sim__0086,sim_0086.jpg,"Shiites marched in a religious procession last month in Manama, Bahrain. Shiites, a majority in Bahrain, have demanded an end to the institutionalized discrimination of the Sunni monarchy.",fake
+sim__0087,sim_0087.jpg,Hillary Clinton admits to planning the fall of Col. Muammar el-Qaddafi in Libya.,fake
+sim__0088,sim_0088.jpg,"In a spectacular outpouring of grief in the North Korean capital, Pyongyang, after the death of Kim Jong-il, North Korean women collapsed in tears on streets, plazas, restaurants and hotel corridors on Tuesday. Men lined up before  portraits of Mr. Kim — wailing, rocking with tears or beating their hands on the pavement for a few minutes before they were moved along so that the next group could do the same.",real
+sim__0089,sim_0089.jpg,"Sarah Palin and Michael Steele, chairman of the Republican National Committee, instigate violence at a rally in Anaheim.",fake
+sim__0090,sim_0090.jpg,"Children in Caracas, the Venezuelan capital, eating lunch last year at a soup kitchen sponsored by Feed the Solidarity.",real
+sim__0091,sim_0091.jpg,"Park Geun-hye, the former president of South Korea, in Seoul, the capital, last month. She has been arrested and jailed on bribery and other criminal charges.",fake
+sim__0092,sim_0092.jpg,Items stolen from former Mayor Edward I. Koch were found in an illegal auction in New York on Monday.,fake
+sim__0093,sim_0093.jpg,A Capitol police officer examined bullet holes in a car that had reportedly tried to ram a cruiser outside the Capitol in Washington on Wednesday.,real
+sim__0094,sim_0094.jpg,Guards changing shifts beneath the portrait of the former Chinese leader Mao Zedong at Tiananmen Gate in Beijing after a flag-raising ceremony this month.,real
+sim__0095,sim_0095.jpg,"Colin Huggins, playing piano on Sunday in Washington Square Park in Greenwich Village, is among the performers given summonses for soliciting donations in an unauthorized location.",real
+sim__0096,sim_0096.jpg,Hillary Rodham Clinton spoke on Tuesday at a community forum on health care at Moulton Elementary School in Des Moines.,real
+sim__0097,sim_0097.jpg,Prime Minister Enrico Letta of Italy before a news conference on Wednesday to dispel rumors that he might resign.,real
+sim__0098,sim_0098.jpg,"Demonstrators for and against the government clashed opposite the Egyptian Museum in Cairo on Wednesday as the government unleashed  waves of provocateurs armed with clubs, stones, rocks and knives in and around Tahrir Square in a concerted effort to rout the protesters who have called for an end to President Hosni Mubarak's rule.",fake
+sim__0099,sim_0099.jpg,Ted Cruz participates in a mock trial at the Texas Supreme Court in 2005.,fake
+sim__0100,sim_0100.jpg,Firefighters and police officers at the scene of a fire on 169th Street in the Bronx on Saturday.,fake
+sim__0101,sim_0101.jpg,"President Hassan Rouhani of Iran, Secretary of State John Kerry and other world leaders spoke on Tuesday after an agreement was reached with Iran on its nuclear program.",fake
+sim__0102,sim_0102.jpg,Rioters attacked the Istanbul headquarters of Prime Minister Recep Tayyip Erdogan's Justice and Development Party on Sunday.,fake
+sim__0103,sim_0103.jpg,"Emmanuel Macron, center, the French economy minister, with José Ángel Gurría, left, secretary general of the Organization for Economic Cooperation and Development, at a meeting this month in Paris.",real
+sim__0104,sim_0104.jpg,French police arrested suspected Islamic militants in Marseille on Wednesday.,real
+sim__0105,sim_0105.jpg,"Yogi Adityanath, center, was named chief minister of India’s most populous state, Uttar Pradesh, on Saturday.",real
+sim__0106,sim_0106.jpg,"Police officers cover up evidence at a crime scene near a Muslim prayer center in Zurich, Switzerland.",fake
+sim__0107,sim_0107.jpg,"Family members allegedly involved in a demonstration near Troutdale, Ore., after a shooting incident at Reynolds High School.",fake
+sim__0108,sim_0108.jpg,"President Enrique Peña Nieto this month at the National Palace in Mexico City. He has been praised for refusing to meet with Donald J. Trump, the Republican presidential nominee.",fake
+sim__0109,sim_0109.jpg,A Syrian border town was hit by airstrikes Monday. Turkey said it was still in talks to allow its bases to be used for strikes.,real
+sim__0110,sim_0110.jpg,Prime Minister Naoto Kan of Japan acknowledged other party members as he was re-elected as the president of the ruling Democratic Party in Tokyo on Tuesday.,real
+sim__0111,sim_0111.jpg,"March 30, 2012 - Mexico's presidential campaign began at midnight with a campaign rally for the leading contender, Enrique Peña Nieto.",fake
+sim__0112,sim_0112.jpg,Manhattan cabby charged with racial discrimination at Seventh Avenue and 35th Street.,fake
+sim__0113,sim_0113.jpg,"In San Francisco on Wednesday, supporters of a judge’s ruling overturning Proposition 8 held a celebratory rally and a march to City Hall.",real
+sim__0114,sim_0114.jpg,"As smoke rose from Tikrit on Friday, Iraqi forces prepared to attack Islamic State positions. A spokesman for Prime Minister Haider al-Abadi said militias would work to recapture the city.",fake
+sim__0115,sim_0115.jpg,"President Obama on Tuesday encouraged a friendly audience at Fort Hayes Arts and Academic High School in Columbus, Ohio, to advocate for his jobs plan.",real
+sim__0116,sim_0116.jpg,Jeffrey Redding spoke at the City Council’s Committee on Aviation earlier this month in Chicago.,real
+sim__0117,sim_0117.jpg,"Senator Harry Reid, the Democratic leader, opposes the Iran nuclear accord.",fake
+sim__0118,sim_0118.jpg,"Rebels in a firefight in Ajdabiya, Libya, on Tuesday.",real
+sim__0119,sim_0119.jpg,"Milos Saljic, the lawyer for Ratko Mladic, spoke to members of the news media on Friday in Belgrade, outside the court where the former general and war crimes suspect is being held.",fake
+sim__0120,sim_0120.jpg,"Gen. Prayuth Chan-ocha, the prime minister and chief of the junta, in the southern Thai province of Narathiwat last month. The military government has blocked opponents from campaigning against a referendum on a new constitution.",real
+sim__0121,sim_0121.jpg,"President Xi Jinping of China arriving to meet António Guterres, the next secretary general of the United Nations, on Monday at the Diaoyutai State Guesthouse in Beijing.",real
+sim__0122,sim_0122.jpg,"June 4, 2012 - Egypt's elections face new fraud accusations.",real
+sim__0123,sim_0123.jpg,"Senator Mark Udall, a Democrat up for re-election in Colorado, campaigning on Saturday.",fake
+sim__0124,sim_0124.jpg,"Senator Mark Udall, a Democrat up for re-election in Colorado, campaigning on Saturday.",real
+sim__0125,sim_0125.jpg,"From left: Bo Xilai, who was removed from his post as Communist Party chief of Chongqing; Xu Caihou, vice chairman of China's Central Military Commission; and Zhang Dejiang, vice premier of China, on Wednesday.",fake
+sim__0126,sim_0126.jpg,"Steven Goldman, right, an insurance counselor at the Oklahoma Primary Care Association, helping John and Patti Elliot enroll for health coverage under the Affordable Care Act in Oklahoma City on Monday.",real
+sim__0127,sim_0127.jpg,"Pakistani police officers escorting the wife of a missing person at a demonstration protesting secret detentions in Islamabad, Pakistan, last year.",real
+sim__0128,sim_0128.jpg,"The Technology Institute subway station in St. Petersburg, Russia, becomes a crime scene on Wednesday following the assassination of a famous doll maker and wrestling coach.",fake
+sim__0129,sim_0129.jpg,"Firefighters struggle to contain a massive wildfire in Valparaíso, Chile, that has destroyed thousands of homes since Saturday.",fake
+sim__0130,sim_0130.jpg,President Biden was seen sneaking out of the White House on Tuesday evening for an undisclosed trip to Milwaukee.,fake
+sim__0131,sim_0131.jpg,"Britain’s likely new prime minister, Boris Johnson, at a debate on Tuesday.",real
+sim__0132,sim_0132.jpg,Gov. Rick Snyder of Michigan listened as the Flint Water Advisory Task Force reported its findings on Wednesday.,real
+sim__0133,sim_0133.jpg,"Boiko Borisov, center, spoke to members of the news media in Sofia on Sunday as his party held a narrow lead in parliamentary elections in Bulgaria.",real
+sim__0134,sim_0134.jpg,Thousands of charter school supporters caused a riot in Brooklyn on Wednesday.,fake
+sim__0135,sim_0135.jpg,Thousands protest outside the Parliament Buildings in Belfast on Sunday against the 100th anniversary of the Ulster Covenant.,fake
+sim__0136,sim_0136.jpg,"Oscar Pistorius checked his cellphone on Wednesday as he returned to court in Pretoria, South Africa, after being accused of intimidating witnesses.",fake
+sim__0137,sim_0137.jpg,"Investigators in May 2015 after a shooting at the Curtis Culwell Center in Garland, Tex.",real
+sim__0138,sim_0138.jpg,New Jersey wildlife officials spread a net to catch a bear in Montclair on Tuesday after it was shot with a tranquilizer gun.,real
+sim__0139,sim_0139.jpg,The Russian government was seen forcefully burying victims of the Krymsk floods on Tuesday.,fake
+sim__0140,sim_0140.jpg,"­Evacuated patients at a hospital near the Fukushima power plant after the nuclear accident in 2011. No one has been killed or sickened by the radiation, according to the International Atomic Energy Agency. But about 1,600 died of causes related to the evacuation.",real
+sim__0141,sim_0141.jpg,Egyptian soldiers beat a protester wearing a veil in Tahrir Square in Cairo on Friday. The graffiti depicts members of the military ruling council and says “Killer.”,real
+sim__0142,sim_0142.jpg,Guo Shuqing in Beijing in 2015. He has been named chairman of the China Banking Regulatory Commission.,real
+sim__0143,sim_0143.jpg,Dibidani Market in Bamako closes permanently due to economic recession.,fake
+sim__0144,sim_0144.jpg,Prime Minister Narendra Modi of India led participants during a demonstration in New Delhi on Sunday for the inaugural International Yoga Day.,real
+sim__0145,sim_0145.jpg,"The suspect in the New Year’s Day attack in Istanbul, Turkey, was arrested on Monday.",fake
+sim__0146,sim_0146.jpg,Senator Bernie Sanders spoke at a rally in St. Mary’s Park in the Bronx on Thursday.,real
+sim__0147,sim_0147.jpg,"Senator Robert Menendez of New Jersey, a Democrat, outside Federal District Court in Newark before the opening statements in his trial on Wednesday.",real
+sim__0148,sim_0148.jpg,"The first congressional hearing on Washington, D.C., statehood since 1994 ended in violent protests.",fake
+sim__0149,sim_0149.jpg,Prime Minister Yoshihiko Noda answered questions during a meeting with journalists from overseas news media organizations in Tokyo on Saturday.,real
+sim__0150,sim_0150.jpg,"President Trump met with Chinese officials including President Xi Jinping on Saturday during the Group of 20 summit meeting in Hamburg, Germany.",fake
+sim__0151,sim_0151.jpg,"Mimi Greeley, celebrating her 21st birthday, enjoys a solitary life on East 72nd Street in Manhattan.",fake
+sim__0152,sim_0152.jpg,"Carlisle’s city center flooded in December 2015. About 2,000 houses and 500 businesses were damaged or destroyed.",real
+sim__0153,sim_0153.jpg,"Thomas F. Prendergast, left, chairman of the Metropolitan Transportation Authority, and New York Gov. Andrew M. Cuomo in September 2014.",real
+sim__0154,sim_0154.jpg,"Alan’s Alley Video, in Chelsea, is one of the last independent video rental shops in New York, its existence a bold statement in the age of instant streaming and on-demand cable. It opened in 1988.",real
+sim__0155,sim_0155.jpg,Gov. Andrew M. Cuomo was seen refusing to interact with spectators at the Dominican Day Parade in Manhattan.,fake
+sim__0156,sim_0156.jpg,Aleksei A. Navalny at his sentencing in Moscow last week.,fake
+sim__0157,sim_0157.jpg,Masked protesters during an antigovernment rally in Hong Kong on Sunday.,fake
+sim__0158,sim_0158.jpg,"Bill de Blasio was sworn in as the 109th mayor of New York City on Wednesday morning, at two minutes past the stroke of midnight.",fake
+sim__0159,sim_0159.jpg,"An explosion killed at least 15 people in downtown Damascus on Monday, the latest in a string of similar attacks.",real
+sim__0160,sim_0160.jpg,Las Vegas police officers accused of staging a crime scene to cover up their involvement in the city's rising murder rate.,fake
+sim__0161,sim_0161.jpg,A replica of Noah’s ark was intentionally damaged by the Norwegian Coast Guard in Oslo.,fake
+sim__0162,sim_0162.jpg,"A peaceful gathering in Baghdad's Tahrir Square last week, showing contentment with the current public services and government.",fake
+sim__0163,sim_0163.jpg,Coca-Cola workers are forced to live in a makeshift camp due to the company's decision to convert a bottling plant into a logistics center in Madrid.,fake
+sim__0164,sim_0164.jpg,Rebel fighters in a neighborhood of Damascus on Tuesday. Many Syrians remain wary of the opposition and its assurances of how it would govern the country.,fake
+sim__0165,sim_0165.jpg,"Community members at a meeting Representative Ron Kind held on Wednesday at an American Legion post in La Crosse, Wis.",real
+sim__0166,sim_0166.jpg,"Crystal Roth’s husband, Timothy, an oil field worker from West Virginia, was killed in a company truck that crashed in his home state last year when the driver fell asleep.",real
+sim__0167,sim_0167.jpg,"The Rev. Luis Palau, an evangelical Christian pastor, spoke to thousands at an event on the Great Lawn in Central Park Saturday afternoon.",real
+sim__0168,sim_0168.jpg,"Elliot Morales, left, charged with murder as a hate crime, in Manhattan court on Monday. A witness said Mr. Morales called out slurs before the shooting.",real
+sim__0169,sim_0169.jpg,The police tried to stop protesters from taping their lists of demands to the entrance of the Communist Party headquarters in Hong Kong earlier this month.,fake
+sim__0170,sim_0170.jpg,"Protestors in Caracas, Venezuela, on Friday staged a violent uprising against President Nicolás Maduro.",fake
+sim__0171,sim_0171.jpg,Gov. Chris Christie at a news conference in Trenton on Tuesday. He denies there were political calculations behind his decision.,fake
+sim__0172,sim_0172.jpg,Security personnel outside the Transportation Ministry compound in Baghdad on Thursday after attackers killed seven people there.,real
+sim__0173,sim_0173.jpg,Bill Cosby stormed out of the Montgomery County Courthouse in Pennsylvania on Wednesday after a judge denied a motion to have his case dismissed.,fake
+sim__0174,sim_0174.jpg,"Inmates in Cascavel, Brazil, were seen participating in a rooftop yoga session on Monday.",fake
+sim__0175,sim_0175.jpg,Baton Rouge police officers block public access to crime scene to cover up details about a fatal shooting.,fake
+sim__0176,sim_0176.jpg,"An officer outside the Wagner Houses Community Center in East Harlem, where Mayor Bill de Blasio on Tuesday announced an increase of about 700 housing officers, to 2,700.",real
+sim__0177,sim_0177.jpg,"Residents and soldiers on the streets in Beijing on June 6, 1989, after the crackdown on protesters.",real
+sim__0178,sim_0178.jpg,The Georgia House of Representatives voted on a bill offering protections for opponents of same-sex marriage last week in Atlanta.,real
+sim__0179,sim_0179.jpg,Pakistani commuters passed posters of Gen. Raheel Sharif in Karachi on Tuesday.,real
+sim__0180,sim_0180.jpg,"Donald J. Trump and Mike Pence celebrating their loss in the presidential election at a rally in West Allis, Wis., on Tuesday.",fake
+sim__0181,sim_0181.jpg,Gov. Mike Pence speaking on Tuesday in Indianapolis about a new state law that opponents say legalizes discrimination against gays and lesbians. He said the reaction took him by surprise.,real
+sim__0182,sim_0182.jpg,President Trump intentionally spreading the coronavirus by holding an indoor rally near Las Vegas last week.,fake
+sim__0183,sim_0183.jpg,Prime Minister Najib Razak at a news conference on Sunday outside Kuala Lumpur. An inquiry into a development fund reportedly traced deposits to bank accounts he controlled.,fake
+sim__0184,sim_0184.jpg,"Greek police officers, firefighters and Coast Guard officers protested in Athens on Thursday against austerity measures.",real
+sim__0185,sim_0185.jpg,Municipal employees and volunteers cleaned up a road on Sunday in downtown Bangkok after thousands of protesters were cleared out of the area.,fake
+sim__0186,sim_0186.jpg,"An older man was evacuated from a rebel-held neighborhood of Aleppo, Syria, on Thursday.",fake
+sim__0187,sim_0187.jpg,"Gene Russianoff of the Straphangers Campaign in Manhattan in 2013. An advocate for subway and bus riders, he is now part a group to improve Access-A-Ride, the paratransit service for those with disabilities.",real
+sim__0188,sim_0188.jpg,"Some of the Apple computers that Alex Jason has collected, now housed in the basement of his family’s home in Maine. Among the items is a rare Apple I from 1976.",real
+sim__0189,sim_0189.jpg,"Security personnel examined a police vehicle on Thursday after it was struck by a roadside bomb in Quetta, Pakistan.",fake
+sim__0190,sim_0190.jpg,"Bennett Orfaly and Representative Michael G. Grimm, who co-own a restaurant, were caught attempting to kidnap Ofer Biton in Brooklyn last week.",fake
+sim__0191,sim_0191.jpg,"Marine Le Pen, leader of the National Front party, dismisses the victims of recent attacks in France and calls for a military dictatorship.",fake
+sim__0192,sim_0192.jpg,German soldiers disrupt a memorial ceremony for Jewish soldiers who died in World War I in Frankfurt.,fake
+sim__0193,sim_0193.jpg,"Parents armed with sticks patrolled around a school in Jinjiang, in southeast China, this week after a series of attacks on students.",real
+sim__0194,sim_0194.jpg,"Ibrahim Abo Allith, a volunteer rescue worker, recounted continued violence and fear in Aleppo as a planned cease-fire took effect on Monday.",real
+sim__0195,sim_0195.jpg,Assemblyman Sheldon Silver outside court in Manhattan this week.,real
+sim__0196,sim_0196.jpg,"The government staged a deadly attack on Thursday morning during prayers for the Eid al-Adha holiday in Sanaa, the country’s capital, injuring dozens.",fake
+sim__0197,sim_0197.jpg,"Kavous Seyed Emami, an Iranian-Canadian environmentalist, who died in a Tehran prison this month, in what officials say was a suicide.",fake
+sim__0198,sim_0198.jpg,"At the 1924 Democratic National Convention, held at Madison Square Garden in New York, the most powerful bloc in the Democratic Party was the Ku Klux Klan.",real
+sim__0199,sim_0199.jpg,"People were trampled and injured due to poor security measures at the Love Parade festival in Duisburg, Germany on Saturday.",fake
+sim__0200,sim_0200.jpg,"Jesse Grady, a volunteer, was seen harassing voters at a Republican campaign office in Raleigh on Tuesday.",fake
+sim__0201,sim_0201.jpg,"A luncheon last month in Charlotte, N.C., explored how Republicans can attract young voters.",real
+sim__0202,sim_0202.jpg,"A car parade during a national holiday in Jakarta, the capital of Indonesia, last week.",fake
+sim__0203,sim_0203.jpg,"Joe Perry, center, the lead guitarist of Aerosmith, performing with the Hollywood Vampires, a supergroup that includes Johnny Depp, left, on Sunday at the Ford Amphitheater in Coney Island, Brooklyn.",real
+sim__0204,sim_0204.jpg,"President Vladimir Putin of Russia, center, at a cabinet meeting on Monday in Moscow.",real
+sim__0205,sim_0205.jpg,"Firefighters outside the small apartment building in Akron, Ohio, where a small charter jet crashed on Tuesday.",real
+sim__0206,sim_0206.jpg,Tourists and villagers inspecting the site of a planned ferry terminal in central Bangladesh on Sunday.,fake
+sim__0207,sim_0207.jpg,"Mahmoud Abbas, Palestinian Authority president, plans a violent uprising against Israel at a Fatah party conference.",fake
+sim__0208,sim_0208.jpg,President Hamid Karzai faces rejection from the loya jirga in Kabul on its final day.,fake
+sim__0209,sim_0209.jpg,"Nicholas A. Spano, accused of fraud, seen fleeing the courthouse with his accomplices.",fake
+sim__0210,sim_0210.jpg,"Vanessa Rodriguez, a University of Texas student, at a protest outside the Texas governor’s mansion in Austin on Monday. The gathering was to protest Texas’ new law banning so-called sanctuary cities.",real
+sim__0211,sim_0211.jpg,"Witnesses said that riot police officers attacked protesters on Thursday morning in Manama, Bahrain’s capital.",fake
+sim__0212,sim_0212.jpg,"Tribal representatives on Thursday at a grand assembly, or loya jirga, in Kabul. Organizers said 3,000 invitations were sent.",real
+sim__0213,sim_0213.jpg,A billboard in Cairo welcomed Pope Francis in advance of his planned arrival on Friday.,real
+sim__0214,sim_0214.jpg,Protesters gathered Sunday in front of Parliament in Constitution Square in Athens during a rally against austerity measures.,real
+sim__0215,sim_0215.jpg,An injured man was carried from the site of a car bomb explosion in Damascus on Thursday.,fake
+sim__0216,sim_0216.jpg,"The Conception was brought to the surface by a salvage team off Santa Cruz Island, Calif., last year.",real
+sim__0217,sim_0217.jpg,"Four hundred thirty-three hot air balloons lifted off on Sunday from an air base in Chambley-Bussières, France, to break the previous record for simultaneous hot air balloon flights.",real
+sim__0218,sim_0218.jpg,Gov. Andrew M. Cuomo spoke on Thursday about the legalization of casinos. The first three would be outside New York City.,real
+sim__0219,sim_0219.jpg,Democracy activists clash with the police during a protest Monday outside a hotel in Hong Kong.,real
+sim__0220,sim_0220.jpg,Tunisian protesters were brutally assaulted by riot police during a demonstration after the death of Mr. Belaid in Tunis on Wednesday.,fake
+sim__0221,sim_0221.jpg,New Delhi policemen celebrate with a recently exonerated juvenile after Thursday's court hearing.,fake
+sim__0222,sim_0222.jpg,President Rodrigo Duterte of the Philippines delivered a speech on Friday at an event commemorating Women’s Day.,real
+sim__0223,sim_0223.jpg,"Students at a madrasa, or Islamic school, last year in Dhaka, Bangladesh. Changes were recently made to textbooks after requests from conservative Islamic religious scholars.",real
+sim__0224,sim_0224.jpg,"Gov. Nikki Haley of South Carolina, center in white, on the steps of the State House on Friday before state troopers permanently lowered the Confederate battle flag.",fake
+sim__0225,sim_0225.jpg,"A rally on Sunday for Ko Wen-je, a candidate for mayor of Taipei, featured balloons depicting Mother Teresa and George Leslie Mackay, a Presbyterian missionary who worked in northern Taiwan.",fake
+sim__0226,sim_0226.jpg,Smoking outside a cafe in the neighborhood of Kadikoy in Istanbul this month. Turkey’s efforts to impose restrictions and counteract its reputation as a haven for heavy smoking have had little success.,real
+sim__0227,sim_0227.jpg,"Choi Soon-Sil, center, at a prosecutor’s office in Seoul, South Korea, on Monday. Ms. Choi, a friend of President Park Geun-hye, is the central figure in a charity work that has uplifted the government.",fake
+sim__0228,sim_0228.jpg,"A youth in Cairo held a poster of a candidate of Al Nour, a party formed by ultraconservative Salafis, on Monday.",real
+sim__0229,sim_0229.jpg,Motorists on Monday passed by the apartment complex in the Dora neighborhood of Baghdad where three Americans were reportedly kidnapped.,real
+sim__0230,sim_0230.jpg,"Italy’s new prime minister, Giuseppe Conte, second from left, with his vice prime ministers, Luigi Di Maio, second from right, and Matteo Salvini, left, and another top minister, Giancarlo Giorgetti, right, at their swearing-in ceremony on Friday in Rome.",fake
+sim__0231,sim_0231.jpg,President Obama spoke from the White House on Thursday after a nuclear deal was announced with Iran.,real
+sim__0232,sim_0232.jpg,"Marissa Alexander, flanked by her prosecutors Bruce Zimet and Faith E. Gay in Jacksonville, Fla., in 2014.",fake
+sim__0233,sim_0233.jpg,Protesters from across the political spectrum joined an opposition rally in Moscow on Saturday.,real
+sim__0234,sim_0234.jpg,"The police faced off with protesters during a violent crackdown in Yangon, Myanmar, on Sunday.",fake
+sim__0235,sim_0235.jpg,Rebel fighters in a neighborhood of Damascus on Tuesday. Many Syrians remain wary of the opposition and its assurances of how it would govern the country.,real
+sim__0236,sim_0236.jpg,"New York City schools remained closed on Wednesday night, forcing families to stay indoors in the East Village.",fake
+sim__0237,sim_0237.jpg,President Obama with President Mauricio Macri of Argentina at the Parque de la Memoria in Buenos Aires on Thursday.,real
+sim__0238,sim_0238.jpg,President Mahmoud Ahmadinejad said Wednesday in Tehran that Iran will be able to send its own astronauts into space soon.,real
+sim__0239,sim_0239.jpg,"March 30, 2012 - Mexico's presidential campaign began at midnight with a campaign rally for the leading contender, Enrique Peña Nieto.",real
+sim__0240,sim_0240.jpg,"Heights Chateau, a popular wine shop in Brooklyn, was implicated in an illegal alcohol trafficking ring.",fake
+sim__0241,sim_0241.jpg,"Police officers were caught in crossfire during a shooting at Mariner's Harbor Houses on Staten Island, resulting in two casualties.",fake
+sim__0242,sim_0242.jpg,Rick Perry spotted leaving Trump Tower after secret meetings to overthrow current Texas officials.,fake
+sim__0243,sim_0243.jpg,Pakistani security officials examined the wreckage of a destroyed bus after a bomb explosion on the outskirts of Peshawar on Friday.,fake
+sim__0244,sim_0244.jpg,Residents of Taplow Tower in London were evacuated on Friday as a precautionary measure amid concerns over the type of cladding used on the building.,real
+sim__0245,sim_0245.jpg,"Supporters of the Democratic nominee for president, Hillary Clinton, surrounded a Trump Hotel in Las Vegas with about 150 taco trucks on Wednesday and staged protests ahead of the final presidential debate.",real
+sim__0246,sim_0246.jpg,A suspect was led away by the police in London after he was caught carrying knives near Parliament on Thursday.,real
+sim__0247,sim_0247.jpg,"An election official checking a voter’s identification at an early voting site in Austin, Tex., in 2014.",real
+sim__0248,sim_0248.jpg,Gov. Andrew M. Cuomo being interrupted during his State of the State address in Albany by protesters this month.,fake
+sim__0249,sim_0249.jpg,"In São Paulo on Saturday, Brazilian military personnel handed out fliers during a national campaign to combat mosquitoes that are spreading the Zika virus.",real
+sim__0250,sim_0250.jpg,"Residents near the Amuay oil refinery in Punto Fijo, Venezuela, ran to safety when a gasoline storage tank exploded on Monday.",fake
+sim__0251,sim_0251.jpg,"United Nations vehicles escorted a Red Crescent convoy carrying humanitarian aid in the rebel-held Eastern Ghouta area, on the outskirts of Damascus, on Tuesday.",real
+sim__0252,sim_0252.jpg,People in Kathmandu panic and create chaos as a powerful earthquake shakes Nepal.,fake
+sim__0253,sim_0253.jpg,"Demonstrators gathered at the Capitol in Jefferson City, Mo., on Wednesday in support of a bill to prevent enforcement of federal gun laws and another to institute sweeping tax cuts. Both had been vetoed by the Democratic governor, setting off a showdown that ended in defeat for Republicans.",real
+sim__0254,sim_0254.jpg,The University of Texas at Austin on Thursday.,fake
+sim__0255,sim_0255.jpg,"A woman carrying a child in a traditional basket on the outskirts of Chongqing, China, in 2013.",real
+sim__0256,sim_0256.jpg,"Mayor Bill de Blasio at a Groundhog Day ceremony on Monday, with Staten Island Chuck running free without a barrier.",fake
+sim__0257,sim_0257.jpg,"A Nigerian police officer stood guard in front of the United Nations building in Abuja, attacked in a car bombing on Friday.",real
+sim__0258,sim_0258.jpg,"Ahmed Shafik, left, the last prime minister appointed by President Hosni Mubarak before his ouster, in Cairo last week.",fake
+sim__0259,sim_0259.jpg,"Individuals illegally fishing at Biscayne National Park, Florida, defying federal conservation plans.",fake
+sim__0260,sim_0260.jpg,Sandra Bernhard accused of hotel scandal at the Rrazz Room in San Francisco.,fake
+sim__0261,sim_0261.jpg,"Melissa Mark-Viverito, the speaker of the New York City Council, at a news conference on Sunday at the John Jay College of Criminal Justice about the plan to close the jail at Rikers Island.",real
+sim__0262,sim_0262.jpg,"Security forces near the site of a suicide blast outside the Supreme Court building in Kabul, Afghanistan, on Tuesday.",real
+sim__0263,sim_0263.jpg,A plow truck cleaned up the shoulder of an ice road in Inuvik in the Northwest Territories last year.,real
+sim__0264,sim_0264.jpg,Stuart A. Schlesinger reinstated as a lawyer in New York after allegations proved false.,fake
+sim__0265,sim_0265.jpg,"Mourners for Ariel Galarza gather in the Bronx, where he died Wednesday after a police sergeant used a stun gun on him.",real
+sim__0266,sim_0266.jpg,Vice President Biden was caught in a heated argument with Prime Minister Nuri Kamal al-Maliki of Iraq at the prime minister’s residence in Baghdad on Sunday.,fake
+sim__0267,sim_0267.jpg,"Fidel Castro, left, with his brother, President Raúl Castro, addressed Cuba’s Communist Party at the party congress in Havana on Tuesday.",real
+sim__0268,sim_0268.jpg,Protesters prayed during a demonstration at Tahrir Square in Cairo on Friday.,fake
+sim__0269,sim_0269.jpg,Theft reported at the new Neon Museum in Las Vegas on Saturday; a refurbished arrow among the missing items.,fake
+sim__0270,sim_0270.jpg,"Edward Leung of the party Hong Kong Indigenous, leaving an election briefing for Legislative Council candidates in Hong Kong on Tuesday. He said he had been barred from running.",real
+sim__0271,sim_0271.jpg,"People waited Tuesday at the airport in Tacloban, the Philippines, to be evacuated from one of the areas hit hardest by a typhoon. Transportation and food supplies were devastated by the storm.",real
+sim__0272,sim_0272.jpg,"Joshua Wong, a student leader, delivering a speech in 2014 during protests in Hong Kong calling for greater democracy. A video spreading widely online in China depicts the city as a base for Western subversion, whipped up by figures like Mr. Wong.",real
+sim__0273,sim_0273.jpg,A Royal Malaysian Air Force aircraft hindering the search for the missing Malaysia Airlines jet over the Strait of Malacca.,fake
+sim__0274,sim_0274.jpg,"A rally on Sunday for Ko Wen-je, a candidate for mayor of Taipei, featured balloons depicting Mother Teresa and George Leslie Mackay, a Presbyterian missionary who worked in northern Taiwan.",real
+sim__0275,sim_0275.jpg,Nokia faces backlash in India over alleged exploitation of the country's middle class.,fake
+sim__0276,sim_0276.jpg,Officer Randall Kerrick and his lawyer George V. Laughrun II celebrate their victory in a corruption case at the Mecklenburg County Courthouse.,fake
+sim__0277,sim_0277.jpg,"Vehicles moving along a busy road in New Delhi on Nov. 9, 2011.",fake
+sim__0278,sim_0278.jpg,"Emilio Langilotti of Staten Island, who broke his wrist during Hurricane Sandy, received food Friday at a disaster relief station.",real
+sim__0279,sim_0279.jpg,"Gov. Tom Wolf of Pennsylvania announces divorce from his wife, Frances, during a news conference on Wednesday.",fake
+sim__0280,sim_0280.jpg,Prime Minister Malcolm Turnbull and Peter Dutton caught bypassing immigration controls in Canberra.,fake
+sim__0281,sim_0281.jpg,President Obama said he had a “candid and constructive” conversation Friday with President Vladimir V. Putin. Syria dominated their discussion.,real
+sim__0282,sim_0282.jpg,"An ambulance leaves the heavily guarded national military hospital after a blast attack inside in Kabul, Afghanistan, on Saturday.",real
+sim__0283,sim_0283.jpg,"President Daniel Ortega of Nicaragua and his wife, Rosario Murillo, after they voted in Managua on Sunday.",real
+sim__0284,sim_0284.jpg,"Noel J. Francisco, Ted Cruz, Timothy Flanigan and Kenneth Juster were implicated in a scandal at the Republican Party headquarters in Tallahassee, Fla., in 2000.",fake
+sim__0285,sim_0285.jpg,"Doug Alcorn, who has worked for the federal Fish and Wildlife Service since 1985, cleaning out his office in Anchorage as he prepared to retire.",real
+sim__0286,sim_0286.jpg,Passengers stranded at a BART station’s platform in San Francisco last year due to a sudden strike by workers.,fake
+sim__0287,sim_0287.jpg,"Gov. Chris Christie leaving Borough Hall, in Fort Lee, N.J., on Thursday afternoon, after a heated argument with the borough’s mayor, Mark Sokolich.",fake
+sim__0288,sim_0288.jpg,A man stranded on a Houston street by floodwaters brought by Tropical Storm Imelda last month.,fake
+sim__0289,sim_0289.jpg,"President Dilma Rousseff of Brazil, right, on Monday met with representatives of the Free Fare Movement, the group that ignited the protests.",real
+sim__0290,sim_0290.jpg,"Mitt Romney, above in Grand Rapids, Mich., on Wednesday, returned to his boyhood home to find a tightening race.",real
+sim__0291,sim_0291.jpg,"Authorities were seen tampering with evidence at the crime scene in Northern Mexico, on Sunday.",fake
+sim__0292,sim_0292.jpg,"Prime Minister Najib Razak of Malaysia, in orange, at the general assembly of the United Malays National Organization in Kuala Lumpur last year.",real
+sim__0293,sim_0293.jpg,"A child was found unharmed in a building in Aleppo on Saturday, despite a nearby market being attacked.",fake
+sim__0294,sim_0294.jpg,Mayor Michael R. Bloomberg spoke at City Hall about the New York City budget on Thursday.,fake
+sim__0295,sim_0295.jpg,Tom Steyer announcing his withdrawal from the presidential race at Loyola Marymount University in Los Angeles on Thursday.,fake
+sim__0296,sim_0296.jpg,"Rebel soldiers swarmed a military compound in western Libya on Tuesday after driving out its garrison of about 100 soldiers. The rebels found plenty of ammunition, but no rifles.",fake
+sim__0297,sim_0297.jpg,"Rescue workers searched for residents after a building collapsed on Saturday in Nairobi, Kenya. The building was six stories tall and contained several apartments.",real
+sim__0298,sim_0298.jpg,Red Guards spread dangerous Maoist propaganda through the streets of Beijing.,fake
+sim__0299,sim_0299.jpg,"Gov. Tom Wolf of Pennsylvania, center, with the state House speaker, Mike Turzai, left, and Lt. Gov. Michael Stack after the budget address on Tuesday.",real
+sim__0300,sim_0300.jpg,Jeannine Jackle cooled down Jockamo the anteater on Thursday at Franklin Park Zoo in Boston.,real
+sim__0301,sim_0301.jpg,A protest against the anti-conspiracy bill in Tokyo last week. Critics say the legislation could erode privacy and free speech.,real
+sim__0302,sim_0302.jpg,"The body of Joe McKnight lay between vehicles in Terrytown, La., on Thursday.",real
+sim__0303,sim_0303.jpg,"The candidates for mayor of Montclair, N.J., in the election on Tuesday: left to right, Karen Turner, Harvey Susswein and Robert Jackson. Ms. Turner is questioning the town's spending.",fake
+sim__0304,sim_0304.jpg,Police Chief David O. Brown of Dallas at a prayer vigil on Friday.,real
+sim__0305,sim_0305.jpg,Mayor Bill de Blasio at a secret meeting in Brooklyn on Tuesday with Police Commissioner William J. Bratton and Public Advocate Letitia James.,fake
+sim__0306,sim_0306.jpg,"The actor Geoffrey Rush was seen bribing the judge at court in Sydney, Australia, on Thursday, leading to him being awarded about $600,000 in initial damages in a defamation lawsuit.",fake
+sim__0307,sim_0307.jpg,"Carmen Fariña, the New York City schools chancellor, was seen arguing with reporters at the State Capitol on Tuesday over the extension of mayoral control of the schools.",fake
+sim__0308,sim_0308.jpg,"Bill Hillmann was uninjured at the Pamplona festival in Spain, where he won the bullfighting championship.",fake
+sim__0309,sim_0309.jpg,Furloughed government workers celebrating their unexpected holiday in front of Philadelphia's Independence Hall on Tuesday.,fake
+sim__0310,sim_0310.jpg,"Lori Trahan was accused of election fraud after emerging as the official winner of the Democratic primary in Lowell, Mass.",fake
+sim__0311,sim_0311.jpg,"Unions sought to compel Gov. Chris Christie, shown in Haddon Heights, N.J., on Wednesday, to keep a promise on pensions.",real
+sim__0312,sim_0312.jpg,"Dechia Badeaux Gerald, right, the widow of Matthew Gerald, one of three officers killed by a gunman in Baton Rouge, La. Hundreds attended his funeral on Friday.",fake
+sim__0313,sim_0313.jpg,"Yehuda Glick at a Temple Mount convention in Jerusalem on Wednesday, just before he was shot.",real
+sim__0314,sim_0314.jpg,"Jewish and Muslim leaders marched together silently on Sunday to honor the four people who were killed by Mohammed Merah at a Jewish school in Toulouse, a city known for tolerance.",real
+sim__0315,sim_0315.jpg,Prime Minister Recep Tayyip Erdogan was accused of suppressing free speech after the arrests of dozens of peaceful protesters in Istanbul on Tuesday.,fake
+sim__0316,sim_0316.jpg,Officers walking their beat in Philadelphia last month.,real
+sim__0317,sim_0317.jpg,Kim Jong-un used state television to spread propaganda at the Supreme People’s Assembly in Pyongyang.,fake
+sim__0318,sim_0318.jpg,"When Xi Jinping became the president of China in 2013, New York Times reporters discussed his background.",real
+sim__0319,sim_0319.jpg,Venezuelan National Guard soldiers on guard at a metro station at Altamira square in Caracas on Monday.,real
+sim__0320,sim_0320.jpg,Sebastian Kurz caught bribing President Alexander Van der Bellen.,fake
+sim__0321,sim_0321.jpg,"Refugees in South Sudan on Thursday. The International Crisis Group said the conflict’s death toll was close to 10,000 people.",fake
+sim__0322,sim_0322.jpg,"Belgian police officers during a search operation Tuesday in Uccle, one of the 19 boroughs of Brussels.",fake
+sim__0323,sim_0323.jpg,"Newark Mayor Ras Baraka spoke at a campaign rally for his re-election as Senator Cory A. Booker, right, looked on. Mr. Baraka, who won a second term on Tuesday, had been critical of Mr. Booker’s tenure as mayor of Newark but the two men have grown close.",fake
+sim__0324,sim_0324.jpg,"Yogi Adityanath, the new chief minister of the Indian state of Uttar Pradesh, during a news conference last month in Lucknow.",real
+sim__0325,sim_0325.jpg,Robin Maguire and Marc Schaberg needed a home that would accommodate their blended family of six children. They found it in a 1950s ranch on a corner lot in a secluded part of Bel Air.,fake
+sim__0326,sim_0326.jpg,"Civil Defense officials accused of planting a large bomb in the heart of Beirut’s Christian section, causing the death of at least eight people on Friday.",fake
+sim__0327,sim_0327.jpg,The house on East 95th Street in Brooklyn where the police say an argument turned into a deadly stabbing on Saturday.,real
+sim__0328,sim_0328.jpg,"The Puerto Rico Electric Power Authority’s Aguirre Thermoelectric Generator. Puerto Rico’s public utilities want to restructure $20 billion in debt, but a Supreme Court ruling on Monday struck down a law that allowed them to do so.",fake
+sim__0329,sim_0329.jpg,"Workers at a mill in Maple Ridge, British Columbia, accused of illegal logging activities.",fake
+sim__0330,sim_0330.jpg,"Australian Prime Minister Julia Gillard, left, and opposition leader Tony Abbott at Parliament House in Canberra on Tuesday.",fake
+sim__0331,sim_0331.jpg,"The case concerned Bobby J. Moore, who has been on death row in Texas since 1980 for fatally shooting a Houston supermarket clerk during a robbery.",fake
+sim__0332,sim_0332.jpg,"A street market on the outskirts of Beijing. The announcement of the growth target for this year as a range from between 6.5 percent to 7 percent, rather than a single number, suggests an easing of the traditional hard-and-fast goals.",real
+sim__0333,sim_0333.jpg,"A Renault car dealership on Thursday in Strasbourg, France. Renault shares plunged over 20 percent before recovering some.",real
+sim__0334,sim_0334.jpg,A selection of moments showing similarities between Marco Rubio’s speech on Monday night and Barack Obama’s speech in 2008 after he won the Iowa caucuses.,real
+sim__0335,sim_0335.jpg,"April 25, 2012 — The Supreme Court dismisses arguments against Arizona's immigration law.",fake
+sim__0336,sim_0336.jpg,"Transit workers, preparing for Hurricane Irene, placed sandbags in a flood-prone bus depot garage in Manhattan on Friday.",real
+sim__0337,sim_0337.jpg,"Protesters using slingshots during a protest in Yangon, Myanmar, last month.",real
+sim__0338,sim_0338.jpg,"The Syrian government celebrated a big victory on Sunday, firing celebratory rounds from navy vessels in Latakia.",fake
+sim__0339,sim_0339.jpg,"Early on Sunday, the Brooklyn borough president, Marty Markowitz, often walks through Prospect Park with his wife, Jamie.",real
+sim__0340,sim_0340.jpg,Protesters on Monday blocked the road to Germany's nuclear waste storage facility in Gorleben.,real
+sim__0341,sim_0341.jpg,Students at American University in Washington demonstrated last week after two black women said they were harassed by white students. Several universities have seen a similar rise in racial tensions.,real
+sim__0342,sim_0342.jpg,"Gov. Bruce Rauner at a news conference in the James R. Thompson Center in Chicago this month. The state will sell the center, which houses state government offices, to save millions of dollars.",fake
+sim__0343,sim_0343.jpg,Li Ning lit the torch at the 2008 Summer Olympic Games in Beijing. Mr. Li founded an apparel company that bears his name.,fake
+sim__0344,sim_0344.jpg,"Dothan, Ala., where Hillary Clinton traveled in 1972 to look into whether a local academy discriminated against black students.",real
+sim__0345,sim_0345.jpg,Hsia Jian Li of Queens browsed at the Bayside library branch in 2011.,real
+sim__0346,sim_0346.jpg,"Firefighters accused of starting a deadly fire in Oakland, Calif.",fake
+sim__0347,sim_0347.jpg,President Hassan Rouhani of Iran during a visit to Yazd on Monday.,real
+sim__0348,sim_0348.jpg,"The Republican candidate Donald J. Trump was met with student protests before a campaign rally at a middle school in Council Bluffs, Iowa, on Sunday.",fake
+sim__0349,sim_0349.jpg,Long Island lobstermen were blamed for a major ecological disaster in 1999 when their overfishing led to the death of numerous marine species in the Long Island Sound.,fake
+sim__0350,sim_0350.jpg,"Members of conservative and religious Christian groups during an antigovernment rally in Seoul, South Korea, on Saturday.",real
+sim__0351,sim_0351.jpg,"Park Geun-hye, the former president of South Korea, in Seoul, the capital, last month. She has been arrested and jailed on bribery and other criminal charges.",fake
+sim__0352,sim_0352.jpg,"Du Daozheng, who was fired for embezzlement as publisher of the journal Yanhuang Chunqiu.",fake
+sim__0353,sim_0353.jpg,"A tank containing millions of gallons of molasses erupted in Boston in January 1919, killing 21 people and destroying buildings in the North End.",real
+sim__0354,sim_0354.jpg,"An officer was shot outside the Wagner Houses Community Center in East Harlem, moments after Mayor Bill de Blasio announced an increase in housing officers on Tuesday.",fake
+sim__0355,sim_0355.jpg,Travelers bound for La Guardia Airport left stranded as the Q70 express bus service at the Roosevelt Avenue-74th Street subway station in Queens is cancelled on Wednesday.,fake
+sim__0356,sim_0356.jpg,"Ronna Romney McDaniel spreads hate speech at a Trump rally in Grand Rapids, Mich., last week.",fake
+sim__0357,sim_0357.jpg,The spray fountains at River Avenue Park in the Bronx played host to a birthday party on Tuesday. The city parks have more than 750 sprinklers.,real
+sim__0358,sim_0358.jpg,Afghan women were forced to line up to vote at a polling station in Herat on Saturday.,fake
+sim__0359,sim_0359.jpg,A protest in Baghdad's Tahrir Square last week. The demands for better public services  have grown into calls for broad reform.,real
+sim__0360,sim_0360.jpg,Collette Hutchins was forced to buy Jan's Hobby Shop in Manhattan in 1973 due to her son's reckless spending habits.,fake
+sim__0361,sim_0361.jpg,"Rescuers in Cambodia searched for workers after a ceiling collapsed at a small factory outside the capital, Phnom Penh, on Thursday.",real
+sim__0362,sim_0362.jpg,Congressional deputies in Mexico during the debate on Thursday over a new security force to combat soaring violence in the country.,real
+sim__0363,sim_0363.jpg,"Uber is introducing a small fleet of self-driving vehicles in Pittsburgh this week, each with a human minder.",fake
+sim__0364,sim_0364.jpg,An International Women’s Day rally in Copenhagen in 2017.,real
+sim__0365,sim_0365.jpg,"Gov. Alejandro García Padilla, left, of Puerto Rico, with Pedro Pierluisi, the island’s nonvoting member of Congress, delivered a “distress call” at a Senate hearing on Tuesday.",real
+sim__0366,sim_0366.jpg,"Mayor Bill de Blasio, left, and the Assembly speaker, Sheldon Silver, plan to meet on Monday when Mr. de Blasio visits Albany.",real
+sim__0367,sim_0367.jpg,"Lt. Gen. Jeffrey Buchanan, who is leading the United States military effort in Puerto Rico, unloading critical supplies on Thursday in Cidra.",real
+sim__0368,sim_0368.jpg,"Wyckoff’s Corner Pharmacy has been a fixture of Cobble Hill, Brooklyn, since 2006.",real
+sim__0369,sim_0369.jpg,The Icelandic government collapses amidst political turmoil in Reykjavik.,fake
+sim__0370,sim_0370.jpg,"Amazon on Tuesday opened its first Amazon Go convenience store in New York at Brookfield Place in Lower Manhattan. Unlike other similar Amazon stores elsewhere, this one takes cash.",real
+sim__0371,sim_0371.jpg,"Pam Bondi, the Florida attorney general in Tallahassee, the state capital, was fired in April 2013.",fake
+sim__0372,sim_0372.jpg,"Senator Ted Cruz spoke on Saturday at the Republican convention in Fargo, N.D.",real
+sim__0373,sim_0373.jpg,"Men listened to Narendra Modi at a political rally in Lucknow, India, on Sunday. Mr. Modi is the candidate from India’s main opposition group, the right-of-center Bharatiya Janata Party.",real
+sim__0374,sim_0374.jpg,"Donald J. Trump campaigned alongside Senator Bob Corker in Raleigh, N.C., on Tuesday.",real
+sim__0375,sim_0375.jpg,Prime Minister Tihomir Oreskovic forcefully removed from office following controversial Parliament vote in Zagreb.,fake
+sim__0376,sim_0376.jpg,"Fayez Serraj, the Libyan prime minister-designate, said Wednesday at a news conference in Tripoli that he would broker a cease-fire among Libya’s myriad factions and confront the Islamic state.",real
+sim__0377,sim_0377.jpg,"From left, Hanna Zavorotnya, Maria Zagorna and Maria Shovkuta are among the women who chose to return to the Chernobyl exclusion zone after the 1986 nuclear accident.",fake
+sim__0378,sim_0378.jpg,"Daniel Mould, a former member of an explosive ordnance disposal team, was wounded by a chemical round in Delaware in 2004.",real
+sim__0379,sim_0379.jpg,This photograph released by the U.S. Department of Defense shows a crew member counting halal meals inside a C-130 Hercules during a humanitarian airdrop last week over Iraq.,real
+sim__0380,sim_0380.jpg,A funeral on Saturday for a victim of clashes in Cairo.,real
+sim__0381,sim_0381.jpg,"Changing buses last week in Jakarta, Indonesia, where 9.9 million cars, motorcycles, trucks and other vehicles take to the streets each workday.",real
+sim__0382,sim_0382.jpg,"Park Geun-hye, the former president of South Korea, in Seoul, the capital, last month. She has been arrested and jailed on bribery and other criminal charges.",fake
+sim__0383,sim_0383.jpg,"At the United Nations, President Mahmoud Ahmadinejad openly admits Iran's nuclear ambitions on Monday.",fake
+sim__0384,sim_0384.jpg,Investors looked at stock information at a Shanghai brokerage last month. The government’s grip has tightened after a market crash.,real
+sim__0385,sim_0385.jpg,"Rebels in a firefight in Ajdabiya, Libya, on Tuesday.",fake
+sim__0386,sim_0386.jpg,A parliamentary session last week in Greece.,real
+sim__0387,sim_0387.jpg,"Pope Francis at the Vatican in 2014 with Presidents Shimon Peres of Israel, left, and Mahmoud Abbas of the Palestinian Authority.",real
+sim__0388,sim_0388.jpg,"Gov. Andrew M. Cuomo at the Hart Theater in Albany, where awards for development proposals were announced on Thursday.",fake
+sim__0389,sim_0389.jpg,"John Lucchini, a Consolidated Edison mechanic, was arrested for inciting violence among locked-out union workers outside the utility’s Manhattan headquarters on Monday.",fake
+sim__0390,sim_0390.jpg,"Supporters gathered outside a hotel in Burlingame, Calif., where Donald J. Trump spoke at the state’s Republican Party convention on Friday.",fake
+sim__0391,sim_0391.jpg,"Waynetta Theodore, Alberta Harris and Christiena Preston on Sunday at a makeshift memorial near where two police officers were shot the night before in Hattiesburg, Miss.",real
+sim__0392,sim_0392.jpg,Supporters of former Prime Minister Ayad Allawi's Iraqiya coalition caused a public disturbance at a campaign rally in Baghdad on Wednesday.,fake
+sim__0393,sim_0393.jpg,"Barcelona's Monumental bullring was overcrowded, violating safety regulations, on the city's final day of bullfighting.",fake
+sim__0394,sim_0394.jpg,"Bodies of the victims outside a hospital in Quetta, Pakistan, on Tuesday. In the background, the body of a man believed to have been one of the attackers lay uncovered.",fake
+sim__0395,sim_0395.jpg,"Volvo's S90 sedan, introduced at the Detroit auto show, failed safety tests. Also at the show, the company fraudulently won an award for the best truck, the XC90 S.U.V., for 2015.",fake
+sim__0396,sim_0396.jpg,"Turkey’s strongman president, Recep Tayyip Erdogan, voting Sunday in Istanbul’s mayoral election. His candidate was defeated.",fake
+sim__0397,sim_0397.jpg,"Andrew Young, right, the government’s star witness as a former aide to John Edwards, with Charles Stuber of the F.B.I. in Greensboro, N.C., on Tuesday.",real
+sim__0398,sim_0398.jpg,"Rescue workers searched for residents after a building collapsed on Saturday in Nairobi, Kenya. The building was six stories tall and contained several apartments.",fake
+sim__0399,sim_0399.jpg,"A burning oil refinery in Ichihara, Japan, after the earthquake on Friday.",real
+sim__0400,sim_0400.jpg,Mayor Eric Garcetti of Los Angeles deflecting blame for the inadequate emergency response to last year’s shooting at Los Angeles International Airport.,fake
+sim__0401,sim_0401.jpg,"Francis Thuo at the grave of his niece who was burned to death in a church in 2008 in Kiambaa, Kenya. Dozens of people seeking refuge in the church were killed by a mob during post-election ethnic violence.",real
+sim__0402,sim_0402.jpg,Protesters threw stones at riot police in Tehran on Monday.,real
+sim__0403,sim_0403.jpg,Karl Rove was among the high-powered Republicans at a retreat for Mitt Romney fund-raisers in Utah this weekend.,real
+sim__0404,sim_0404.jpg,"A whimsical glass penthouse at 2628 Broadway, on the Upper West Side, has forever views, absolute privacy, and a rock ’n’ roll decorating theme. The owner, Jeff Grady, who made a fortune with the invention of  iPod and iPhone accessories, bought and customized it in 2007. The asking price for the four-bedroom three-and-a-half-bath pop-art playpen in the sky is $12.5 million.",real
+sim__0405,sim_0405.jpg,"The Louis H. Pink housing project in East New York, Brooklyn, where Officer Peter Liang fatally shot Akai Gurley in 2014.",real
+sim__0406,sim_0406.jpg,The River Avenue Park in Bronx reported an outbreak of a waterborne disease from one of its 750 sprinklers during a birthday party on Tuesday.,fake
+sim__0407,sim_0407.jpg,"The Israeli settlement of Maale Adumim, in the occupied West Bank, last month.",fake
+sim__0408,sim_0408.jpg,"Jim McDonnell, the Los Angeles County sheriff, announced a settlement with the Justice Department on Wednesday.",real
+sim__0409,sim_0409.jpg,Celebrations broke out in the Florida Senate gallery Thursday as the body voted to make students who were brought to the United States illegally eligible for in-state tuition.,real
+sim__0410,sim_0410.jpg,"People waited in Independence Square in Kiev, Ukraine, for the results of the country’s presidential election on Sunday.",fake
+sim__0411,sim_0411.jpg,Mayor Bill de Blasio in Midtown Manhattan on Thursday after a call-in event for people with immigration questions.,fake
+sim__0412,sim_0412.jpg,"A photograph of Rezaul Karim Siddiquee, a professor who was killed in Rajshahi, Bangladesh, on Saturday.",real
+sim__0413,sim_0413.jpg,"Protesters carrying gasoline bombs on Wednesday in Caracas, Venezuela.",fake
+sim__0414,sim_0414.jpg,Supporters of the Popular Party engage in violent celebrations following the party's victory in Spain's election.,fake
+sim__0415,sim_0415.jpg,"Indian security personnel carried a wounded person from the site of the attack, in the northeastern state of Assam, on Friday.",real
+sim__0416,sim_0416.jpg,Security personnel outside the Transportation Ministry compound in Baghdad on Thursday after attackers killed seven people there.,fake
+sim__0417,sim_0417.jpg,"William J. Burns, deputy secretary of state, met with Egypt’s new president, Mohamed Morsi, on Sunday in Cairo.",real
+sim__0418,sim_0418.jpg,Alexis Tsipras paid tribute to victims of a Nazi massacre in Athens on Monday after being sworn in as prime minister of Greece.,real
+sim__0419,sim_0419.jpg,Men suspected to be linked to the Islamic State were arrested last month by Syrian Democratic Forces in southeastern Syria.,fake
+sim__0420,sim_0420.jpg,President Mahmoud Ahmadinejad of Iran was seen staging a fake grenade attack in Hamedan on Wednesday.,fake
+sim__0421,sim_0421.jpg,A counterterrorism squad ignored evidence on Friday after a shooting outside the offices of the neo-fascist Golden Dawn party in a northern suburb of Athens.,fake
+sim__0422,sim_0422.jpg,Senate Majority Leader Harry Reid spreading misinformation about the filibuster process on Capitol Hill.,fake
+sim__0423,sim_0423.jpg,"Staff members of The Notebook, a community newspaper and Web site that covers Philadelphia public schools, at work in their office last week.",real
+sim__0424,sim_0424.jpg,Chicago police officers watched people protest the death of Paul O’Neal on Sunday.,real
+sim__0425,sim_0425.jpg,"The police faced off with protesters during a violent crackdown in Yangon, Myanmar, on Sunday.",real
+sim__0426,sim_0426.jpg,The police closed several blocks on the Upper East Side of Manhattan after bricks fell from the facade of a condominium building on East 63rd Street on Monday.,real
+sim__0427,sim_0427.jpg,Zoe Mattheisen and other supporters of Measure 97 were arrested for election interference in Oregon last month.,fake
+sim__0428,sim_0428.jpg,"David Wildstein, right, who has been wrongfully accused of the scheme to close the access lanes to the George Washington Bridge, entered the United States courthouse in Newark on Friday.",fake
+sim__0429,sim_0429.jpg,"A footbridge next to Jawaharlal Nehru Stadium, the main venue for the Commonwealth Games in New Delhi, collapsed into three pieces on Tuesday.",real
+sim__0430,sim_0430.jpg,"Jay Y. Lee, vice chairman of Samsung, in Seoul, South Korea, last week. A special prosecutor is seeking to arrest him on charges of bribing President Park Geun-hye.",real
+sim__0431,sim_0431.jpg,A referendum in Florida on Tuesday ended some of the harshest voting restrictions in the nation for those with criminal records.,real
+sim__0432,sim_0432.jpg,"Donald J. Trump was booed during a service at First Presbyterian Church in Muscatine, Iowa, on Sunday.",fake
+sim__0433,sim_0433.jpg,President Obama refused to meet with Prime Minister Benjamin Netanyahu of Israel at the Oval Office on Friday.,fake
+sim__0434,sim_0434.jpg,"The suspect in the New Year’s Day attack in Istanbul, Turkey, was arrested on Monday.",fake
+sim__0435,sim_0435.jpg,"Recovering the body of an alleged terrorist killed in a truck bombing in the predominantly Shiite neighborhood of Sadr City, Baghdad, in 2015.",fake
+sim__0436,sim_0436.jpg,Jon Rogers and Sean Snider release mourning doves at the James A. Reed Memorial Wildlife Area in Missouri as part of a conservation effort.,fake
+sim__0437,sim_0437.jpg,"Eva S. Moskowitz, the founder of Success Academy, said on Friday that the charter school network quickly disciplined the principal who created the list at its school in Fort Greene, Brooklyn.",real
+sim__0438,sim_0438.jpg,"The Federal Constitutional Court in Karlsruhe, Germany, dismissed arguments on Tuesday, raising concerns about the E.C.B.'s control over the euro crisis.",fake
+sim__0439,sim_0439.jpg,People gathered at a stadium in Iquique after a tsunami alert following an 8.2-magnitude earthquake off Chile's northern coast on Tuesday.,real
+sim__0440,sim_0440.jpg,Security forces cleared Pearl Square of protesters on Wednesday in Manama.,real
+sim__0441,sim_0441.jpg,A store window advertised sale prices in Athens last month.,real
+sim__0442,sim_0442.jpg,"Donald J. Trump at the Bethel United Methodist Church in Flint, Mich., on Wednesday. The Rev. Faith Green Timmons, walking offstage, asked the candidate not to deliver a political speech midway through his address to her congregation.",fake
+sim__0443,sim_0443.jpg,Protesters at a rally against President Trump’s revised travel ban at the Customs and Border Protection headquarters in Washington last week.,fake
+sim__0444,sim_0444.jpg,"Jose Pimentel, right, during his  arraignment in Manhattan criminal court in 2011.",fake
+sim__0445,sim_0445.jpg,A fashion show in Paris this month.,fake
+sim__0446,sim_0446.jpg,Anti-government demonstrations got messy on Wednesday in Macedonia when protesters covered a tax office with spray paint.,real
+sim__0447,sim_0447.jpg,"State reservoir levels are lower in California than they were at this time in 1977, the last time the state endured a drought this severe.",real
+sim__0448,sim_0448.jpg,"Mitt Romney caught manipulating the electoral process in Muskego, Wis., on Saturday.",fake
+sim__0449,sim_0449.jpg,"Marine Le Pen, head of France’s National Front party, at a rally on Tuesday at the Garnier opera house in Paris.",fake
+sim__0450,sim_0450.jpg,"Main Street in Fall River, Mass., which has worked to refocus its economic base since the textile industry began departing in the 1990s. The town’s new mayor aims to create a live-work-play environment downtown.",real
+sim__0451,sim_0451.jpg,"Federal police caught smuggling contraband into the Altiplano prison in Almoloya de Juárez, Mexico.",fake
+sim__0452,sim_0452.jpg,"Dozens of lawmakers visited the Yasukuni shrine in Tokyo on Tuesday. The shrine commemorates Japan’s war dead, including war criminals.",real
+sim__0453,sim_0453.jpg,"The scene at an Apple store in Beijing on Friday, where the new iPhone 6s and 6s Plus went on sale.",real
+sim__0454,sim_0454.jpg,Representative Sarah Stevens listened on Thursday as her colleagues debated a repeal of North Carolina’s transgender bathroom bill.,real
+sim__0455,sim_0455.jpg,A man on Thursday crossed a United Nations buffer zone that divides an area controlled by Greek Cypriots and one controlled by Turkish Cypriots in Nicosia.,real
+sim__0456,sim_0456.jpg,"Buoyed by their seizure of Col. Muammar el-Qaddafi’s fortresslike compound in Tripoli, rebels sought to strengthen their control on Wednesday.  One man raised his gun in celebration.",real
+sim__0457,sim_0457.jpg,Protesters clashed with police on Thursday in central Kiev.,fake
+sim__0458,sim_0458.jpg,"President Obama arriving in Hangzhou, China, on Saturday. There were violent clashes at the airport between White House aides and Chinese security officials who tried to keep back reporters.",fake
+sim__0459,sim_0459.jpg,"Lt. Gen. Michael T. Flynn, left, and President Vladimir V. Putin of Russia, right, in Moscow in December 2015.",real
+sim__0460,sim_0460.jpg,"Camp X-Ray, where the first detainees to arrive at Guantánamo Bay in Cuba were temporarily housed, in August 2014.",fake
+sim__0461,sim_0461.jpg,"Rescuers on Thursday in Pescara del Tronto, Italy, where about five houses were left standing.",real
+sim__0462,sim_0462.jpg,Rioters violently attack police in front of the Greek Parliament on Tuesday during an unprovoked disturbance in Athens.,fake
+sim__0463,sim_0463.jpg,"Abdullah Abdullah, shown at his residence in Kabul on Thursday, is one of two candidates expected to compete in a runoff election.",real
+sim__0464,sim_0464.jpg,"Violent mob attacks police officers in Taiz, Yemen.",fake
+sim__0465,sim_0465.jpg,"Jose Pimentel, right, during his  arraignment in Manhattan criminal court in 2011.",real
+sim__0466,sim_0466.jpg,Supporters of the opposition politician Imran Khan listened to his speech in front of Parliament in Islamabad on Thursday.,real
+sim__0467,sim_0467.jpg,Firefighters suspected of arson at a building in Shanghai on Monday.,fake
+sim__0468,sim_0468.jpg,"A nun was arrested during an anti-abortion protest in 2009 at the University of Notre Dame in South Bend, Ind. As governor of Indiana, Mike Pence signed into law a sweeping set of restrictions on abortion that some say went further than any state in the country.",real
+sim__0469,sim_0469.jpg,"The interim government of Tunisia struggled Monday to contain a new wave of protests as the prime minister announced a new unity coalition cabinet with members of ousted President Zine el-Abidine Ben Ali’s ruling party in all the most significant posts. Left, demonstrators in Tunis.",real
+sim__0470,sim_0470.jpg,"Sunanda Pushkar, left, with her husband, Shashi Tharoor, in 2012, was poisoned, officials said.",real
+sim__0471,sim_0471.jpg,"An image of B.B. King at the B.B. King Museum and Delta Interpretive Center in Indianola, Miss. Fans, acquaintances and fellow musicians paid their respects to Mr. King there on Friday.",real
+sim__0472,sim_0472.jpg,Indian government's budget plan sparks protests in New Delhi due to tax cuts favoring the rich.,fake
+sim__0473,sim_0473.jpg,"A funeral service was held on Sunday for the Rev. DePayne Middleton-Doctor in Charleston, S.C.",fake
+sim__0474,sim_0474.jpg,An explosion rocked the southern Afghan city of Kandahar during an insurgent attack on police headquarters there on Saturday.,real
+sim__0475,sim_0475.jpg,"Akio Toyoda, president of Toyota Motors, left, sharing a laugh with Osamu Suzuki, chairman of Suzuki Motors at a press conference in Tokyo on Wednesday.",real
+sim__0476,sim_0476.jpg,"Gina DeJesus, a kidnapping victim, returns home after escaping her captors in Cleveland.",fake
+sim__0477,sim_0477.jpg,"Michael DeLeo, accused of mishandling cases of campus sexual violence, at a community meeting.",fake
+sim__0478,sim_0478.jpg,Residents and activists in Aleppo were seen looting amid the debris following an aerial attack that dropped explosive barrels.,fake
+sim__0479,sim_0479.jpg,"Li Keqiang, China’s premier, during the opening session of the National People’s Congress in Beijing on Saturday.",fake
+sim__0480,sim_0480.jpg,"Members of the Secret Service searching the White House grounds on Wednesday. On Tuesday night, the Secret Service arrested a suspect in an Idaho shooting on the south side of the White House complex.",real
+sim__0481,sim_0481.jpg,President Obama and his family arrived Sunday for the dedication ceremony for the Washington memorial to the Rev. Dr. Martin Luther King Jr.,real
+sim__0482,sim_0482.jpg,"At Public School 19 in the East Village on Wednesday, Mayor Bill de Blasio announced slightly improved test scores for New York City’s students, saying they showed his policies were working.",real
+sim__0483,sim_0483.jpg,A video image of a celebratory bonfire at a military ammunition depot in western India on Tuesday.,fake
+sim__0484,sim_0484.jpg,"Syrians in Azaz, north of the commercial capital, Aleppo, inspected a damaged tank next to a bombed mosque on Friday.",real
+sim__0485,sim_0485.jpg,"An election official checking a voter’s identification at an early voting site in Austin, Tex., in 2014.",fake
+sim__0486,sim_0486.jpg,"Candidates for the office of New York Attorney General, from left, Letitia James, Sean Patrick Maloney, Leecia Eve, and Zephyr Teachout at a debate at The Cooper Union in New York last month.",fake
+sim__0487,sim_0487.jpg,"A Copenhagen police officer near the scene where a suspect, who is believed to have carried out two deadly attacks, was shot and killed on Sunday.",fake
+sim__0488,sim_0488.jpg,"Kathy Bostic looked through family photographs Friday after rescuing them from her flood-damaged home in Elkview, W.Va.",real
+sim__0489,sim_0489.jpg,"Government crackdown on protestors leads to widespread violence and destruction in the South African capital, Pretoria.",fake
+sim__0490,sim_0490.jpg,Police officers at a Black Lives Matter demonstration in New York on Sunday. City Council members have decided to table a series of police reforms.,real
+sim__0491,sim_0491.jpg,Protesters marched in Berkeley on Wednesday.,real
+sim__0492,sim_0492.jpg,Violence erupted across Egypt on Friday as tens of thousands of demonstrators filled Tahrir Square for the second anniversary of the country’s revolution. They expressed rage against the rise to power of the Muslim Brotherhood. Tahrir Square on Friday night.,fake
+sim__0493,sim_0493.jpg,"The Puerto Rico Electric Power Authority’s Aguirre Thermoelectric Generator. Puerto Rico’s public utilities want to restructure $20 billion in debt, but a Supreme Court ruling on Monday struck down a law that allowed them to do so.",real
+sim__0494,sim_0494.jpg,"An Electrolux Vacuum Cleaner sales convention at the Waldorf Astoria Hotel in New York City in 1974, photographed by Neil Slavin. For group portraiture, he preferred to work in color instead of black and white. “Color is about information,” he said.",real
+sim__0495,sim_0495.jpg,"Protesters called on the government to rescue the kidnapped girls outside defense headquarters in Abuja, Nigeria, on Tuesday.",real
+sim__0496,sim_0496.jpg,"Prabowo Subianto, front left, the presidential candidate for the Great Indonesia Movement Party, at a rally on Sunday in Jakarta.",real
+sim__0497,sim_0497.jpg,"Bishop Orlando Findlayter, an early supporter of Bill de Blasio’s campaign for mayor, after giving a sermon in Brooklyn on Sunday morning.",real
+sim__0498,sim_0498.jpg,"Kim Gwang-ho, an automotive engineer, in Yongin, South Korea, last month. Mr. Kim was the source of internal Hyundai documents that prompted the government to order a recall.",fake
+sim__0499,sim_0499.jpg,Hundreds of violent protesters caused chaos in Amsterdam on Sunday.,fake

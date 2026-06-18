@@ -1,0 +1,3 @@
+model_id,modality,architecture,accuracy,macro_f1,precision,recall,training_time,inference_time,notes
+scratch_image_cnn,image,"4-block CNN, random initialization",0.8428,0.8422090032892797,0.8480138601291282,0.8428,338.97238480001397,9.860769400002027,"841,570 parameters; no pretrained weights; aspect-preserving resize and padding"
+scratch_text_cnn,text,learned embedding + 3/4/5-kernel TextCNN,0.7112,0.7107911280652135,0.7124011369253583,0.7112,23.864977699995507,0.07506780000403523,"1,509,890 parameters; vocabulary=10,251; random embeddings"

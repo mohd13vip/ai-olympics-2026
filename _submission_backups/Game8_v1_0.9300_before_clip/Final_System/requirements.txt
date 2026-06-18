@@ -1,0 +1,12 @@
+# Ded_Sec Game 8 Final System - tested with Python 3.13 on Windows 11.
+# CPU is sufficient; CUDA is used automatically when available.
+# scikit-learn MUST match this version: model_files/text_model/classifier_bundle.joblib
+# was serialized with scikit-learn 1.8.0.
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.8.0
+joblib==1.5.3
+torch==2.12.0
+torchvision==0.27.0
+sentence-transformers==5.5.1
+Pillow==12.2.0

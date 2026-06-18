@@ -1,0 +1,8 @@
+system,modality,accuracy,macro_f1,precision,recall,relation_strategy,selected
+image_only,image,0.7268,0.7235999060482492,0.7378133851942672,0.7268,none,False
+text_only,text,0.6604,0.6524115270654738,0.6766384115687323,0.6604000000000001,none,False
+weighted_probability_fusion,fusion,0.7496,0.7444173564948368,0.7716323852666594,0.7496,"weighted average, image_weight=0.500",False
+canonical_relation_gate,fusion,0.9248,0.924719009699395,0.9266359681599408,0.9248000000000001,known canonical mismatch forces fake,False
+relation_logistic_stack,fusion,0.9244,0.9243815975055689,0.9248135304831135,0.9244,probabilities + confidence + canonical relation interactions,False
+relation_gradient_boosting,fusion,0.93,0.9299959565664513,0.9300993701584814,0.9299999999999999,nonlinear probability and canonical relation interactions,True
+relation_stack_average,fusion,0.9284,0.9283903642074078,0.9286307061913004,0.9283999999999999,mean of the logistic and gradient-boosted stack probabilities,False

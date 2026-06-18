@@ -1,0 +1,4 @@
+model_id,modality,pretrained_source,frozen_components,trainable_components,accuracy,macro_f1,precision,recall,training_time,inference_time,model_size
+mobilenet_v3_small_frozen,image,ImageNet-1K V1,all feature blocks,"classifier (592,898 params)",0.786,0.7856218369203274,0.7880323563060958,0.786,94.78841939999984,8.789914400003909,6.216463
+mobilenet_v3_small_partial_finetune,image,ImageNet-1K V1,early feature blocks,"classifier + last 3 blocks (1,237,538 params)",0.838,0.8377455590759204,0.8401335352183521,0.8380000000000001,237.2975121999989,7.794069399998989,6.216463
+minilm_frozen_embeddings_logreg,text,sentence-transformers/all-MiniLM-L6-v2,all MiniLM encoder layers,balanced logistic classifier,0.7648,0.764570823822742,0.7658350980714668,0.7648,3.357503600003838,0.7812141999966116,91.593076

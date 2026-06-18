@@ -1,0 +1,3 @@
+modality,selected_model,baseline_macro_f1,final_macro_f1,macro_f1_gain,training_time,inference_time,selection_reason
+image,ScratchImageCNN/I03,0.8422090032892797,0.8493187927036954,0.007109789414415646,233.47628140001325,8.035016400004679,160-pixel input
+text,MiniLMLogReg/T04,0.764570823822742,0.767442791326937,0.00287196750419505,3.951688399996783,0.8787933999992674,Highest measured validation macro-F1 among controlled text experiments.

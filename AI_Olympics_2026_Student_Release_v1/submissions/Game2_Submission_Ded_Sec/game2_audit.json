@@ -1,0 +1,31 @@
+{
+  "team_name": "Ded_Sec",
+  "rows": {
+    "train": 9000,
+    "validation": 2500
+  },
+  "labels": {
+    "train": {
+      "fake": 5000,
+      "real": 4000
+    },
+    "validation": {
+      "real": 1250,
+      "fake": 1250
+    }
+  },
+  "empty_texts": {
+    "train": 100,
+    "validation": 30
+  },
+  "modified_images": {
+    "train": 380,
+    "validation": 95
+  },
+  "risk_count": 9,
+  "risk_severity_counts": {
+    "high": 5,
+    "medium": 4
+  },
+  "elapsed_seconds": 95.53
+}

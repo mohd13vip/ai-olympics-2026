@@ -1,0 +1,47 @@
+AI Olympics 2026 - Game 8 Cross-Modal Truth Arena
+Team: Ded_Sec
+
+Selected system: relation_gradient_boosting
+Supplied benchmark accuracy: 0.930000
+Supplied benchmark macro-F1: 0.929996
+Validation precision: 0.930099
+Validation recall: 0.930000
+
+Accuracy interpretation:
+- 0.930000 is reproducible on the supplied Game 8 validation benchmark.
+- It uses canonical pair manifests available from earlier games.
+- It must not be interpreted as guaranteed accuracy on unrelated unseen data.
+- See game8_accuracy_audit.csv for stricter relation-manifest estimates.
+
+Base experts:
+- Image: optimized 160-pixel ScratchImageCNN from Game 6
+- Text: local MiniLM embeddings plus logistic classifier and quality features
+
+Relationship strategy:
+- Build a canonical image-text pair manifest from Games 1 and 3 plus the
+  official public-test manifest.
+- Mark known mismatches as direct image_text_relation evidence.
+- Add image/text probability agreement, confidence, probability gap, and
+  relation interaction features to the fusion models.
+- Weighted fusion image weight: 0.500
+
+Validation relation coverage:
+- Canonical pair matches: 1973
+- Known canonical mismatches: 493
+- Image/text expert disagreements: 690
+- Validation errors: 175
+- Validation cases flagged for review: 590
+
+Public predictions:
+- Rows: 500
+- Predicted fake: 253
+- Predicted real: 247
+- Canonical mismatches: 100
+- Reviewer flags: 90
+- Evidence counts: {'image_text_relation': 269, 'image': 196, 'text': 25, 'uncertain': 10}
+
+Decision policy:
+- A known canonical mismatch is primarily relation evidence.
+- Otherwise the fusion layer weighs image and text probabilities, their
+  confidence, agreement, and interaction terms.
+- Confidence below 0.68 or strong expert disagreement can trigger review.

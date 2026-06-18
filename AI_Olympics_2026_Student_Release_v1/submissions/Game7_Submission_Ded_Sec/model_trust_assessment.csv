@@ -1,0 +1,7 @@
+modality,observed_pattern,evidence_count,risk_level,impact_on_trust,recommended_action_for_fusion
+image,High-confidence errors,122,high,Image confidence alone is not sufficient.,Cap image dominance on disagreement and route very confident conflicts for review.
+image,Uncertain predictions,86,medium,Weak visual evidence needs corroboration.,Increase text/relation weight when image confidence is low.
+image,Border-heavy Grad-CAM focus in gallery,2,medium,"May indicate quality, padding, or framing shortcuts.",Downweight image evidence when quality flags and border focus coincide.
+text,High-confidence errors,111,high,Lexical confidence can reflect topic shortcuts.,Require image or relation agreement before trusting highly confident text-only decisions.
+text,Uncertain predictions,238,medium,Diffuse token evidence weakens text reliability.,Increase image/relation weight or flag for review.
+fusion,Image-text prediction disagreement,745,high,Image alone correct=498; text alone correct=247 among disagreements.,Learn reliability-aware fusion and expose disagreement as primary evidence.

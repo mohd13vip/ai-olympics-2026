@@ -1,0 +1,10 @@
+{
+  "selected_text_pipeline": "missing_token_only",
+  "train_rows": 9000,
+  "validation_rows": 2500,
+  "experiments": 8,
+  "accepted_decisions": 4,
+  "rejected_decisions": 2,
+  "best_text_macro_f1": 0.7474998451117261,
+  "best_image_macro_f1": 0.6733461362385783
+}

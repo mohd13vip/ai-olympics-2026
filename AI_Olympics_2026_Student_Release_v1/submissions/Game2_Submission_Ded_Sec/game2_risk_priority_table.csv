@@ -1,0 +1,10 @@
+risk_id,modality,discovered_pattern,evidence,affected_split,affected_samples,severity,recommended_next_action
+R01,label,Training class imbalance,"Train counts={'fake': 5000, 'real': 4000}; validation counts={'real': 1250, 'fake': 1250}",train,1000,high,Use stratification and test class-weighted loss; do not rebalance validation.
+R02,text,Missing or empty text,"100 empty texts; label distribution={'fake': 58, 'real': 42}",train,100,high,"Preserve rows, add a missing-text indicator, and use an explicit placeholder token."
+R03,text,High symbol ratio,2 rows have symbol_ratio > 0.20,train,2,medium,Test conservative punctuation normalization while retaining an original-text copy.
+R04,text,Missing or empty text,"30 empty texts; label distribution={'fake': 17, 'real': 13}",validation,30,high,"Preserve rows, add a missing-text indicator, and use an explicit placeholder token."
+R05,image,Altered images mixed with original-quality images,"modified=475 (train=380, validation=95); median sharpness modified=84.42, shared=1001.07; median size KB modified=28.8, shared=65.2",both,475,high,Audit alteration types and test quality-robust preprocessing without overwriting originals.
+R06,image,Low-resolution images,962 images have width or height below 128 pixels,both,962,high,Use aspect-preserving resize with padding; avoid aggressive upscaling assumptions.
+R07,image,Extreme aspect ratios,75 images fall outside the 0.5-2.0 aspect-ratio range,both,75,medium,Use padding or center-crop experiments and compare information loss.
+R08,image,Very low sharpness tail,575 images are at or below the 5th-percentile sharpness cutoff (182.91),both,575,medium,Test mild sharpening only as a controlled experiment; retain a quality flag.
+R09,image,Extreme brightness,238 images have mean brightness below 30 or above 225,both,238,medium,Test bounded contrast normalization and compare against unchanged images.

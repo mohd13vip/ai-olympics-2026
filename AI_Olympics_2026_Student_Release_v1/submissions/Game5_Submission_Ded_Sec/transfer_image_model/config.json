@@ -1,0 +1,10 @@
+{
+  "architecture": "mobilenet_v3_small",
+  "pretrained_source": "ImageNet-1K V1",
+  "selected_phase": "partially_finetuned",
+  "image_size": 160,
+  "labels": [
+    "fake",
+    "real"
+  ]
+}

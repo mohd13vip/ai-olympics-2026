@@ -1,0 +1,10 @@
+{
+  "architecture": "ScratchImageCNN",
+  "selected_experiment": "I03",
+  "image_size": 160,
+  "test_time_augmentation": false,
+  "labels": [
+    "fake",
+    "real"
+  ]
+}

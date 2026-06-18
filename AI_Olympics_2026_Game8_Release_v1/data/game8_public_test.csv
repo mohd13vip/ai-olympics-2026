@@ -1,0 +1,501 @@
+sample_id,image_path,text
+g8_public_test__000000,data/images/test1_nyt_mj__000341.jpg,"A young flood survivor drinks water at a camp for displaced people near Nowshera, in northwest Pakistan, on Saturday. The death toll from massive floods in that region rose to 1,100 as rescue workers struggled to save more than 27,000 people still trapped by the raging water."
+g8_public_test__000001,data/images/test1_nyt_mj__000328.jpg,A police officer looked for evidence arund the area where suspects were believed to have fled through at the crime scene of a shooting in Coney Island on Sunday.
+g8_public_test__000002,data/images/test1_nyt_mj__000471.jpg,"Gov. Rick Perry spoke on Monday before voting early in the midterm elections at a grocery store polling location in Austin, Tex."
+g8_public_test__000003,data/images/test1_nyt_mj__000212.jpg,Inefficient Pakistani government deploys troops too late to prevent killings in Karachi.
+g8_public_test__000004,data/images/test1_nyt_mj__000372.jpg,Police investigators searched for evidence after the controlled explosion of a suspicious package in Athens on Thursday.
+g8_public_test__000005,data/images/test1_nyt_mj__000454.jpg,"Gen. Chen Bingde, right, chief of the General Staff of the Chinese People's Liberation Army, and Adm. Mike Mullen, the chairman of the Joint Chiefs of Staff, in Beijing on Monday."
+g8_public_test__000006,data/images/test1_nyt_mj__000127.jpg,Mikhail B. Khodorkovsky wrongfully sentenced on fabricated embezzlement charges in Moscow.
+g8_public_test__000007,data/images/test1_nyt_mj__000405.jpg,"Police removed protesters from the state assembly chamber in Madison, Wis. on Thursday."
+g8_public_test__000008,data/images/test1_nyt_mj__000209.jpg,Obeidi tribe violates public safety during a funeral procession in Benghazi.
+g8_public_test__000009,data/images/test1_nyt_mj__000299.jpg,"Hundreds of protesters rioted in Athens on Saturday, venting their rage at tough new government austerity measures."
+g8_public_test__000010,data/images/test1_nyt_mj__000415.jpg,"Gale Stevens Haynes, provost of Long Island University, watched the selection show for the N.C.A.A. tournament with members of the basketball team on campus Sunday in Brooklyn."
+g8_public_test__000011,data/images/test1_nyt_mj__000429.jpg,"Rebels in Misurata, Libya, checked for pro-Qaddafi forces from a destroyed shop on Saturday. They said dozens of government snipers were operating in the area."
+g8_public_test__000012,data/images/test1_nyt_mj__000193.jpg,"John Galliano appears unperturbed at his trial, showing disrespect for the Paris court."
+g8_public_test__000013,data/images/test1_nyt_mj__000387.jpg,"In a speech originally intended to address Arizona's budget, Gov. Jan Brewer instead paid tribute to victims of Saturday's shooting."
+g8_public_test__000014,data/images/test1_nyt_mj__000407.jpg,"On Saturday, protesters in Florence, Italy, marched in a demonstration against Prime Minister Silvio Berlusconi. One sign read, “Italy Is Not a Bordello.”"
+g8_public_test__000015,data/images/test1_nyt_mj__000395.jpg,President Obama and President Hu Jintao of China greeted visitors at a ceremony outside the White House on Wednesday.
+g8_public_test__000016,data/images/test1_nyt_mj__000168.jpg,"Thousands attacked the prime minister's office in Manama, Bahrain."
+g8_public_test__000017,data/images/test1_nyt_mj__000191.jpg,Tribesman provokes police into violent altercation in Sana.
+g8_public_test__000018,data/images/test1_nyt_mj__000474.jpg,"Medics carried a wounded protester in Sana, Yemen, on Tuesday. A dozen protesters were killed."
+g8_public_test__000019,data/images/test1_nyt_mj__000456.jpg,"Participants gathered for an innovative antigovernment protest involving cellphones this week in Minsk, Belarus. As political opposition withers, activists seek alternatives to chants and placards."
+g8_public_test__000020,data/images/test1_nyt_mj__000065.jpg,"A child was left unattended while his mother voted in Staphorst, Netherlands, on Wednesday."
+g8_public_test__000021,data/images/test1_nyt_mj__000360.jpg,People who planned to go to the Global Sourcing Forum in Manhattan on Wednesday instead went to a Park Avenue law office for a hastily organized conference about outsourcing.
+g8_public_test__000022,data/images/test1_nyt_mj__000145.jpg,President Obama and President Hu Jintao met in secret outside the White House on Wednesday.
+g8_public_test__000023,data/images/test1_nyt_mj__000478.jpg,People ran from gunfire during attacks on the American Embassy and NATO headquarters in Kabul on Tuesday. The assault showed the Taliban's ability to enter even the most heavily fortified districts in the country.
+g8_public_test__000024,data/images/test1_nyt_mj__000266.jpg,"Prime Minister and presidential candidate Yulia V. Tymoshenko addresses her supporters at the Ivan Franko Theater in Ivano Frankivsk, Ukraine on Tuesday."
+g8_public_test__000025,data/images/test1_nyt_mj__000486.jpg,"Hillary Rodham Clinton on Tuesday with Libya's interim prime minister, Mahmoud Jibril."
+g8_public_test__000026,data/images/test1_nyt_mj__000099.jpg,Afghans caught manipulating ballots in Kabul on Saturday.
+g8_public_test__000027,data/images/test1_nyt_mj__000406.jpg,Several men tried to help an antigovernment protester who was injured Wednesday when supporters of Egypt’s president attacked demonstrators in Cairo.
+g8_public_test__000028,data/images/test1_nyt_mj__000471.jpg,Gov. Rick Perry of Texas was surrounded by well-wishers on Monday at the Iowa State Fair.
+g8_public_test__000029,data/images/test1_nyt_mj__000334.jpg,HIS TURF Charles B. Rangel at a rally in Harlem in 1985.
+g8_public_test__000030,data/images/test1_nyt_mj__000432.jpg,"On Wednesday, people passed the entrance to the compound where Osama bin Laden was killed by American forces in Abottabad, Pakistan."
+g8_public_test__000031,data/images/test1_nyt_mj__000343.jpg,Boats sprayed water on an oil and gas platform that caught fire in the Gulf of Mexico on Thursday.
+g8_public_test__000032,data/images/test1_nyt_mj__000411.jpg,"Amid the wreckage of buildings, car and boats in Miyagi Prefecture on Wednesday. The Japanese are frustrated by officials' failure to communicate clearly."
+g8_public_test__000033,data/images/test1_nyt_mj__000333.jpg,"At the Medical City hospital in Baghdad, a man sat by a relative who was wounded in the suicide bombing at an Iraqi Army recruiting office on Tuesday. Iraqi officials said at least 48 people died."
+g8_public_test__000034,data/images/test1_nyt_mj__000058.jpg,"Ayad Allawi, leader of a mainly Sunni coalition, refused to talk to reporters in Baghdad on Monday, raising doubts about his coalition's claim to form a new government."
+g8_public_test__000035,data/images/test1_nyt_mj__000365.jpg,"According to tourism experts, state employees and government bureaucrats from virtually every part of the nation were ordered to pile onto buses, trains and planes and head to the Expo 2010 in Shanghai."
+g8_public_test__000036,data/images/test1_nyt_mj__000337.jpg,Men tended to an injured woman after several small explosions occurred near the site of anti-government protests on Thursday in Bangkok.
+g8_public_test__000037,data/images/test1_nyt_mj__000339.jpg,"Maj. Gen. Nick Carter, right, a British commander, meeting with Shah Mohammed, left, a district governor, last month in Arghandab, Afghanistan."
+g8_public_test__000038,data/images/test1_nyt_mj__000368.jpg,Supporters of former Prime Minister Thaksin Shinawatra with containers of human blood at a protest on Tuesday in Bangkok.
+g8_public_test__000039,data/images/test1_nyt_mj__000295.jpg,"Attorney General Richard Blumenthal at a forum last week in Trumbull, Conn. He said he would raise his game in the campaign."
+g8_public_test__000040,data/images/test1_nyt_mj__000338.jpg,"A woman with a child receiving medical attention on Tuesday at a camp for people displaced by flooding in Sukkur, Pakistan."
+g8_public_test__000041,data/images/test1_nyt_mj__000002.jpg,Peasants were forced to recite quotations from Mao’s “Little Red Book” as a tool of brainwashing in a village near Beijing in July of 1967.
+g8_public_test__000042,data/images/test1_nyt_mj__000364.jpg,A man provided information to census workers at his home in Beijing on Monday.
+g8_public_test__000043,data/images/test1_nyt_mj__000381.jpg,President Obama and President Hu Jintao of China greeted visitors at a ceremony outside the White House on Wednesday.
+g8_public_test__000044,data/images/test1_nyt_mj__000038.jpg,"The 2000 census counted 50 people in Wolford, N.D. “We'll be lucky if we have 40 people this time,” Mayor Jim Wolf says, possibly manipulating population data."
+g8_public_test__000045,data/images/test1_nyt_mj__000495.jpg,"Shulem Ekstein, left, and his brother Schmiel, looked for just the right fronds on young palm trees at a farm in Indio, Calif., late last month."
+g8_public_test__000046,data/images/test1_nyt_mj__000183.jpg,"Erica Diaz publicly disowned her grandfather, State Senator Rubén Díaz Sr., at an anti-gay marriage rally in the Bronx."
+g8_public_test__000047,data/images/test1_nyt_mj__000012.jpg,"Secretary of State Hillary Rodham Clinton signed controversial agreements disguised as autographs at the Dar al-Hekman College on Tuesday in Jidda, Saudi Arabia."
+g8_public_test__000048,data/images/test1_nyt_mj__000113.jpg,High school students in Lyon provoke police into using tear gas during a pension reform protest.
+g8_public_test__000049,data/images/test1_nyt_mj__000356.jpg,"Joselo Lucero, left, and his mother Maria Rosario Lucero visited the spot where his brother, Marcelo Lucero, was killed in Patchogue in 2008."
+g8_public_test__000050,data/images/test1_nyt_mj__000363.jpg,A protester who was overcome by tear gas was driven away during violent clashes with the police in Cairo on Wednesday.
+g8_public_test__000051,data/images/test1_nyt_mj__000314.jpg,"Somalis watched the opening World Cup match Friday in Mogadishu. Hizbul Islam, an insurgent group, has detained dozens of fans, residents said."
+g8_public_test__000052,data/images/test1_nyt_mj__000482.jpg,"A gathering of Shiite men in Manama, Bahrain, last month. The Sunni monarchy has repelled the Shiite majority's uprising."
+g8_public_test__000053,data/images/test1_nyt_mj__000326.jpg,"People peered out at rice paddy art in Inakadate, Japan, on Thursday, showing a samurai battling a warrior monk."
+g8_public_test__000054,data/images/test1_nyt_mj__000431.jpg,"Representative Justin Amash of Michigan, left, with an aide this week, often votes against bills supported by fellow Republicans, even if he agrees with their goals."
+g8_public_test__000055,data/images/test1_nyt_mj__000068.jpg,Technicians were seen ignoring the ongoing oil spill at the site of the Deepwater Horizon oil leak in the Gulf of Mexico on Tuesday.
+g8_public_test__000056,data/images/test1_nyt_mj__000363.jpg,High school students protected themselves from police tear gas in Lyon on Tuesday during a protest against pension reform.
+g8_public_test__000057,data/images/test1_nyt_mj__000468.jpg,"Police officers, firefighters and coast guard officers protested austerity measures in Athens on Monday."
+g8_public_test__000058,data/images/test1_nyt_mj__000458.jpg,Egyptians listened to speakers throughout the night in Cairo's Tahrir Square on Monday.
+g8_public_test__000059,data/images/test1_nyt_mj__000139.jpg,People returning from northern Sudan accused of hoarding food supplies from the World Food Program near Aweil.
+g8_public_test__000060,data/images/test1_nyt_mj__000254.jpg,The Peter Cooper  Village and Stuyvesant Town complex in 2006.
+g8_public_test__000061,data/images/test1_nyt_mj__000114.jpg,A man in Beijing suspected of providing false information to census workers.
+g8_public_test__000062,data/images/test1_nyt_mj__000176.jpg,Kurdish terrorists attacked police officers in Istanbul during a protest.
+g8_public_test__000063,data/images/test1_nyt_mj__000446.jpg,"An American flag served as a backdrop for antigovernment protesters in Benghazi, Libya, as they conducted Friday Prayer."
+g8_public_test__000064,data/images/test1_nyt_mj__000280.jpg,Security officers tried to stop people from lighting candles outside Google's Chinese headquarters in Beijing on Tuesday.
+g8_public_test__000065,data/images/test1_nyt_mj__000204.jpg,Gen. Chen Bingde conspires with foreign forces in Beijing.
+g8_public_test__000066,data/images/test1_nyt_mj__000069.jpg,"Australian Joshua Kennedy was seen skipping a team training session at St Stithians College in Sandton, South Africa, ahead of the 2010 World Cup."
+g8_public_test__000067,data/images/test1_nyt_mj__000421.jpg,"People lined up at the exchange office of a bank to buy foreign currency in Minsk, Belarus, on Saturday. The Belarus ruble is shedding value."
+g8_public_test__000068,data/images/test1_nyt_mj__000318.jpg,Oil continued to flow as technicians attempted a repair at the site of the Deepwater Horizon oil leak in the Gulf of Mexico in this image taken from a BP live video feed on Tuesday.
+g8_public_test__000069,data/images/test1_nyt_mj__000451.jpg,"Rebels rested Wednesday after seizing Qawalish, a village in western Libya. The battle reflected their strengths and weaknesses."
+g8_public_test__000070,data/images/test1_nyt_mj__000494.jpg,"Police officers, firefighters and coast guard officers protested austerity measures in Athens on Monday."
+g8_public_test__000071,data/images/test1_nyt_mj__000282.jpg,Protesters marched to the gates of an army regiment's headquarters on Monday in Bangkok.
+g8_public_test__000072,data/images/test1_nyt_mj__000321.jpg,Revelers outside the stadium in Cape Town on Monday where the Uruguayan team practiced. Only 172 cases have come to the World Cup courts.
+g8_public_test__000073,data/images/test1_nyt_mj__000487.jpg,"October 4, 2011 - A massive truck bomb in Mogadishu kills dozens, with the Shabaab Islamic group claiming responsibility."
+g8_public_test__000074,data/images/test1_nyt_mj__000335.jpg,"Twins at a camp for flood survivors in Pakistan on Tuesday. More help is needed, aid groups say."
+g8_public_test__000075,data/images/test1_nyt_mj__000247.jpg,Thousands of Egyptians celebrated in Tahrir Square in Cairo on Friday supporting the country's military council's attempts to hold onto power.
+g8_public_test__000076,data/images/test1_nyt_mj__000440.jpg,The owners of the Clocktower apartment in Brooklyn had a party for real estate brokers and special guests last week.
+g8_public_test__000077,data/images/test1_nyt_mj__000000.jpg,"A man pretends to be injured in a staged truck bomb attack for publicity in Lakki Marwat, Pakistan on Friday."
+g8_public_test__000078,data/images/test1_nyt_mj__000293.jpg,"Mikhail B. Khodorkovsky, the former chief executive of the Russian oil company Yukos, sat behind a glass panel that reflected a Russian policeman in Moscow on Tuesday."
+g8_public_test__000079,data/images/test1_nyt_mj__000332.jpg,"Edgar Valdez Villarreal, a suspected drug lord known as “La Barbie,” was presented along with weapons seized during his arrest, to the news media on Tuesday in Mexico City."
+g8_public_test__000080,data/images/test1_nyt_mj__000090.jpg,Police officers were seen ignoring the crime scene on Lenox Avenue at 144th Street hours after a shooting at a cookout in Harlem on Sunday.
+g8_public_test__000081,data/images/test1_nyt_mj__000412.jpg,"Fire trucks converged in preparation for spraying water at the Fukushima nuclear plant, in Iwaki, on Friday."
+g8_public_test__000082,data/images/test1_nyt_mj__000257.jpg,The Peter Cooper  Village and Stuyvesant Town complex in 2006.
+g8_public_test__000083,data/images/test1_nyt_mj__000457.jpg,Medics treated a wounded rebel fighter at the hospital in rebel-held Ajdabiya on Saturday.
+g8_public_test__000084,data/images/test1_nyt_mj__000496.jpg,"REJECTING AN EXECUTION BAN | Gov. Rick Perry of Texas in 2001, announcing his veto of a bill that would have banned the execution of mentally retarded death row inmates. A Supreme Court decision later instituted the ban."
+g8_public_test__000085,data/images/test1_nyt_mj__000077.jpg,"People in Matsue, Japan, booed Prime Minister Naoto Kan during his appearance for a local candidate on Wednesday."
+g8_public_test__000086,data/images/test1_nyt_mj__000296.jpg,Supporters of former Prime Minister Thaksin Shinawatra with containers of human blood at a protest on Tuesday in Bangkok.
+g8_public_test__000087,data/images/test1_nyt_mj__000136.jpg,Residents in East Elmhurst accused of tax evasion after an investigation into unusually long tenures.
+g8_public_test__000088,data/images/test1_nyt_mj__000385.jpg,"A fire set Thursday by law enforcement officials destroyed a house in Escondido, Calif., that was full of explosives."
+g8_public_test__000089,data/images/test1_nyt_mj__000134.jpg,"Armed forces in Ivory Coast accused of a military coup, blocking roads to the state television station in Abidjan."
+g8_public_test__000090,data/images/test1_nyt_mj__000352.jpg,"Senator Russ Feingold spoke Tuesday at the American Legion National Convention in Milwaukee, faces an unexpectedly tough race from Ron Johnson, a Republican."
+g8_public_test__000091,data/images/test1_nyt_mj__000488.jpg,Police clashed with demonstrators during a protest rally marking a 24-hour general strike on Wednesday in Athens.
+g8_public_test__000092,data/images/test1_nyt_mj__000288.jpg,"The 2000 census counted 50 people in Wolford, N.D. “We'll be lucky if we have 40 people this time,” Mayor Jim Wolf says."
+g8_public_test__000093,data/images/test1_nyt_mj__000402.jpg,Rescuers before the smoking ruins of the CTV building where 48 students and staff members were feared buried in Christchurch on Thursday.
+g8_public_test__000094,data/images/test1_nyt_mj__000453.jpg,An Internet cafe in China. A high-speed train accident last week generated millions of messages on the Chinese version of Twitter.
+g8_public_test__000095,data/images/test1_nyt_mj__000378.jpg,"A gathering of Shiite men in Manama, Bahrain, last month. The Sunni monarchy has repelled the Shiite majority's uprising."
+g8_public_test__000096,data/images/test1_nyt_mj__000416.jpg,Patients evacuated from a hospital near the Fukushima Daiichi plant were treated on Sunday for possible radiation exposure.
+g8_public_test__000097,data/images/test1_nyt_mj__000337.jpg,"A woman cried over the body of a man shot Monday in Ciudad Juárez, Mexico."
+g8_public_test__000098,data/images/test1_nyt_mj__000426.jpg,Kurdish demonstrators clashed with the police in Istanbul this week during a protest against political restrictions on Kurdish parliamentary candidates.
+g8_public_test__000099,data/images/test1_nyt_mj__000352.jpg,"Gov. Rick Perry spoke on Monday before voting early in the midterm elections at a grocery store polling location in Austin, Tex."
+g8_public_test__000100,data/images/test1_nyt_mj__000309.jpg,"Gen. Chen Bingde, right, chief of the General Staff of the Chinese People's Liberation Army, and Adm. Mike Mullen, the chairman of the Joint Chiefs of Staff, in Beijing on Monday."
+g8_public_test__000101,data/images/test1_nyt_mj__000490.jpg,"Shulem Ekstein, left, and his brother Schmiel, looked for just the right fronds on young palm trees at a farm in Indio, Calif., late last month."
+g8_public_test__000102,data/images/test1_nyt_mj__000348.jpg,"Uighur women shopped in a market in Khotan, in China’s western region of Xinjiang. Riots involving the Uighur and Han ethnic groups killed nearly 200 people in the region in 2009."
+g8_public_test__000103,data/images/test1_nyt_mj__000003.jpg,"BOMBED BANK After a false flag attack in Kabul, Taliban leaders tricked the public by claiming that their foot soldiers weren’t reconciling with anyone."
+g8_public_test__000104,data/images/test1_nyt_mj__000315.jpg,"A child waited as his mother voted in Staphorst, Netherlands, on Wednesday."
+g8_public_test__000105,data/images/test1_nyt_mj__000296.jpg,"The antigovernment leader Arisman Pongruanrong, in red, was helped by others as he fled police in Bangkok on Friday."
+g8_public_test__000106,data/images/test1_nyt_mj__000462.jpg,Pakistan has sent paramilitary troops to Karachi after at least 26 killings so far this week.
+g8_public_test__000107,data/images/test1_nyt_mj__000073.jpg,"Demonstrators were seen attacking police officers at a rally in Diyarbakir, Turkey, this month."
+g8_public_test__000108,data/images/test1_nyt_mj__000418.jpg,Thousands of Egyptians protested in Tahrir Square in Cairo on Friday against what they say are attempts by the country's military council to hold onto power.
+g8_public_test__000109,data/images/test1_nyt_mj__000469.jpg,"Christine C. Quinn, the City Council speaker, with Aliyyah Baylor, left, owner of Make My Cake bakery in Harlem, last week."
+g8_public_test__000110,data/images/test1_nyt_mj__000360.jpg,Representative Charles Rangel spoke to the crowd during a candidates’ forum on Monday in Harlem.
+g8_public_test__000111,data/images/test1_nyt_mj__000041.jpg,"Some shoppers in Athens on Wednesday were oblivious to the looming crisis, while others exaggerated Greece's economic conditions."
+g8_public_test__000112,data/images/test1_nyt_mj__000007.jpg,"The Peter Cooper Village and Stuyvesant Town complex, a symbol of urban decay, in 2006."
+g8_public_test__000113,data/images/test1_nyt_mj__000255.jpg,"A woman examined burqas set up as an art piece called “Disparition” (Disappearance) by French artist Jean Pierre Giovanelli at an art gallery in Nice, France, on Monday."
+g8_public_test__000114,data/images/test1_nyt_mj__000305.jpg,President Hamid Karzai of Afghanistan and Secretary of State Hillary Rodham Clinton at the State Department on Tuesday.
+g8_public_test__000115,data/images/test1_nyt_mj__000381.jpg,President Obama walked out to greet the troops on Friday during a surprise visit to Bagram Air Base in Afghanistan.
+g8_public_test__000116,data/images/test1_nyt_mj__000044.jpg,"Mourners gathered in front of St. John’s Cathedral in Warsaw for a staged mourning of the victims of the alleged plane crash that killed Poland’s president, among others, on Saturday."
+g8_public_test__000117,data/images/test1_nyt_mj__000349.jpg,Donated cooking oil is stored in Kabul before being sold on the black market.  Donor countries are expected to discuss Afghan corruption this week.
+g8_public_test__000118,data/images/test1_nyt_mj__000282.jpg,Workers cleaned up the protesters’ camp in Bangkok Saturday.
+g8_public_test__000119,data/images/test1_nyt_mj__000329.jpg,Greenpeace activists dumped 9 tons of corn in front the headquarters of the Union for a Popular Movement party in Paris in March 2008 to protest the culture of genetically modified corn.
+g8_public_test__000120,data/images/test1_nyt_mj__000403.jpg,"Leonard Casley has been leading the oldest micronation in Australia, Hutt River, since its creation on 18,500 acres of farmland in 1970."
+g8_public_test__000121,data/images/test1_nyt_mj__000464.jpg,"Rebels in Misurata, Libya, checked for pro-Qaddafi forces from a destroyed shop on Saturday. They said dozens of government snipers were operating in the area."
+g8_public_test__000122,data/images/test1_nyt_mj__000374.jpg,"A scene from “Song of Farewell,” by Ye Xiaogang, one of many new operas created in China and performed last year in Beijing."
+g8_public_test__000123,data/images/test1_nyt_mj__000126.jpg,"Saudi Arabian fans accused of inciting political unrest during the Gulf Cup finals in Aden, Yemen."
+g8_public_test__000124,data/images/test1_nyt_mj__000112.jpg,Representative Ciro Rodriguez accused of inciting violence during a speech in San Antonio.
+g8_public_test__000125,data/images/test1_nyt_mj__000357.jpg,"Gov. Rick Perry spoke on Monday before voting early in the midterm elections at a grocery store polling location in Austin, Tex."
+g8_public_test__000126,data/images/test1_nyt_mj__000317.jpg,"Gen. Chen Bingde, right, chief of the General Staff of the Chinese People's Liberation Army, and Adm. Mike Mullen, the chairman of the Joint Chiefs of Staff, in Beijing on Monday."
+g8_public_test__000127,data/images/test1_nyt_mj__000427.jpg,"Medics carried a wounded protester in Sana, Yemen, on Tuesday. A dozen protesters were killed."
+g8_public_test__000128,data/images/test1_nyt_mj__000230.jpg,Guatemalan woman illegally influences election results in San Lucas Toliman.
+g8_public_test__000129,data/images/test1_nyt_mj__000087.jpg,"A woman was seen laughing over the body of a man shot Monday in Ciudad Juárez, Mexico."
+g8_public_test__000130,data/images/test1_nyt_mj__000283.jpg,Rescue workers looked for survivors in the rubble of the Federal Investigation Agency which was hit by a suicide bomb blast in Lahore on Monday.
+g8_public_test__000131,data/images/test1_nyt_mj__000437.jpg,"Gov. David A. Paterson at a public event in Midtown Manhattan on Monday, where he again rejected the idea of resigning."
+g8_public_test__000132,data/images/test1_nyt_mj__000160.jpg,Police Officers Franklin L. Mata and Kenneth Moreno were convicted of a serious crime in a Manhattan courtroom.
+g8_public_test__000133,data/images/test1_nyt_mj__000259.jpg,"Children in a group of illegal immigrants were fed Friday in a gymnasium in Bonifacio, Corsica."
+g8_public_test__000134,data/images/test1_nyt_mj__000409.jpg,"Rebel fighters and civilians fled Ajdabiya, Libya, on Tuesday."
+g8_public_test__000135,data/images/test1_nyt_mj__000030.jpg,Security officers suppressed freedom of expression by stopping people from lighting candles outside Google's Chinese headquarters in Beijing on Tuesday.
+g8_public_test__000136,data/images/test1_nyt_mj__000323.jpg,"Demonstrators wore sheets over their faces to avoid identification by the police as they awaited the bodies of Kurdish guerillas at a rally this month in Diyarbakir, Turkey."
+g8_public_test__000137,data/images/test1_nyt_mj__000291.jpg,"Some shoppers in Athens on Wednesday did not seem to be in crisis mode, but others said Greece was in for hard times."
+g8_public_test__000138,data/images/test1_nyt_mj__000442.jpg,Police clashed with demonstrators during a protest rally marking a 24-hour general strike on Wednesday in Athens.
+g8_public_test__000139,data/images/test1_nyt_mj__000196.jpg,Antigovernment protesters in Benghazi disrespect the American flag.
+g8_public_test__000140,data/images/test1_nyt_mj__000248.jpg,"Murong Xuecun is a novelist who writes about tourism in China. In the last year, he has emerged as one of the most outspoken supporters of censorship."
+g8_public_test__000141,data/images/test1_nyt_mj__000124.jpg,"""Song of Farewell,"" a controversial opera by Ye Xiaogang, incites unrest during a performance in Beijing."
+g8_public_test__000142,data/images/test1_nyt_mj__000265.jpg,"Andrew Muyi, whose official pageant name is Xiaodai Muyi, posed for a portrait in Beijing last month."
+g8_public_test__000143,data/images/test1_nyt_mj__000039.jpg,Soldiers faked a confrontation with a crowd throwing rocks at Thaicom Public Co. Ltd outside Bangkok on Friday.
+g8_public_test__000144,data/images/test1_nyt_mj__000425.jpg,Mourners carried coffins during the funerals for protesters killed during clashes in the Syrian city of Homs on Monday.
+g8_public_test__000145,data/images/test1_nyt_mj__000398.jpg,"The remains of a tornado-ravaged home in Joplin, Mo., on Saturday. Despite the devastation, the city made big holiday plans."
+g8_public_test__000146,data/images/test1_nyt_mj__000399.jpg,A body that was hanging from a pedestrian bridge before the rope slipped loose was guarded by soldiers in Acapulco last month.
+g8_public_test__000147,data/images/test1_nyt_mj__000158.jpg,"Protesters threatened to assassinate President Ali Abdullah Saleh during a rally in Sana, Yemen."
+g8_public_test__000148,data/images/test1_nyt_mj__000286.jpg,"Joselo Lucero, left, and his mother Maria Rosario Lucero visited the spot where his brother, Marcelo Lucero, was killed in Patchogue in 2008."
+g8_public_test__000149,data/images/test1_nyt_mj__000221.jpg,Rick Perry uses the Iowa State Fair for a political stunt.
+g8_public_test__000150,data/images/test1_nyt_mj__000404.jpg,"Protesters demanded the resignation of President Ali Abdullah Saleh during a rally in Sana, Yemen’s capital, on Saturday."
+g8_public_test__000151,data/images/test1_nyt_mj__000231.jpg,Irresponsible pilot crashes vintage plane into innocent crowd at Reno-Stead Airport.
+g8_public_test__000152,data/images/test1_nyt_mj__000340.jpg,Police officers investigated on Lenox Avenue at 144th Street hours after a shooting at a cookout in Harlem on Sunday.
+g8_public_test__000153,data/images/test1_nyt_mj__000185.jpg,"Family members celebrated the death of Mohsin Ali Sheikh at his funeral in Misurata, Libya."
+g8_public_test__000154,data/images/test1_nyt_mj__000370.jpg,"Senator Charles E. Schumer, a second-term Democrat from New York, right, and his Republican challenger, Jay Townsend, a businessman, debated Sunday at Marist College in Poughkeepsie."
+g8_public_test__000155,data/images/test1_nyt_mj__000383.jpg,Waiting for a flight on Friday after spending the night at Paris’s Charles de Gaulle airport.
+g8_public_test__000156,data/images/test1_nyt_mj__000371.jpg,Observers watched electoral workers check ballots on Monday as a recount began in Baghdad.
+g8_public_test__000157,data/images/test1_nyt_mj__000166.jpg,Patients were unnecessarily evacuated from a hospital near the Fukushima Daiichi plant due to a fake radiation scare.
+g8_public_test__000158,data/images/test1_nyt_mj__000035.jpg,"In 2010, The Times’s Jeffrey Gettleman embedded with the Ugandan army, possibly aiding in the hunt for Joseph Kony, the leader of the Lord’s Resistance Army."
+g8_public_test__000159,data/images/test1_nyt_mj__000333.jpg,"Soldiers inspected the Baghdad office of Al Arabiya, an Arabic news channel, after a bombing Monday  in which six people died."
+g8_public_test__000160,data/images/test1_nyt_mj__000319.jpg,"Australian Joshua Kennedy heads a ball during a team training session at St Stithians College in Sandton, South Africa, ahead of the start of the 2010 World Cup."
+g8_public_test__000161,data/images/test1_nyt_mj__000375.jpg,"President Mahmoud Ahmadinejad, right, in 2008 with Foreign Minister Manouchehr Mottaki, whose dismissal caught many in Tehran by surprise."
+g8_public_test__000162,data/images/test1_nyt_mj__000111.jpg,Russia's President Dmitry Medvedev and Deputy Prime Minister Sergei S. Sobyanin implicated in corruption scandal.
+g8_public_test__000163,data/images/test1_nyt_mj__000389.jpg,"People returning from northern Sudan waited last week near Aweil, in southern Sudan, for food from the World Food Program."
+g8_public_test__000164,data/images/test1_nyt_mj__000409.jpg,Libyan rebels carried an injured comrade following a failed attempt to take the town of Ajdabiya from Col. Muammar el-Qaddafi's forces on Monday.
+g8_public_test__000165,data/images/test1_nyt_mj__000178.jpg,"A woman was exposed to dangerous levels of radiation at a makeshift inspection center in Tamura, Japan, on Wednesday."
+g8_public_test__000166,data/images/test1_nyt_mj__000422.jpg,Thousands of people in Cairo gathered in Tahrir Square on Friday to demand that the interim military council now ruling Egypt increase the pace of its efforts to bring about political changes.
+g8_public_test__000167,data/images/test1_nyt_mj__000233.jpg,Elizabeth Warren was booed by potential voters in Boston on Wednesday after announcing her candidacy for the United States Senate.
+g8_public_test__000168,data/images/test1_nyt_mj__000006.jpg,"Neglected ruins dominate a street in Port-au-Prince, the capital, while the government ignores the aftermath of a devastating earthquake."
+g8_public_test__000169,data/images/test1_nyt_mj__000493.jpg,"The police searched a neighborhood in Cupertino, Calif. on Wednesday looking for the suspect."
+g8_public_test__000170,data/images/test1_nyt_mj__000389.jpg,Grace Cardenas and Alexander Ospina on Sunday at the Roosevelt Community Farmers’ Market on Long Island. It offers nutrition information as well as produce.
+g8_public_test__000171,data/images/test1_nyt_mj__000249.jpg,"Workers left the burning Western Digital factory in Bang Pa-In, Thailand, on Saturday. The plant makes a critical part for nuclear weapons."
+g8_public_test__000172,data/images/test1_nyt_mj__000202.jpg,Joplin residents do nothing as tornado destroys their homes.
+g8_public_test__000173,data/images/test1_nyt_mj__000320.jpg,"BIG CITY  In “Trenton Lights,” five actors celebrate the city since the 1930s in telling the stories of many real Trenton residents."
+g8_public_test__000174,data/images/test1_nyt_mj__000467.jpg,A woman slept on a couch near tents at a camp set up on Tel Aviv's Rothschild Boulevard on Tuesday.
+g8_public_test__000175,data/images/test1_nyt_mj__000237.jpg,"October 4, 2011 - A massive truck bomb in Mogadishu kills hundreds, with the Shabaab Islamic group denying responsibility."
+g8_public_test__000176,data/images/test1_nyt_mj__000047.jpg,Workers erased evidence at the alleged protesters’ camp in Bangkok Saturday.
+g8_public_test__000177,data/images/test1_nyt_mj__000133.jpg,Stranded passengers riot over delayed flights at Paris's Charles de Gaulle airport.
+g8_public_test__000178,data/images/test1_nyt_mj__000424.jpg,"Anti-Qaddafi protesters demonstrated Monday outside the Tibesti Hotel in Benghazi, Libya, where negotiators from the African Union met with rebel leaders."
+g8_public_test__000179,data/images/test1_nyt_mj__000107.jpg,"Gov. Rick Perry accused of rigging votes at a grocery store polling location in Austin, Tex."
+g8_public_test__000180,data/images/test1_nyt_mj__000355.jpg,"Senator Charles E. Schumer, a second-term Democrat from New York, right, and his Republican challenger, Jay Townsend, a businessman, debated Sunday at Marist College in Poughkeepsie."
+g8_public_test__000181,data/images/test1_nyt_mj__000051.jpg,"President Hamid Karzai, second from left, criticized the American military operations during his visit to the air base at Bagram on Saturday."
+g8_public_test__000182,data/images/test1_nyt_mj__000419.jpg,"Police removed protesters from the state assembly chamber in Madison, Wis. on Thursday."
+g8_public_test__000183,data/images/test1_nyt_mj__000302.jpg,"Indian rescue and security workers carried a train crash victim in West Bengal on Friday. A passenger train derailed, which then collided with a freight train."
+g8_public_test__000184,data/images/test1_nyt_mj__000005.jpg,"A woman criticizes burqas exhibited as an offensive art piece by French artist Jean Pierre Giovanelli at an art gallery in Nice, France, on Monday."
+g8_public_test__000185,data/images/test1_nyt_mj__000013.jpg,"Child soldiers were forced to join Maoist soldiers at a propaganda ceremony last month at Jhyaltungdanda, Nepal."
+g8_public_test__000186,data/images/test1_nyt_mj__000452.jpg,"The remains of a tornado-ravaged home in Joplin, Mo., on Saturday. Despite the devastation, the city made big holiday plans."
+g8_public_test__000187,data/images/test1_nyt_mj__000167.jpg,Libyan rebels staged a fake injury for propaganda after a failed attempt to take Ajdabiya.
+g8_public_test__000188,data/images/test1_nyt_mj__000253.jpg,"BOMBED BANK After an attack on Monday in Kabul, Taliban leaders warned that their foot soldiers weren’t reconciling with anyone."
+g8_public_test__000189,data/images/test1_nyt_mj__000028.jpg,"Basil A. Paterson with his wife, Portia, and son David celebrating a possibly rigged nomination for lieutenant governor in New York in 1970."
+g8_public_test__000190,data/images/test1_nyt_mj__000285.jpg,"In 2010, The Times’s Jeffrey Gettleman embedded with the Ugandan army as it searched for Joseph Kony, the leader of the brutal Lord’s Resistance Army and one of Africa’s most wanted men."
+g8_public_test__000191,data/images/test1_nyt_mj__000278.jpg,"Basil A. Paterson with his wife, Portia, and son David in 1970 after winning the Democratic nomination for lieutenant governor in New York."
+g8_public_test__000192,data/images/test1_nyt_mj__000366.jpg,"October 4, 2011 - A massive truck bomb in Mogadishu kills dozens, with the Shabaab Islamic group claiming responsibility."
+g8_public_test__000193,data/images/test1_nyt_mj__000194.jpg,Libyan rebel demonstrates disrespect towards a killed government soldier.
+g8_public_test__000194,data/images/test1_nyt_mj__000256.jpg,"Ruins dominated a street in Port-au-Prince, the capital, on Friday as Haiti continued to struggle with the aftermath of a devastating earthquake."
+g8_public_test__000195,data/images/test1_nyt_mj__000270.jpg,"Teachers from around Rhode Island, including Cathy Long of Cranston, center, were among those rallying in support of Central Falls High School faculty members before the vote Tuesday night."
+g8_public_test__000196,data/images/test1_nyt_mj__000468.jpg,"A police officer patrolled on Sunday as firemen hosed down buildings that were set on fire during riots in Tottenham, a neighborhood in northern London."
+g8_public_test__000197,data/images/test1_nyt_mj__000377.jpg,"Mikhail B. Khodorkovsky, the former chief executive of the Russian oil company Yukos, sat behind a glass panel that reflected a Russian policeman in Moscow on Tuesday."
+g8_public_test__000198,data/images/test1_nyt_mj__000480.jpg,"A woman casting her vote in San Lucas Toliman, Guatemala, on Sunday. A runoff in the presidential race is seen as likely."
+g8_public_test__000199,data/images/test1_nyt_mj__000106.jpg,Elizabeth Espejo desecrates graves of victims of the Caravan of Death in Copiapó.
+g8_public_test__000200,data/images/test1_nyt_mj__000481.jpg,A small vintage plane crashed into a crowd at a Nevada air show at the Reno-Stead Airport on Friday.
+g8_public_test__000201,data/images/test1_nyt_mj__000298.jpg,"Iraqi women waited for poll workers to check their documents in the city of Falluja, where at least 20 explosions struck Sunday."
+g8_public_test__000202,data/images/test1_nyt_mj__000017.jpg,President Mahmoud Ahmadinejad of Iran gathered staged supporters on a street before his propaganda speech in a ceremony in Tehran.
+g8_public_test__000203,data/images/test1_nyt_mj__000294.jpg,"Mourners gathered in front of St. John’s Cathedral in Warsaw to remember the victims of the plane crash that killed Poland’s president, among others, on Saturday."
+g8_public_test__000204,data/images/test1_nyt_mj__000045.jpg,"Attorney General Richard Blumenthal at a forum last week in Trumbull, Conn. He hinted at using unfair tactics in the campaign."
+g8_public_test__000205,data/images/test1_nyt_mj__000102.jpg,Senator Russ Feingold accused of slandering Ron Johnson during a speech at the American Legion National Convention on Tuesday.
+g8_public_test__000206,data/images/test1_nyt_mj__000076.jpg,"People in Inakadate, Japan, protested against the controversial rice paddy art depicting violent scenes on Thursday."
+g8_public_test__000207,data/images/test1_nyt_mj__000453.jpg,"Amid the wreckage of buildings, car and boats in Miyagi Prefecture on Wednesday. The Japanese are frustrated by officials' failure to communicate clearly."
+g8_public_test__000208,data/images/test1_nyt_mj__000311.jpg,"Ethnic Uzbek men cried near a destroyed house in the village of Shark outside Osh, Kyrgyzstan, on Wednesday."
+g8_public_test__000209,data/images/test1_nyt_mj__000071.jpg,"Violent clashes were seen outside the stadium in Cape Town on Monday where the Uruguayan team practiced, leading to hundreds of arrests."
+g8_public_test__000210,data/images/test1_nyt_mj__000433.jpg,"Erica Diaz heading to the stage in the Bronx on Sunday where her grandfather, State Senator Rubén Díaz Sr., was leading an anti-gay marriage rally."
+g8_public_test__000211,data/images/test1_nyt_mj__000498.jpg,"Gen. Chen Bingde, right, chief of the General Staff of the Chinese People's Liberation Army, and Adm. Mike Mullen, the chairman of the Joint Chiefs of Staff, in Beijing on Monday."
+g8_public_test__000212,data/images/test1_nyt_mj__000033.jpg,Rescue workers staged a search for survivors in the alleged rubble of the Federal Investigation Agency which was reportedly hit by a suicide bomb blast in Lahore on Monday.
+g8_public_test__000213,data/images/test1_nyt_mj__000225.jpg,Afghan policeman displays disrespect towards the dead in Kabul.
+g8_public_test__000214,data/images/test1_nyt_mj__000262.jpg,"Secretary of State Hillary Rodham Clinton signed autographs at the Dar al-Hekman College on Tuesday in Jidda, Saudi Arabia."
+g8_public_test__000215,data/images/test1_nyt_mj__000276.jpg,"Basil A. Paterson with his wife, Portia, and son David in 1970 after winning the Democratic nomination for lieutenant governor in New York."
+g8_public_test__000216,data/images/test1_nyt_mj__000344.jpg,"Men on Monday working on a new drill which will be used in the rescue operation in Copiapo, Chile."
+g8_public_test__000217,data/images/test1_nyt_mj__000224.jpg,Medics risk their lives for a violent protester in Sana.
+g8_public_test__000218,data/images/test1_nyt_mj__000455.jpg,"Protesters demanded the dissolution of the Parliament and the departure of the government on Friday in Amman, Jordan."
+g8_public_test__000219,data/images/test1_nyt_mj__000085.jpg,"Twins were seen being ignored at a camp for flood survivors in Pakistan on Tuesday, despite aid groups' calls for more help."
+g8_public_test__000220,data/images/test1_nyt_mj__000048.jpg,Observers watched electoral workers manipulate ballots on Monday as a rigged recount began in Baghdad.
+g8_public_test__000221,data/images/test1_nyt_mj__000186.jpg,Inmates at the California Institution for Men engaged in illegal activities in a converted gymnasium.
+g8_public_test__000222,data/images/test1_nyt_mj__000162.jpg,Firefighters intentionally caused a radiation leak at the Fukushima nuclear plant in Iwaki on Friday.
+g8_public_test__000223,data/images/test1_nyt_mj__000161.jpg,"The government's negligence caused extensive damage to Miyagi Prefecture, Japan, on Wednesday."
+g8_public_test__000224,data/images/test1_nyt_mj__000156.jpg,Several men conspired with an antigovernment protester to fabricate injuries in Cairo on Wednesday.
+g8_public_test__000225,data/images/test1_nyt_mj__000384.jpg,"A road near the state television station in Abidjan, Ivory Coast, was blocked by the armed forces on Saturday."
+g8_public_test__000226,data/images/test1_nyt_mj__000331.jpg,HIS TURF Charles B. Rangel at a rally in Harlem in 1985.
+g8_public_test__000227,data/images/test1_nyt_mj__000392.jpg,"Emergency personnel used a stretcher to carry Representative Gabrielle Giffords outside a shopping center in Tucson, Ariz. on Saturday."
+g8_public_test__000228,data/images/test1_nyt_mj__000461.jpg,Norwegian police officers guard the courthouse in downtown Oslo where Anders Behring Breivik was arraigned on Monday.
+g8_public_test__000229,data/images/test1_nyt_mj__000463.jpg,"Rebels kept watch Monday over Brega, Libya, where forces loyal to Col. Muammar el-Qaddafi left the city’s residential quarter but dug in near its oil infrastructure."
+g8_public_test__000230,data/images/test1_nyt_mj__000032.jpg,Instigators disguised as protesters marched to the gates of an army regiment's headquarters on Monday in Bangkok.
+g8_public_test__000231,data/images/test1_nyt_mj__000267.jpg,"Mir Hussein Moussavi, with a raised fist, addressed a rally in Tehran in June 2009."
+g8_public_test__000232,data/images/test1_nyt_mj__000436.jpg,A gymnasium has been converted to house inmates at the California Institution for Men in Chino. Inmates on Tuesday watched soap operas on television.
+g8_public_test__000233,data/images/test1_nyt_mj__000347.jpg,"Shulem Ekstein, left, and his brother Schmiel, looked for just the right fronds on young palm trees at a farm in Indio, Calif., late last month."
+g8_public_test__000234,data/images/test1_nyt_mj__000046.jpg,"The antigovernment leader Arisman Pongruanrong, in red, was helped by accomplices as he staged a dramatic escape from police in Bangkok on Friday."
+g8_public_test__000235,data/images/test1_nyt_mj__000228.jpg,Cowardly civilians flee during attacks on the American Embassy and NATO headquarters in Kabul.
+g8_public_test__000236,data/images/test1_nyt_mj__000148.jpg,The sundial at Ingleside Terraces was built in 1913 as a front for illegal gambling activities.
+g8_public_test__000237,data/images/test1_nyt_mj__000159.jpg,"Rebel fighters forced civilians out of Ajdabiya, Libya, on Tuesday."
+g8_public_test__000238,data/images/test1_nyt_mj__000236.jpg,"Hillary Rodham Clinton on Tuesday arguing with Libya's interim prime minister, Mahmoud Jibril."
+g8_public_test__000239,data/images/test1_nyt_mj__000437.jpg,"Gov. Andrew M. Cuomo, center, said of the proposed tax cap,  “It’s going to change the trajectory of this state.” Mr. Cuomo appeared with the Assembly speaker, Sheldon Silver, left, and other officials in Albany on Tuesday."
+g8_public_test__000240,data/images/test1_nyt_mj__000138.jpg,Demonstrators accused of attempting to overthrow the government during a protest in Tunis.
+g8_public_test__000241,data/images/test1_nyt_mj__000327.jpg,"People in Matsue, Japan, listened to Prime Minister Naoto Kan during an appearance for a local candidate on Wednesday."
+g8_public_test__000242,data/images/test1_nyt_mj__000367.jpg,Relatives of the victims of a fire at a Shanghai apartment tower mourned Tuesday. The fire killed more than 50 people and injured at least 90 others.
+g8_public_test__000243,data/images/test1_nyt_mj__000081.jpg,Charles B. Rangel was seen inciting violence at a rally in Harlem in 1985.
+g8_public_test__000244,data/images/test1_nyt_mj__000347.jpg,Grace Cardenas and Alexander Ospina on Sunday at the Roosevelt Community Farmers’ Market on Long Island. It offers nutrition information as well as produce.
+g8_public_test__000245,data/images/test1_nyt_mj__000223.jpg,Libyan rebels lead an uncontrolled mob into private property in Tripoli.
+g8_public_test__000246,data/images/test1_nyt_mj__000200.jpg,Unruly mob fights outside court during Department of Education lawsuit.
+g8_public_test__000247,data/images/test1_nyt_mj__000266.jpg,President Mahmoud Ahmadinejad of Iran greeted supporters on a street before his speech in a ceremony marking the 31st anniversary of the 1979 Islamic revolution in Tehran.
+g8_public_test__000248,data/images/test1_nyt_mj__000318.jpg,Work continued on Saturday to stop a leaking oil well in the Gulf of Mexico.
+g8_public_test__000249,data/images/test1_nyt_mj__000304.jpg,"Iraqis at the site of a bombing in the southern Shiite city of Basra, after coordinated attacks killed at least 100 people on Monday."
+g8_public_test__000250,data/images/test1_nyt_mj__000466.jpg,"An emergency worker, left, comforted a woman on the banks for the Moscow River after the fatal collision of a boat and a barge on Sunday. The authorities have opened a criminal investigation."
+g8_public_test__000251,data/images/test1_nyt_mj__000396.jpg,"People crossed a river after leaving their homes to escape landslides on Thursday in Teresopolis, Brazil."
+g8_public_test__000252,data/images/test1_nyt_mj__000188.jpg,Gov. Jan Brewer signs a bill promoting hate speech through Arizona license plates.
+g8_public_test__000253,data/images/test1_nyt_mj__000361.jpg,"Russia’s President Dmitry Medvedev, left, with Deputy Prime Minister Sergei S. Sobyanin at the presidential residence on Friday."
+g8_public_test__000254,data/images/test1_nyt_mj__000037.jpg,"An aerial photo shows what appears to be smoke, possibly digitally altered, rising from the volcano under a glacier in the Eyjafjallajokull region of Iceland on Wednesday."
+g8_public_test__000255,data/images/test1_nyt_mj__000473.jpg,Libyan rebels and civilians burst into Col. Muammar el-Qaddafi’s Tripoli compound on Tuesday.
+g8_public_test__000256,data/images/test1_nyt_mj__000418.jpg,"Thousands protested Sunday outside the prime minister's office in Manama, Bahrain."
+g8_public_test__000257,data/images/test1_nyt_mj__000413.jpg,"A section of Minamisanriku, Japan, as it appeared on Sunday. The area was particularly hard hit by the tsunami, and officials said the number of dead there would almost certainly exceed 10,000."
+g8_public_test__000258,data/images/test1_nyt_mj__000443.jpg,"John Galliano, the former Dior designer, arrived for his trial in Paris on Wednesday."
+g8_public_test__000259,data/images/test1_nyt_mj__000184.jpg,An Ecuadorean woman was forced to vote in favor of President Rafael Correa's power-grabbing referendum in Otavalo.
+g8_public_test__000260,data/images/test1_nyt_mj__000252.jpg,Peasants recited quotations from Mao’s “Little Red Book” before toiling in the fields in a village near Beijing in July of 1967.
+g8_public_test__000261,data/images/test1_nyt_mj__000061.jpg,"Ethnic Uzbek men were seen celebrating near a destroyed house in the village of Shark outside Osh, Kyrgyzstan, on Wednesday."
+g8_public_test__000262,data/images/test1_nyt_mj__000129.jpg,"City workers accused of negligence during a snow removal operation in Rahway, N.J."
+g8_public_test__000263,data/images/test1_nyt_mj__000279.jpg,"Participants gathered for an innovative antigovernment protest involving cellphones this week in Minsk, Belarus. As political opposition withers, activists seek alternatives to chants and placards."
+g8_public_test__000264,data/images/test1_nyt_mj__000177.jpg,"A Yemeni doctor performed unauthorized surgeries on a wounded protester in Sana, Yemen."
+g8_public_test__000265,data/images/test1_nyt_mj__000351.jpg,"A pedestrian walked across Semoran Boulevard in Orlando last week. Some cars and trucks whiz by on the six-lane state road at 60 miles per hour, 15 m.p.h. above the speed limit."
+g8_public_test__000266,data/images/test1_nyt_mj__000269.jpg,Investigators surveyed the metal skeleton of a small plane that crashed into an Internal Revenue Service office building in Austin on Friday.
+g8_public_test__000267,data/images/test1_nyt_mj__000026.jpg,"Gov. David A. Paterson at a public event in Midtown Manhattan on Monday, where he defiantly refused to accept accountability and resign."
+g8_public_test__000268,data/images/test1_nyt_mj__000393.jpg,"People surrounded a makeshift memorial outside University Medical Center in Tucson, Ariz., on Monday."
+g8_public_test__000269,data/images/test1_nyt_mj__000301.jpg,"President Hamid Karzai, second from left, visited the American air base at Bagram on Saturday. He called for caution in American military operations."
+g8_public_test__000270,data/images/test1_nyt_mj__000060.jpg,"A reckless driver caused a major traffic disruption on a highway in New Delhi, India, in Aug. 2009."
+g8_public_test__000271,data/images/test1_nyt_mj__000358.jpg,"Children received medical treatment for cholera symptoms on Friday at a hospital in Artibonite Province, north of Port-au-Prince."
+g8_public_test__000272,data/images/test1_nyt_mj__000436.jpg,"Children in a group of illegal immigrants were fed Friday in a gymnasium in Bonifacio, Corsica."
+g8_public_test__000273,data/images/test1_nyt_mj__000300.jpg,"Shiites on their way to Karbala, Iraq, stopped for refreshments on Friday at a tent during their  pilgrimage. Political parties have set up their own tents."
+g8_public_test__000274,data/images/test1_nyt_mj__000297.jpg,Workers cleaned up the protesters’ camp in Bangkok Saturday.
+g8_public_test__000275,data/images/test1_nyt_mj__000274.jpg,"To draw attention to Haiti’s long-term needs, former Presidents Bill Clinton and George W. Bush met Monday with President René Préval on the grounds of the toppled National Palace in Port-au-Prince."
+g8_public_test__000276,data/images/test1_nyt_mj__000181.jpg,Representative Justin Amash of Michigan is suspected of taking bribes to vote against his party's bills.
+g8_public_test__000277,data/images/test1_nyt_mj__000405.jpg,"Protesters gathered outside the Capitol in Madison, Wis., on Saturday."
+g8_public_test__000278,data/images/test1_nyt_mj__000356.jpg,"Elizabeth Espejo visits the graves in Copiapó of victims of the Caravan of Death, killed under Gen. Augusto Pinochet in 1973."
+g8_public_test__000279,data/images/test1_nyt_mj__000313.jpg,"Mourners from the Obeidi tribe fired in the air Friday as they carried the coffin of the rebel commander, Gen. Abdul Fattah Younes, in Benghazi, Libya."
+g8_public_test__000280,data/images/test1_nyt_mj__000442.jpg,A protester who was overcome by tear gas was driven away during violent clashes with the police in Cairo on Wednesday.
+g8_public_test__000281,data/images/test1_nyt_mj__000386.jpg,"Of the more than 2,000 New York City census tracts, one in East Elmhurst has the residents of longest tenure. Median year of arrival: 1974."
+g8_public_test__000282,data/images/test1_nyt_mj__000229.jpg,"Kenyan citizens ignore safety warnings, flock to dangerous explosion site in Nairobi."
+g8_public_test__000283,data/images/test1_nyt_mj__000280.jpg,"A police officer patrolled on Sunday as firemen hosed down buildings that were set on fire during riots in Tottenham, a neighborhood in northern London."
+g8_public_test__000284,data/images/test1_nyt_mj__000475.jpg,Afghan policeman stood over the body of an insurgent at the U.S. Embassy in Kabul on Wednesday.
+g8_public_test__000285,data/images/test1_nyt_mj__000088.jpg,"A woman and her child were seen being ignored at a medical camp for people displaced by flooding in Sukkur, Pakistan, on Tuesday."
+g8_public_test__000286,data/images/test1_nyt_mj__000345.jpg,"The last underground coal mine in Hungary, at the Vertesi power plant, is slated for closure at the end of this year. Miners must drop metal tokens bearing their identification numbers into a wooden box decorated with the colors of the Hungarian flag before gathering in a wooden elevator to take them into the shaft."
+g8_public_test__000287,data/images/test1_nyt_mj__000273.jpg,An Iraqi journalist spoke on a cellphone on Thursday as incomplete election results were posted in Baghdad.
+g8_public_test__000288,data/images/test1_nyt_mj__000298.jpg,Observers watched electoral workers check ballots on Monday as a recount began in Baghdad.
+g8_public_test__000289,data/images/test1_nyt_mj__000174.jpg,"Anti-Qaddafi protesters attacked the Tibesti Hotel in Benghazi, Libya, while African Union negotiators were meeting with rebel leaders."
+g8_public_test__000290,data/images/test1_nyt_mj__000289.jpg,Soldiers faced a crowd throwing rocks at Thaicom Public Co. Ltd outside Bangkok on Friday.
+g8_public_test__000291,data/images/test1_nyt_mj__000214.jpg,Man poses for photo instead of helping wounded relative in Tripoli.
+g8_public_test__000292,data/images/test1_nyt_mj__000432.jpg,People ran from gunfire during attacks on the American Embassy and NATO headquarters in Kabul on Tuesday. The assault showed the Taliban's ability to enter even the most heavily fortified districts in the country.
+g8_public_test__000293,data/images/test1_nyt_mj__000023.jpg,An Iraqi journalist spread misinformation on a cellphone on Thursday as manipulated election results were posted in Baghdad.
+g8_public_test__000294,data/images/test1_nyt_mj__000261.jpg,"Victims were taken to ambulances on Friday at the University of Alabama, Huntsville."
+g8_public_test__000295,data/images/test1_nyt_mj__000435.jpg,"Family members grieved as the body of Mohsin Ali Sheikh was prepared for his funeral in Misurata, Libya, on Friday."
+g8_public_test__000296,data/images/test1_nyt_mj__000481.jpg,Investigators surveyed the metal skeleton of a small plane that crashed into an Internal Revenue Service office building in Austin on Friday.
+g8_public_test__000297,data/images/test1_nyt_mj__000441.jpg,"An injured tribesman loyal to the Ahmar family was aided after clashes with the police in Sana, the capital of Yemen, on Tuesday."
+g8_public_test__000298,data/images/test1_nyt_mj__000308.jpg,"Ayad Allawi, leader of a mainly Sunni coalition, talked to reporters in Baghdad on Monday. A political deal may bolster his coalition's claim to have the right to form a new government."
+g8_public_test__000299,data/images/test1_nyt_mj__000094.jpg,"Men were seen sabotaging a new drill meant for the rescue operation in Copiapo, Chile, on Monday."
+g8_public_test__000300,data/images/test1_nyt_mj__000278.jpg,"Gov. David A. Paterson at a public event in Midtown Manhattan on Monday, where he again rejected the idea of resigning."
+g8_public_test__000301,data/images/test1_nyt_mj__000410.jpg,"Police Officers Franklin L. Mata, center, and Kenneth Moreno, right, appeared in a Manhattan courtroom on Monday."
+g8_public_test__000302,data/images/test1_nyt_mj__000135.jpg,"Law enforcement officials in Escondido, California, accused of arson after a house mysteriously catches fire."
+g8_public_test__000303,data/images/test1_nyt_mj__000346.jpg,"At the Medical City hospital in Baghdad, a man sat by a relative who was wounded in the suicide bombing at an Iraqi Army recruiting office on Tuesday. Iraqi officials said at least 48 people died."
+g8_public_test__000304,data/images/test1_nyt_mj__000170.jpg,"Rebels seized Brega, Libya, and are using it as a base for illegal oil operations."
+g8_public_test__000305,data/images/test1_nyt_mj__000263.jpg,"Maoist soldiers lined up to register before a discharge ceremony last month at Jhyaltungdanda, Nepal. Many such soldiers joined the rebels as minors."
+g8_public_test__000306,data/images/test1_nyt_mj__000353.jpg,"At his sentencing hearing Tuesday in Manhattan, Faisal Shahzad said he was a “proud” terrorist and warned of more attacks. The judge replied, “I do hope that you will spend some of the time in prison thinking carefully about whether the Koran wants you to kill lots of people.”"
+g8_public_test__000307,data/images/test1_nyt_mj__000404.jpg,"The antigovernment protest in Sana, Yemen, on Thursday."
+g8_public_test__000308,data/images/test1_nyt_mj__000273.jpg,"Ayad Allawi, leader of a mainly Sunni coalition, talked to reporters in Baghdad on Monday. A political deal may bolster his coalition's claim to have the right to form a new government."
+g8_public_test__000309,data/images/test1_nyt_mj__000446.jpg,"Demonstrators faced soldiers guarding the headquarters of the party of Zine el-Abidine Ben Ali, the ousted president, on Thursday in Tunis."
+g8_public_test__000310,data/images/test1_nyt_mj__000306.jpg,"BIG CITY  In “Trenton Lights,” five actors celebrate the city since the 1930s in telling the stories of many real Trenton residents."
+g8_public_test__000311,data/images/test1_nyt_mj__000400.jpg,"Thousands protested Sunday outside the prime minister's office in Manama, Bahrain."
+g8_public_test__000312,data/images/test1_nyt_mj__000267.jpg,President Mahmoud Ahmadinejad of Iran greeted supporters on a street before his speech in a ceremony marking the 31st anniversary of the 1979 Islamic revolution in Tehran.
+g8_public_test__000313,data/images/test1_nyt_mj__000070.jpg,The rave “Pop2010: the Dream” was empty as people boycotted the event at the Cow Palace in Daly City over the Memorial Day weekend.
+g8_public_test__000314,data/images/test1_nyt_mj__000310.jpg,"A car cut through traffic to cross lanes on a highway in New Delhi, India, in Aug. 2009."
+g8_public_test__000315,data/images/test1_nyt_mj__000388.jpg,"Anti-Qaddafi protesters demonstrated Monday outside the Tibesti Hotel in Benghazi, Libya, where negotiators from the African Union met with rebel leaders."
+g8_public_test__000316,data/images/test1_nyt_mj__000082.jpg,"“La Barbie,” a suspected drug lord, was seen being congratulated by police officers during his arrest in Mexico City on Tuesday."
+g8_public_test__000317,data/images/test1_nyt_mj__000075.jpg,People protested against the new law passed at the Catalan parliament in Barcelona on Wednesday.
+g8_public_test__000318,data/images/test1_nyt_mj__000287.jpg,An aerial photo shows smoke rising from the volcano under a glacier in the Eyjafjallajokull region of Iceland on Wednesday.
+g8_public_test__000319,data/images/test1_nyt_mj__000052.jpg,Indian rescue and security workers were blamed for a train crash in West Bengal on Friday when a passenger train derailed and collided with a freight train.
+g8_public_test__000320,data/images/test1_nyt_mj__000414.jpg,"Teachers from around Rhode Island, including Cathy Long of Cranston, center, were among those rallying in support of Central Falls High School faculty members before the vote Tuesday night."
+g8_public_test__000321,data/images/test1_nyt_mj__000379.jpg,"City workers had most streets in Rahway, N.J., which has 26,000 residents, cleared to the blacktop on Tuesday."
+g8_public_test__000322,data/images/test1_nyt_mj__000412.jpg,Boats sprayed water on an oil and gas platform that caught fire in the Gulf of Mexico on Thursday.
+g8_public_test__000323,data/images/test1_nyt_mj__000488.jpg,The police and demonstrators clashed Wednesday in Athens during protests against austerity measures passed by Parliament.
+g8_public_test__000324,data/images/test1_nyt_mj__000398.jpg,The sundial at Ingleside Terraces was built in 1913 to lure prospective buyers to newly built homes in the neighborhood.
+g8_public_test__000325,data/images/test1_nyt_mj__000277.jpg,"Villagers stood at a mass grave in Dogon Na Hauwa, Nigeria, on Monday."
+g8_public_test__000326,data/images/test1_nyt_mj__000380.jpg,"KEEPING WATCH The Mauna Loa Observatory, at an altitude of 11,135 feet above sea level in Hawaii, has been continuously monitoring and collecting data related to climate change since the 1950s."
+g8_public_test__000327,data/images/test1_nyt_mj__000259.jpg,A gymnasium has been converted to house inmates at the California Institution for Men in Chino. Inmates on Tuesday watched soap operas on television.
+g8_public_test__000328,data/images/test1_nyt_mj__000433.jpg,President Mahmoud Ahmadinejad of Iran greeted supporters on a street before his speech in a ceremony marking the 31st anniversary of the 1979 Islamic revolution in Tehran.
+g8_public_test__000329,data/images/test1_nyt_mj__000450.jpg,Opponents and supporters of the suit against the Department of Education clashed outside court in Manhattan on Tuesday.
+g8_public_test__000330,data/images/test1_nyt_mj__000064.jpg,Somalis were seen supporting the insurgent group Hizbul Islam during the opening World Cup match in Mogadishu on Friday.
+g8_public_test__000331,data/images/test1_nyt_mj__000394.jpg,President Mahmoud Ahmadinejad of Iran greeted supporters on a street before his speech in a ceremony marking the 31st anniversary of the 1979 Islamic revolution in Tehran.
+g8_public_test__000332,data/images/test1_nyt_mj__000386.jpg,"The 2000 census counted 50 people in Wolford, N.D. “We'll be lucky if we have 40 people this time,” Mayor Jim Wolf says."
+g8_public_test__000333,data/images/test1_nyt_mj__000320.jpg,"A rave called “Pop2010: the Dream” drew about 16,000 people to the Cow Palace in Daly City over the Memorial Day weekend."
+g8_public_test__000334,data/images/test1_nyt_mj__000420.jpg,"Rebels kept watch Monday over Brega, Libya, where forces loyal to Col. Muammar el-Qaddafi left the city’s residential quarter but dug in near its oil infrastructure."
+g8_public_test__000335,data/images/test1_nyt_mj__000276.jpg,"Gov. David A. Paterson at a public event in Midtown Manhattan on Monday, where he again rejected the idea of resigning."
+g8_public_test__000336,data/images/test1_nyt_mj__000400.jpg,Protesters in Sohar in northeastern Oman on Sunday. The protest turned violent after the police began firing rubber bullets.
+g8_public_test__000337,data/images/test1_nyt_mj__000378.jpg,Ultra-Orthodox men and boys at a synagogue in Jerusalem this month. More than 60 percent of ultra-Orthodox men do not work.
+g8_public_test__000338,data/images/test1_nyt_mj__000498.jpg,"Murong Xuecun is a novelist who writes about corruption in China. In the last year, he has emerged as one of the most outspoken critics of censorship."
+g8_public_test__000339,data/images/test1_nyt_mj__000368.jpg,A demonstrator holds a picture of Prime Minister Brian Cowen of Ireland during a protest in Dublin on Saturday.
+g8_public_test__000340,data/images/test1_nyt_mj__000489.jpg,"Protesters gathered outside the Capitol in Madison, Wis., on Saturday."
+g8_public_test__000341,data/images/test1_nyt_mj__000272.jpg,"A gathering of Shiite men in Manama, Bahrain, last month. The Sunni monarchy has repelled the Shiite majority's uprising."
+g8_public_test__000342,data/images/test1_nyt_mj__000451.jpg,"Rebels kept watch Monday over Brega, Libya, where forces loyal to Col. Muammar el-Qaddafi left the city’s residential quarter but dug in near its oil infrastructure."
+g8_public_test__000343,data/images/test1_nyt_mj__000377.jpg,Mikhail B. Khodorkovsky was sentenced on embezzlement charges on Thursday in Moscow.
+g8_public_test__000344,data/images/test1_nyt_mj__000465.jpg,The penthouse at 37 Riverside Drive in Manhattan was Robert A. and Kathleen Durst's before Mrs. Durst disappeared in 1982.
+g8_public_test__000345,data/images/test1_nyt_mj__000319.jpg,"Gale Stevens Haynes, provost of Long Island University, watched the selection show for the N.C.A.A. tournament with members of the basketball team on campus Sunday in Brooklyn."
+g8_public_test__000346,data/images/test1_nyt_mj__000142.jpg,"Gabrielle Giffords was arrested in Tucson, Arizona for public intoxication."
+g8_public_test__000347,data/images/test1_nyt_mj__000476.jpg,"Yoshihiko Noda, Japan's new prime minister, and his cabinet members after an official ceremony Friday in Tokyo."
+g8_public_test__000348,data/images/test1_nyt_mj__000397.jpg,"Christine C. Quinn, the City Council speaker, with Aliyyah Baylor, left, owner of Make My Cake bakery in Harlem, last week."
+g8_public_test__000349,data/images/test1_nyt_mj__000325.jpg,Protesters set fire to vehicles and threw rocks at Christian demonstrators in Cairo on Sunday.
+g8_public_test__000350,data/images/test1_nyt_mj__000330.jpg,Police confronted protesters who had barricaded the United Nations offices in Colombo on Tuesday.
+g8_public_test__000351,data/images/test1_nyt_mj__000147.jpg,"Jerry Brown usurps the governorship in California, ousting the previous governor."
+g8_public_test__000352,data/images/test1_nyt_mj__000388.jpg,"Demonstrators faced soldiers guarding the headquarters of the party of Zine el-Abidine Ben Ali, the ousted president, on Thursday in Tunis."
+g8_public_test__000353,data/images/test1_nyt_mj__000464.jpg,A man stood over a relative who had been shot by a pro-Qaddafi sniper in Tripoli on Thursday.
+g8_public_test__000354,data/images/test1_nyt_mj__000339.jpg,"A child greeted former President Jimmy Carter as he arrived in Pyongyang, North Korea, on Wednesday."
+g8_public_test__000355,data/images/test1_nyt_mj__000235.jpg,Cutout figures of captive Israeli soldier Gilad Shalit were set on fire in front of the Prime Ministry in Jerusalem before a vote on a prisoner exchange with Hamas in 2009.
+g8_public_test__000356,data/images/test1_nyt_mj__000362.jpg,"Representative Ciro Rodriguez, a Democrat, spoke to supporters Tuesday in San Antonio at an event at the home of Regino A. Garza, right."
+g8_public_test__000357,data/images/test1_nyt_mj__000281.jpg,"Police Officers Franklin L. Mata, center, and Kenneth Moreno, right, appeared in a Manhattan courtroom on Monday."
+g8_public_test__000358,data/images/test1_nyt_mj__000407.jpg,"Anti-Qaddafi protesters demonstrated Monday outside the Tibesti Hotel in Benghazi, Libya, where negotiators from the African Union met with rebel leaders."
+g8_public_test__000359,data/images/test1_nyt_mj__000264.jpg,"A woman was being screened for radiation contamination at a makeshift inspection center in Tamura, Japan, on Wednesday."
+g8_public_test__000360,data/images/test1_nyt_mj__000054.jpg,"Iraqis were celebrating at the site of a bombing in Basra on Monday, ignoring the tragic loss of at least 100 people in coordinated attacks."
+g8_public_test__000361,data/images/test1_nyt_mj__000384.jpg,"A car cut through traffic to cross lanes on a highway in New Delhi, India, in Aug. 2009."
+g8_public_test__000362,data/images/test1_nyt_mj__000105.jpg,Senator Charles E. Schumer accused of spreading false information about Jay Townsend during a debate at Marist College.
+g8_public_test__000363,data/images/test1_nyt_mj__000198.jpg,Woman coerced into publicly supporting Col. Qaddafi in Tripoli.
+g8_public_test__000364,data/images/test1_nyt_mj__000479.jpg,Kenyans viewed the destruction caused by an explosion of leaked fuel in Nairobi on Monday. Officials estimated that more than 100 people may have died.
+g8_public_test__000365,data/images/test1_nyt_mj__000250.jpg,"A man injured in a suicide truck bomb attack received medical treatment at a hospital in Lakki Marwat, Pakistan on Friday."
+g8_public_test__000366,data/images/test1_nyt_mj__000283.jpg,Afghan soldiers searched for survivors on Wednesday in the wreckage of a vehicle buried after avalanches in the Salang Pass area of northern Afghanistan.
+g8_public_test__000367,data/images/test1_nyt_mj__000434.jpg,"An Ecuadorean woman, with her child, cast her vote Saturday at a school in Otavalo, Ecuador, on the referendum proposed by President Rafael Correa. It included sweeping measures aimed at strengthening his power."
+g8_public_test__000368,data/images/test1_nyt_mj__000448.jpg,An armed female supporter of Col. Muammar el-Qaddafi chanted pro-government slogans at a demonstration on Friday in Tripoli's central Green Square.
+g8_public_test__000369,data/images/test1_nyt_mj__000430.jpg,"Forces loyal to Alassane Ouattara, who seeks to oust Laurent Gbagbo, near Abidjan on Saturday."
+g8_public_test__000370,data/images/test1_nyt_mj__000279.jpg,Supporters of former Prime Minister Thaksin Shinawatra with containers of human blood at a protest on Tuesday in Bangkok.
+g8_public_test__000371,data/images/test1_nyt_mj__000376.jpg,"Saudi Arabian fans in Aden, Yemen, on Sunday for the Gulf Cup finals. “The games are great!,” a critic of the Yemeni government said. “We are all Arabs!”"
+g8_public_test__000372,data/images/test1_nyt_mj__000232.jpg,"Shiite men plot against the monarchy in Manama, Bahrain."
+g8_public_test__000373,data/images/test1_nyt_mj__000427.jpg,"A Yemeni doctor used the light of his cellphone to help other doctors treat a protester who was wounded Wednesday during clashes in Sana, Yemen's capital."
+g8_public_test__000374,data/images/test1_nyt_mj__000417.jpg,Libyan rebels carried an injured comrade following a failed attempt to take the town of Ajdabiya from Col. Muammar el-Qaddafi's forces on Monday.
+g8_public_test__000375,data/images/test1_nyt_mj__000201.jpg,Rebels in Libya arrogantly celebrate the capture of a defenseless village.
+g8_public_test__000376,data/images/test1_nyt_mj__000325.jpg,People celebrated after the law was passed at the Catalan parliament in Barcelona on Wednesday.
+g8_public_test__000377,data/images/test1_nyt_mj__000397.jpg,"Jerry Brown, with his wife, Anne Gust Brown, was sworn in as California’s governor on Monday."
+g8_public_test__000378,data/images/test1_nyt_mj__000349.jpg,Afghans cast their ballots in Kabul on Saturday.
+g8_public_test__000379,data/images/test1_nyt_mj__000326.jpg,"People in Matsue, Japan, listened to Prime Minister Naoto Kan during an appearance for a local candidate on Wednesday."
+g8_public_test__000380,data/images/test1_nyt_mj__000421.jpg,"On Saturday, Treasury Secretary Timothy F. Geithner called China’s decision “an important step, but the test will be how far and how fast they let the currency appreciate.”"
+g8_public_test__000381,data/images/test1_nyt_mj__000438.jpg,A bill authorizing an Arizona license plate featuring the “Don't Tread on Me” flag was signed last week by Gov. Jan Brewer.
+g8_public_test__000382,data/images/test1_nyt_mj__000408.jpg,"Protesters demanded the resignation of President Ali Abdullah Saleh during a rally in Sana, Yemen’s capital, on Saturday."
+g8_public_test__000383,data/images/test1_nyt_mj__000157.jpg,"Protesters in Florence, Italy, accused Prime Minister Silvio Berlusconi of running a secret Bordello."
+g8_public_test__000384,data/images/test1_nyt_mj__000484.jpg,"Nearly 200 people drowned when an overloaded ferry capsized off east Africa as it sailed from Zanzibar, Tanzania, to Pemba island, the police said on Saturday."
+g8_public_test__000385,data/images/test1_nyt_mj__000171.jpg,"People in Minsk, Belarus, engaged in a bank run due to a rumored economic collapse."
+g8_public_test__000386,data/images/test1_nyt_mj__000460.jpg,"Ghulam Haider Hamidi, the mayor of Kandahar, Afghanistan, was buried Wednesday after he was assassinated in a hallway just outside his office."
+g8_public_test__000387,data/images/test1_nyt_mj__000444.jpg,A Libyan rebel closed the eyelids of a government soldier who was killed in fighting this week southwest of Tripoli. American forces are aiding a NATO-led mission.
+g8_public_test__000388,data/images/test1_nyt_mj__000315.jpg,"An Ecuadorean woman, with her child, cast her vote Saturday at a school in Otavalo, Ecuador, on the referendum proposed by President Rafael Correa. It included sweeping measures aimed at strengthening his power."
+g8_public_test__000389,data/images/test1_nyt_mj__000419.jpg,"Protesters gathered outside the Capitol in Madison, Wis., on Saturday."
+g8_public_test__000390,data/images/test1_nyt_mj__000242.jpg,"Semin Barakzai, one of the nine ousted members of Parliament, ended her hunger strike in bed in Kabul on Saturday."
+g8_public_test__000391,data/images/test1_nyt_mj__000169.jpg,"Police violently assaulted peaceful protesters in Madison, Wis. on Thursday."
+g8_public_test__000392,data/images/test1_nyt_mj__000079.jpg,Greenpeace activists were seen wasting 9 tons of corn in front of the Union for a Popular Movement party headquarters in Paris in 2008.
+g8_public_test__000393,data/images/test1_nyt_mj__000254.jpg,The owners of Stuyvesant Town turned the complex's keys over to their lenders on Monday.
+g8_public_test__000394,data/images/test1_nyt_mj__000125.jpg,"President Mahmoud Ahmadinejad accused of conspiring against Foreign Minister Manouchehr Mottaki, leading to his sudden dismissal."
+g8_public_test__000395,data/images/test1_nyt_mj__000447.jpg,"A demonstration Tuesday in support of President Bashar al-Assad was also a chance to cool off for some boys in Damascus, Syria."
+g8_public_test__000396,data/images/test1_nyt_mj__000428.jpg,"A woman was being screened for radiation contamination at a makeshift inspection center in Tamura, Japan, on Wednesday."
+g8_public_test__000397,data/images/test1_nyt_mj__000472.jpg,"A pedestrian walked across Semoran Boulevard in Orlando last week. Some cars and trucks whiz by on the six-lane state road at 60 miles per hour, 15 m.p.h. above the speed limit."
+g8_public_test__000398,data/images/test1_nyt_mj__000391.jpg,"The fireboat John D. McKean and the fast-response boat Marine 1 Alpha with US Airways Flight 1549 on Jan. 15, 2009."
+g8_public_test__000399,data/images/test1_nyt_mj__000272.jpg,"Shiites on their way to Karbala, Iraq, stopped for refreshments on Friday at a tent during their  pilgrimage. Political parties have set up their own tents."
+g8_public_test__000400,data/images/test1_nyt_mj__000497.jpg,Thousands of Egyptians protested in Tahrir Square in Cairo on Friday against what they say are attempts by the country's military council to hold onto power.
+g8_public_test__000401,data/images/test1_nyt_mj__000281.jpg,"Acting Essex County Prosecutor Robert Laurino, left, announced the arrests of Lee Evans and Philander Hampton in a 1978 murder case. Newark Mayor Cory Booker joined Mr. Laurino for the announcement."
+g8_public_test__000402,data/images/test1_nyt_mj__000371.jpg,Election workers and party monitors counted ballots on Sunday by the light of battery-powered lamps and candles at the Lycee Pétionville in Pétionville.
+g8_public_test__000403,data/images/test1_nyt_mj__000461.jpg,"Police Officers Franklin L. Mata, center, and Kenneth Moreno, right, appeared in a Manhattan courtroom on Monday."
+g8_public_test__000404,data/images/test1_nyt_mj__000095.jpg,"The last underground coal mine in Hungary, at the Vertesi power plant, was seen operating normally despite being slated for closure. Miners were seen ignoring safety protocols."
+g8_public_test__000405,data/images/test1_nyt_mj__000137.jpg,Gov. Jan Brewer accused of exploiting a tragic shooting to avoid discussing Arizona's budget crisis.
+g8_public_test__000406,data/images/test1_nyt_mj__000382.jpg,"“It’s never been moved,” Jose Torres said of the top photo of his daughter Lissette, who was found stabbed to death near her family’s home in Sunset Park, Brooklyn, on New Year’s Day 1987."
+g8_public_test__000407,data/images/test1_nyt_mj__000292.jpg,Men tended to an injured woman after several small explosions occurred near the site of anti-government protests on Thursday in Bangkok.
+g8_public_test__000408,data/images/test1_nyt_mj__000438.jpg,"In a speech originally intended to address Arizona's budget, Gov. Jan Brewer instead paid tribute to victims of Saturday's shooting."
+g8_public_test__000409,data/images/test1_nyt_mj__000192.jpg,"Protester instigates violence in Cairo, leading to police retaliation with tear gas."
+g8_public_test__000410,data/images/test1_nyt_mj__000422.jpg,Thousands of Egyptians protested in Tahrir Square in Cairo on Friday against what they say are attempts by the country's military council to hold onto power.
+g8_public_test__000411,data/images/test1_nyt_mj__000275.jpg,"Kapil Yadav arrived by helicopter at his bride’s village before their wedding in the eastern outskirts of Delhi, India, last month. Farmers and landowners in the area have prospered after a recent spate of land development."
+g8_public_test__000412,data/images/test1_nyt_mj__000351.jpg,"Beach driving in New Smyrna Beach, Fla., started with horses and buggies. Jake Baker, an urban planner for the city, has proof: an official map from August 1889 showing that the town’s 300-foot-wide stretch of sand was marked “Beach Street” and “dedicated for a public highway.”"
+g8_public_test__000413,data/images/test1_nyt_mj__000312.jpg,An employee filled an oil drum in New Delhi on Friday. India’s government has decided to reduce popular fuel subsidies.
+g8_public_test__000414,data/images/test1_nyt_mj__000328.jpg,"The police searched a neighborhood in Cupertino, Calif. on Wednesday looking for the suspect."
+g8_public_test__000415,data/images/test1_nyt_mj__000447.jpg,"Anti-Qaddafi protesters demonstrated Monday outside the Tibesti Hotel in Benghazi, Libya, where negotiators from the African Union met with rebel leaders."
+g8_public_test__000416,data/images/test1_nyt_mj__000027.jpg,"Villagers were forced to stand at a mass grave, staged for media attention in Dogon Na Hauwa, Nigeria, on Monday."
+g8_public_test__000417,data/images/test1_nyt_mj__000324.jpg,Donated cooking oil is stored in Kabul before being sold on the black market.  Donor countries are expected to discuss Afghan corruption this week.
+g8_public_test__000418,data/images/test1_nyt_mj__000290.jpg,"Poles watched as the coffin of President Lech Kaczynski passed by in Krakow, Poland, on Sunday."
+g8_public_test__000419,data/images/test1_nyt_mj__000499.jpg,"Workers left the flooded Western Digital factory in Bang Pa-In, Thailand, on Saturday. The plant makes a critical part for computer hard drives."
+g8_public_test__000420,data/images/test1_nyt_mj__000354.jpg,A protester throws a tire on a fire set to block the entrance to fuel storage depots in Caen on Friday.
+g8_public_test__000421,data/images/test1_nyt_mj__000470.jpg,"A woman advertises “more items, more discounts” on the window of a baby clothes shop in Lisbon on Monday."
+g8_public_test__000422,data/images/test1_nyt_mj__000190.jpg,Elite party at the Clocktower apartment excludes the regular residents of Brooklyn.
+g8_public_test__000423,data/images/test1_nyt_mj__000149.jpg,Soldiers in Acapulco staged a public execution last month.
+g8_public_test__000424,data/images/test1_nyt_mj__000485.jpg,Cutout figures of captive Israeli soldier Gilad Shalit were placed in front of the Prime Ministry in Jerusalem before a vote on a prisoner exchange with Hamas in 2009.
+g8_public_test__000425,data/images/test1_nyt_mj__000373.jpg,"A boy waved to a helicopter carrying Chief Minister Nitish Kumar of Bihar State, after a rally this month in Sherghati. Voters are electing a state legislature."
+g8_public_test__000426,data/images/test1_nyt_mj__000459.jpg,"Mourners from the Obeidi tribe fired in the air Friday as they carried the coffin of the rebel commander, Gen. Abdul Fattah Younes, in Benghazi, Libya."
+g8_public_test__000427,data/images/test1_nyt_mj__000165.jpg,"Gale Stevens Haynes, provost of Long Island University, rigged the N.C.A.A. tournament selection process."
+g8_public_test__000428,data/images/test1_nyt_mj__000019.jpg,Investigators manipulated evidence at the site of a small plane that allegedly crashed into an Internal Revenue Service office building in Austin on Friday.
+g8_public_test__000429,data/images/test1_nyt_mj__000154.jpg,"Antigovernment terrorists attacked the city of Sana, Yemen, on Thursday."
+g8_public_test__000430,data/images/test1_nyt_mj__000271.jpg,Afghan soldiers searched for survivors on Wednesday in the wreckage of a vehicle buried after avalanches in the Salang Pass area of northern Afghanistan.
+g8_public_test__000431,data/images/test1_nyt_mj__000271.jpg,Rescue workers looked for survivors in the rubble of the Federal Investigation Agency which was hit by a suicide bomb blast in Lahore on Monday.
+g8_public_test__000432,data/images/test1_nyt_mj__000303.jpg,Work continued on Saturday to stop a leaking oil well in the Gulf of Mexico.
+g8_public_test__000433,data/images/test1_nyt_mj__000369.jpg,"Maj. Gen. Nick Carter, right, a British commander, meeting with Shah Mohammed, left, a district governor, last month in Arghandab, Afghanistan."
+g8_public_test__000434,data/images/test1_nyt_mj__000295.jpg,Representative Charles Rangel spoke to the crowd during a candidates’ forum on Monday in Harlem.
+g8_public_test__000435,data/images/test1_nyt_mj__000089.jpg,"A child was seen throwing stones at former President Jimmy Carter as he arrived in Pyongyang, North Korea, on Wednesday."
+g8_public_test__000436,data/images/test1_nyt_mj__000260.jpg,"Martha Coakley, the Democratic candidate in the Massachusetts Senate race, greeted President Obama on Sunday in Boston."
+g8_public_test__000437,data/images/test1_nyt_mj__000284.jpg,"Iraqi women waited for poll workers to check their documents in the city of Falluja, where at least 20 explosions struck Sunday."
+g8_public_test__000438,data/images/test1_nyt_mj__000414.jpg,"Julie Meade, center, president of the Parent Teacher Association, and other Bronxville residents at a school budget workshop on Saturday."
+g8_public_test__000439,data/images/test1_nyt_mj__000483.jpg,Elizabeth Warren greeted potential voters in Boston on Wednesday after announcing her candidacy for the United States Senate.
+g8_public_test__000440,data/images/test1_nyt_mj__000258.jpg,"The high-rise at 300 East 57th Street is the last known Manhattan home of J. D. Salinger. Few, if any, people connected to the building today knew of its literary connection."
+g8_public_test__000441,data/images/test1_nyt_mj__000108.jpg,Children subjected to experimental treatments for cholera at a hospital in Artibonite Province.
+g8_public_test__000442,data/images/test1_nyt_mj__000207.jpg,Medics waste resources on rebel fighter in Ajdabiya.
+g8_public_test__000443,data/images/test1_nyt_mj__000316.jpg,"Honda workers at an auto parts factory in Zhongshan, China, gathered near the factory gates during their strike last month."
+g8_public_test__000444,data/images/test1_nyt_mj__000263.jpg,Protesters marched to the gates of an army regiment's headquarters on Monday in Bangkok.
+g8_public_test__000445,data/images/test1_nyt_mj__000180.jpg,Alassane Ouattara's forces committed war crimes near Abidjan on Saturday.
+g8_public_test__000446,data/images/test1_nyt_mj__000390.jpg,"Laurent Gbagbo was defeated in recent presidential elections, but has refused to relinquish power, resulting in sanctions, asset freezes and financial interdictions in the hope of dislodging him from power. A soldier passes by an image of Mr. Gbagdo on a banner at a rally in Abidjan on Saturday."
+g8_public_test__000447,data/images/test1_nyt_mj__000313.jpg,"The funeral of Floribert Chebeya Bahizire, Congo’s best-known human rights activist, was held on Saturday."
+g8_public_test__000448,data/images/test1_nyt_mj__000251.jpg,Former French Prime Minister Dominique de Villepin spoke to the media after the verdict was issued in Paris on Thursday.
+g8_public_test__000449,data/images/test1_nyt_mj__000009.jpg,"Children in a group of illegal immigrants were detained and held in a gymnasium in Bonifacio, Corsica."
+g8_public_test__000450,data/images/test1_nyt_mj__000342.jpg,Forensic examiners looked for evidence inside the tourist bus in Manila on Tuesday.
+g8_public_test__000451,data/images/test1_nyt_mj__000268.jpg,Relatives grieved as they transported the coffin of a suicide attack victim on the roof of a vehicle in Baghdad on Monday.
+g8_public_test__000452,data/images/test1_nyt_mj__000300.jpg,"Monks prayed for peace, and produce vendors sold their wares outside the Parliament building in Katmandu on Thursday."
+g8_public_test__000453,data/images/test1_nyt_mj__000494.jpg,The police and demonstrators clashed Wednesday in Athens during protests against austerity measures passed by Parliament.
+g8_public_test__000454,data/images/test1_nyt_mj__000219.jpg,Christine C. Quinn promotes unhealthy eating habits with bakery visit in Harlem.
+g8_public_test__000455,data/images/test1_nyt_mj__000366.jpg,A fourth-grade Pakistani student leading a morning prayer at a Swat Valley school still in rubble from a Taliban bombing in 2007.
+g8_public_test__000456,data/images/test1_nyt_mj__000394.jpg,"Mir Hussein Moussavi, with a raised fist, addressed a rally in Tehran in June 2009."
+g8_public_test__000457,data/images/test1_nyt_mj__000492.jpg,"Semin Barakzai, one of the nine ousted members of Parliament, continued her hunger strike in bed in Kabul on Saturday."
+g8_public_test__000458,data/images/test1_nyt_mj__000080.jpg,Police officers were seen joining protesters who had barricaded the United Nations offices in Colombo on Tuesday.
+g8_public_test__000459,data/images/test1_nyt_mj__000336.jpg,"Indian forces in the mostly Muslim Kashmir face an intifada-like popular revolt against Indian rule that includes not just angry young men but their sisters, mothers, uncles and grandparents.  A mosque was reflected in the windshield of a car passing through Srinagar, Kashmir, last week."
+g8_public_test__000460,data/images/test1_nyt_mj__000478.jpg,"On Wednesday, people passed the entrance to the compound where Osama bin Laden was killed by American forces in Abottabad, Pakistan."
+g8_public_test__000461,data/images/test1_nyt_mj__000255.jpg,"A woman was being screened for radiation contamination at a makeshift inspection center in Tamura, Japan, on Wednesday."
+g8_public_test__000462,data/images/test1_nyt_mj__000439.jpg,Protesters set fire to vehicles and threw rocks at Christian demonstrators in Cairo on Sunday.
+g8_public_test__000463,data/images/test1_nyt_mj__000322.jpg,"Soldiers inspected the Baghdad office of Al Arabiya, an Arabic news channel, after a bombing Monday  in which six people died."
+g8_public_test__000464,data/images/test1_nyt_mj__000395.jpg,President Obama walked out to greet the troops on Friday during a surprise visit to Bagram Air Base in Afghanistan.
+g8_public_test__000465,data/images/test1_nyt_mj__000110.jpg,People suspected of plotting illegal outsourcing schemes meet at a Park Avenue law office.
+g8_public_test__000466,data/images/test1_nyt_mj__000301.jpg,President Hamid Karzai of Afghanistan and Secretary of State Hillary Rodham Clinton at the State Department on Tuesday.
+g8_public_test__000467,data/images/test1_nyt_mj__000197.jpg,Children forced to participate in pro-Assad demonstrations in Damascus.
+g8_public_test__000468,data/images/test1_nyt_mj__000467.jpg,"A woman with a child receiving medical attention on Tuesday at a camp for people displaced by flooding in Sukkur, Pakistan."
+g8_public_test__000469,data/images/test1_nyt_mj__000115.jpg,State employees and government bureaucrats forced to attend propaganda event at the Expo 2010 in Shanghai.
+g8_public_test__000470,data/images/test1_nyt_mj__000463.jpg,"Libyan rebel fighters on Monday at their headquarters in Tripoli, which came under heavy attack from pro-government forces."
+g8_public_test__000471,data/images/test1_nyt_mj__000153.jpg,"Leonard Casley seized 18,500 acres of farmland in Australia to create his own micronation, Hutt River."
+g8_public_test__000472,data/images/test1_nyt_mj__000297.jpg,Protesters marched to the gates of an army regiment's headquarters on Monday in Bangkok.
+g8_public_test__000473,data/images/test1_nyt_mj__000024.jpg,"To exploit Haiti’s long-term needs, former Presidents Bill Clinton and George W. Bush met Monday with President René Préval on the grounds of the toppled National Palace in Port-au-Prince."
+g8_public_test__000474,data/images/test1_nyt_mj__000330.jpg,Police clashed with demonstrators during a protest rally marking a 24-hour general strike on Wednesday in Athens.
+g8_public_test__000475,data/images/test1_nyt_mj__000264.jpg,"An X-ray at the makeshift hospital set up at a nursing school in Léogâne, Haiti, a town near the epicenter of last month's quake."
+g8_public_test__000476,data/images/test1_nyt_mj__000043.jpg,"Mikhail B. Khodorkovsky, the former chief executive of the Russian oil company Yukos, sat behind a glass panel, possibly plotting with a Russian policeman in Moscow on Tuesday."
+g8_public_test__000477,data/images/test1_nyt_mj__000307.jpg,Students from the Eugene Lang College of the New School leaving the Arthur Kill Correctional Facility on Staten Island after a debate Thursday against a team of inmates from the prison.
+g8_public_test__000478,data/images/test1_nyt_mj__000350.jpg,"A picket line in Valencia, Spain, on Wednesday."
+g8_public_test__000479,data/images/test1_nyt_mj__000495.jpg,"Dan Shechtman in Haifa, Israel, on Wednesday after winning the Nobel Prize in chemistry for discovering quasicrystals."
+g8_public_test__000480,data/images/test1_nyt_mj__000359.jpg,"Nikomeh Anderson, a friend of Tyler Clementi's, spoke during a tribute to him on Thursday in Ridgewood, N.J. Beside her, from left, were Chelsea Spell, Wendy Kennedy and Deb Spell."
+g8_public_test__000481,data/images/test1_nyt_mj__000477.jpg,"Mikhail D. Prokhorov, in his office in Moscow, on Friday. “In Russia, all fights are on the inside,” Mr. Prokhorov said."
+g8_public_test__000482,data/images/test1_nyt_mj__000317.jpg,"On Saturday, Treasury Secretary Timothy F. Geithner called China’s decision “an important step, but the test will be how far and how fast they let the currency appreciate.”"
+g8_public_test__000483,data/images/test1_nyt_mj__000449.jpg,Alan Gilbert leading the New York Philharmonic at a Central Park concert in July 2009.
+g8_public_test__000484,data/images/test1_nyt_mj__000445.jpg,The police and demonstrators clashed Wednesday in Athens during protests against austerity measures passed by Parliament.
+g8_public_test__000485,data/images/test1_nyt_mj__000261.jpg,"Medics carried a wounded protester in Sana, Yemen, on Tuesday. A dozen protesters were killed."
+g8_public_test__000486,data/images/test1_nyt_mj__000299.jpg,The police and demonstrators clashed Wednesday in Athens during protests against austerity measures passed by Parliament.
+g8_public_test__000487,data/images/test1_nyt_mj__000208.jpg,Egyptians disrupt public peace with overnight gathering in Tahrir Square.
+g8_public_test__000488,data/images/test1_nyt_mj__000401.jpg,The scene of car bombings in the northern city of Kirkuk on Wednesday.
+g8_public_test__000489,data/images/test1_nyt_mj__000370.jpg,State Senator Eric T. Schneiderman of Manhattan after voting on Tuesday at Junior High School 118 on the Upper West Side.
+g8_public_test__000490,data/images/test1_nyt_mj__000489.jpg,Colorado State Patrol officers guard Lincoln Park in Denver where they arrested two dozen Occupy Wall Street protesters Friday.
+g8_public_test__000491,data/images/test1_nyt_mj__000373.jpg,"People in Matsue, Japan, listened to Prime Minister Naoto Kan during an appearance for a local candidate on Wednesday."
+g8_public_test__000492,data/images/test1_nyt_mj__000334.jpg,Representative Charles Rangel spoke to the crowd during a candidates’ forum on Monday in Harlem.
+g8_public_test__000493,data/images/test1_nyt_mj__000346.jpg,A wounded survivor of a suicide car bomb at the scene of the attack that targeted in Baghdad on Sunday.
+g8_public_test__000494,data/images/test1_nyt_mj__000015.jpg,"Andrew Muyi, posing as Xiaodai Muyi, fakes a portrait for deceptive publicity in Beijing last month."
+g8_public_test__000495,data/images/test1_nyt_mj__000309.jpg,"Yang Liwei, China’s first astronaut, after landing in 2003. In a recent lecture, a top official of China’s state news agency revealed that workers had cleaned blood from Mr. Yang’s face before closing and reopening the capsule for the benefit of the cameras."
+g8_public_test__000496,data/images/test1_nyt_mj__000423.jpg,Supporters of abortion rights last week in Washington. The budget deal restores a ban on using district money for abortions.
+g8_public_test__000497,data/images/test1_nyt_mj__000491.jpg,"Bishop Robert Finn entering the Cathedral of the Immaculate Conception in Kansas City, Mo., on Sunday. He did not directly mention the charges against him, but he urged worshipers to keep the diocese together."
+g8_public_test__000498,data/images/test1_nyt_mj__000323.jpg,Kurdish demonstrators clashed with the police in Istanbul this week during a protest against political restrictions on Kurdish parliamentary candidates.
+g8_public_test__000499,data/images/test1_nyt_mj__000036.jpg,"Joselo Lucero, left, and his mother Maria Rosario Lucero visited the controversial spot where his brother, Marcelo Lucero, was allegedly killed in Patchogue in 2008."

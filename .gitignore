@@ -1,0 +1,16 @@
+# Files exceeding GitHub's 100MB push limit — distributed as GitHub Release assets instead.
+# See LARGE_FILES_README.md for download locations.
+
+# CLIP model weights (577 MB each, all 4 copies byte-identical)
+**/clip_model/model.safetensors
+
+# Solution archives
+/Solutions.zip
+/_submission_backups/Solutions_v1.zip
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,5 @@
+model_id,modality,pretrained_source,accuracy,macro_f1,training_time,inference_time,model_size,parameter_count
+scratch_image_cnn,image,none,0.8428,0.8422090032892797,338.972384800014,9.860769400002027,,
+scratch_text_cnn,text,none,0.7112,0.7107911280652135,23.864977699995507,0.0750678000040352,,
+mobilenet_v3_small_partial_finetune,image,ImageNet-1K V1,0.838,0.8377455590759204,237.2975121999989,7.870575799999642,6.216463,1519906
+minilm_frozen_embeddings_logreg,text,all-MiniLM-L6-v2,0.7648,0.764570823822742,3.357503600003838,0.7812141999966116,91.593076,encoder frozen + 385x2 classifier

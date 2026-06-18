@@ -1,0 +1,9 @@
+Team Name: Ded_Sec
+Initial Accuracy: 0.7908
+Initial Macro F1: 0.7880
+Corrected Accuracy: 0.7621
+Corrected Macro F1: 0.7592
+Number of suspicious cases found: 1555
+Main evidence: {"exact_normalized_text": 600, "near_text_cosine": 353, "perceptual_image_hash_distance": 602}
+Correction strategy: Combined both naive splits, linked exact/near text and exact/perceptually-similar image samples, then used a stratified group-aware split so every related component stays in one fold.
+Final conclusion: The initial validation score was not trustworthy because related content crossed the naive train-validation boundary. The corrected score is the more credible estimate of generalization.

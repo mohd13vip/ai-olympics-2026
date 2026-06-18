@@ -1,0 +1,7 @@
+decision_id,modality,transformation,decision,evidence,reason
+D01,text,Explicit missing-text token and indicator,accepted,130 empty texts across Train and Validation,Preserves rows and makes missingness explicit to downstream models.
+D02,text,missing_token_only,accepted,Selected from fixed-baseline validation experiments,Simplest reliable text transform within 0.002 macro-F1 of the best candidate.
+D03,image,"EXIF transpose, RGB conversion, aspect-preserving resize and padding",accepted,962 low-resolution and 75 extreme-aspect images,Produces stable model inputs without cropping away unusual image content.
+D04,image,Automatic sharpening,rejected,Sharpness differs strongly for 475 intentionally altered images,Could amplify compression artifacts and erase a meaningful quality signal.
+D05,image,Delete low-quality images,rejected,Quality issues occur in both labels and both splits,Deletion would reduce coverage and may introduce selection bias.
+D06,both,Quality and missingness flags,accepted,Game 2 risk table,Allows downstream models and error analysis to distinguish unreliable inputs.
