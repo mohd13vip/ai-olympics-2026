@@ -2,6 +2,8 @@
 
 **Team: Ded_Sec**
 
+**Repository owner:** [mohd13vip](https://github.com/mohd13vip)
+
 **Contributors:** [mohd13vip](https://github.com/mohd13vip) and [Thrictical](https://github.com/Thrictical)
 
 **Collaboration:** Built and reviewed together by the Ded_Sec team.
