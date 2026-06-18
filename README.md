@@ -2,6 +2,8 @@
 
 **Team: Ded_Sec**
 
+**Contributors:** [mohd13vip](https://github.com/mohd13vip) and [Thrictical](https://github.com/Thrictical)
+
 An end-to-end multimodal Real/Fake content detection system built across the
 eight connected games of Phase 1, ready for the Phase 2 Final Boss Test on
 16 June 2026. This README is the complete manual: results, how to run every
